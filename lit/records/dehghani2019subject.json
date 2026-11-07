@@ -1,0 +1,21 @@
+{
+ "key": "dehghani2019subject",
+ "record": {
+  "source": "arxiv",
+  "id": "1904.02666",
+  "title": "Subject Cross Validation in Human Activity Recognition",
+  "authors": [
+   "Akbar Dehghani",
+   "Tristan Glatard",
+   "Emad Shihab"
+  ],
+  "year": 2019,
+  "abstract": "K-fold Cross Validation is commonly used to evaluate classifiers and tune their hyperparameters. However, it assumes that data points are Independent and Identically Distributed (i.i.d.) so that samples used in the training and test sets can be selected randomly and uniformly. In Human Activity Recognition datasets, we note that the samples produced by the same subjects are likely to be correlated due to diverse factors. Hence, k-fold cross validation may overestimate the performance of activity recognizers, in particular when overlapping sliding windows are used. In this paper, we investigate the effect of Subject Cross Validation on the performance of Human Activity Recognition, both with non-overlapping and with overlapping sliding windows. Results show that k-fold cross validation artificially increases the performance of recognizers by about 10%, and even by 16% when overlapping windows are used. In addition, we do not observe any performance gain from the use of overlapping windows. We conclude that Human Activity Recognition systems should be evaluated by Subject Cross Validation, and that overlapping windows are not worth their extra computational cost.",
+  "doi": null,
+  "journal_ref": null,
+  "primary_category": "cs.LG",
+  "url": "https://arxiv.org/abs/1904.02666"
+ },
+ "fetched": "2026-11-07T01:37:01-0800",
+ "sha256": "b4f7ccae748ef3dcbb00cb0c29b225e616c5cd98923d17fc75c0bd0b92539c11"
+}

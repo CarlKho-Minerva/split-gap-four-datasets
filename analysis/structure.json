@@ -1,0 +1,8371 @@
+{
+ "eeg": [
+  {
+   "file": "S001R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S001R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S001R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S002R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S002R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S002R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S003R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S003R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S003R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S004R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S004R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S004R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S005R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S005R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S005R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S006R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S006R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S006R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S007R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S007R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S007R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S008R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S008R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S008R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S009R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S009R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S009R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S010R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S010R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S010R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S011R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S011R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S011R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S012R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S012R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S012R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S013R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S013R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S013R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S014R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S014R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S014R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S015R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S015R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S015R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S016R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S016R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S016R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S017R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S017R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S017R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S018R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S018R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S018R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S019R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S019R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S019R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S020R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S020R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S020R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S021R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S021R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S021R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S022R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S022R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S022R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S023R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S023R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S023R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S024R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S024R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S024R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S025R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S025R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S025R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S026R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S026R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S026R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S027R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S027R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S027R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S028R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S028R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S028R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S029R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 124.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S029R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 124.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S029R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 124.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S030R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 124.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S030R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 124.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S030R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 124.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S031R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S031R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S031R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S032R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S032R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S032R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S033R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S033R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S033R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S034R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 124.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S034R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S034R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S035R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S035R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S035R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S036R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S036R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S036R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S037R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 124.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S037R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S037R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S038R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S038R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S038R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S039R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S039R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S039R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S040R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S040R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S040R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S041R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 124.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S041R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S041R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 124.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S042R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S042R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S042R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S043R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S043R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S043R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S044R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S044R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S044R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S045R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S045R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S045R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S046R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S046R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S046R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S047R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S047R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S047R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S048R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S048R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S048R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S049R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S049R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S049R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S050R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S050R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S050R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S051R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 124.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S051R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 124.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S051R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 124.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S052R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S052R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S052R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S053R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S053R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S053R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S054R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S054R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S054R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S055R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S055R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S055R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S056R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S056R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S056R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S057R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S057R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S057R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S058R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S058R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S058R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S059R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S059R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S059R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S060R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S060R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S060R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S061R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S061R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S061R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S062R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S062R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S062R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S063R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S063R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S063R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S064R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 124.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S064R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 124.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S064R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S065R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S065R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S065R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S066R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S066R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S066R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S067R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S067R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S067R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S068R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S068R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S068R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S069R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S069R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S069R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S070R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S070R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S070R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S071R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S071R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S071R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S072R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S072R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S072R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 124.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S073R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S073R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S073R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S074R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 124.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S074R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S074R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S075R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S075R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S075R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S076R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S076R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S076R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S077R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S077R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S077R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S078R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S078R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S078R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S079R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S079R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S079R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S080R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S080R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S080R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S081R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S081R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S081R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S082R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S082R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S082R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S083R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S083R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S083R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S084R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S084R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S084R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S085R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S085R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S085R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S086R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S086R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S086R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S087R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S087R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S087R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S088R04.edf",
+   "rates": [
+    128.0
+   ],
+   "channels": 64,
+   "record_seconds": 124.0,
+   "trials": 19,
+   "durations": [
+    5.125
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S088R08.edf",
+   "rates": [
+    128.0
+   ],
+   "channels": 64,
+   "record_seconds": 124.0,
+   "trials": 19,
+   "durations": [
+    5.125
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S088R12.edf",
+   "rates": [
+    128.0
+   ],
+   "channels": 64,
+   "record_seconds": 124.0,
+   "trials": 19,
+   "durations": [
+    5.125
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S089R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1,
+    4.15
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S089R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1,
+    4.15
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S089R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1,
+    4.15
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S090R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S090R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S090R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S091R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S091R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S091R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S092R04.edf",
+   "rates": [
+    128.0
+   ],
+   "channels": 64,
+   "record_seconds": 124.0,
+   "trials": 19,
+   "durations": [
+    5.125
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S092R08.edf",
+   "rates": [
+    128.0
+   ],
+   "channels": 64,
+   "record_seconds": 124.0,
+   "trials": 19,
+   "durations": [
+    5.125
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S092R12.edf",
+   "rates": [
+    128.0
+   ],
+   "channels": 64,
+   "record_seconds": 124.0,
+   "trials": 19,
+   "durations": [
+    5.125
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S093R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S093R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S093R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S094R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S094R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S094R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S095R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S095R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S095R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S096R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S096R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S096R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S097R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S097R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S097R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S098R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S098R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S098R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S099R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S099R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S099R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S100R04.edf",
+   "rates": [
+    128.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 12,
+   "durations": [
+    5.125
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S100R08.edf",
+   "rates": [
+    128.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 12,
+   "durations": [
+    5.125
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S100R12.edf",
+   "rates": [
+    128.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 12,
+   "durations": [
+    5.125
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S101R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S101R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S101R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S102R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S102R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S102R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.0,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S103R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S103R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S103R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S104R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S104R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 106.0,
+   "trials": 13,
+   "durations": [
+    2.975,
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S104R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S105R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S105R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S105R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S106R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S106R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S106R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S107R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S107R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S107R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 125.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S108R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S108R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S108R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S109R04.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S109R08.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "file": "S109R12.edf",
+   "rates": [
+    160.0
+   ],
+   "channels": 64,
+   "record_seconds": 123.0,
+   "trials": 15,
+   "durations": [
+    4.1
+   ],
+   "codes": [
+    "T1",
+    "T2"
+   ]
+  }
+ ],
+ "ppg": [
+  {
+   "file": "PPG_FieldStudy/S10/S10.pkl",
+   "keys": [
+    "rpeaks",
+    "signal",
+    "label",
+    "activity",
+    "questionnaire",
+    "subject"
+   ],
+   "wrist": {
+    "ACC": [
+     340736,
+     3
+    ],
+    "BVP": [
+     681472,
+     1
+    ],
+    "EDA": [
+     42592,
+     1
+    ],
+    "TEMP": [
+     42592,
+     1
+    ]
+   },
+   "activity_codes": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0
+   ]
+  },
+  {
+   "file": "PPG_FieldStudy/S11/S11.pkl",
+   "keys": [
+    "rpeaks",
+    "signal",
+    "label",
+    "activity",
+    "questionnaire",
+    "subject"
+   ],
+   "wrist": {
+    "ACC": [
+     289536,
+     3
+    ],
+    "BVP": [
+     579072,
+     1
+    ],
+    "EDA": [
+     36192,
+     1
+    ],
+    "TEMP": [
+     36192,
+     1
+    ]
+   },
+   "activity_codes": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0
+   ]
+  },
+  {
+   "file": "PPG_FieldStudy/S12/S12.pkl",
+   "keys": [
+    "rpeaks",
+    "signal",
+    "label",
+    "activity",
+    "questionnaire",
+    "subject"
+   ],
+   "wrist": {
+    "ACC": [
+     253248,
+     3
+    ],
+    "BVP": [
+     506496,
+     1
+    ],
+    "EDA": [
+     31656,
+     1
+    ],
+    "TEMP": [
+     31656,
+     1
+    ]
+   },
+   "activity_codes": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0
+   ]
+  },
+  {
+   "file": "PPG_FieldStudy/S13/S13.pkl",
+   "keys": [
+    "rpeaks",
+    "signal",
+    "label",
+    "activity",
+    "questionnaire",
+    "subject"
+   ],
+   "wrist": {
+    "ACC": [
+     292352,
+     3
+    ],
+    "BVP": [
+     584704,
+     1
+    ],
+    "EDA": [
+     36544,
+     1
+    ],
+    "TEMP": [
+     36544,
+     1
+    ]
+   },
+   "activity_codes": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0
+   ]
+  },
+  {
+   "file": "PPG_FieldStudy/S14/S14.pkl",
+   "keys": [
+    "rpeaks",
+    "signal",
+    "label",
+    "activity",
+    "questionnaire",
+    "subject"
+   ],
+   "wrist": {
+    "ACC": [
+     286656,
+     3
+    ],
+    "BVP": [
+     573312,
+     1
+    ],
+    "EDA": [
+     35832,
+     1
+    ],
+    "TEMP": [
+     35832,
+     1
+    ]
+   },
+   "activity_codes": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0
+   ]
+  },
+  {
+   "file": "PPG_FieldStudy/S15/S15.pkl",
+   "keys": [
+    "rpeaks",
+    "signal",
+    "label",
+    "activity",
+    "questionnaire",
+    "subject"
+   ],
+   "wrist": {
+    "ACC": [
+     254048,
+     3
+    ],
+    "BVP": [
+     508096,
+     1
+    ],
+    "EDA": [
+     31756,
+     1
+    ],
+    "TEMP": [
+     31756,
+     1
+    ]
+   },
+   "activity_codes": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0
+   ]
+  },
+  {
+   "file": "PPG_FieldStudy/S1/S1.pkl",
+   "keys": [
+    "rpeaks",
+    "signal",
+    "label",
+    "activity",
+    "questionnaire",
+    "subject"
+   ],
+   "wrist": {
+    "ACC": [
+     294784,
+     3
+    ],
+    "BVP": [
+     589568,
+     1
+    ],
+    "EDA": [
+     36848,
+     1
+    ],
+    "TEMP": [
+     36848,
+     1
+    ]
+   },
+   "activity_codes": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0
+   ]
+  },
+  {
+   "file": "PPG_FieldStudy/S2/S2.pkl",
+   "keys": [
+    "rpeaks",
+    "signal",
+    "label",
+    "activity",
+    "questionnaire",
+    "subject"
+   ],
+   "wrist": {
+    "ACC": [
+     262560,
+     3
+    ],
+    "BVP": [
+     525120,
+     1
+    ],
+    "EDA": [
+     32820,
+     1
+    ],
+    "TEMP": [
+     32820,
+     1
+    ]
+   },
+   "activity_codes": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0
+   ]
+  },
+  {
+   "file": "PPG_FieldStudy/S3/S3.pkl",
+   "keys": [
+    "rpeaks",
+    "signal",
+    "label",
+    "activity",
+    "questionnaire",
+    "subject"
+   ],
+   "wrist": {
+    "ACC": [
+     279712,
+     3
+    ],
+    "BVP": [
+     559424,
+     1
+    ],
+    "EDA": [
+     34964,
+     1
+    ],
+    "TEMP": [
+     34964,
+     1
+    ]
+   },
+   "activity_codes": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0
+   ]
+  },
+  {
+   "file": "PPG_FieldStudy/S4/S4.pkl",
+   "keys": [
+    "rpeaks",
+    "signal",
+    "label",
+    "activity",
+    "questionnaire",
+    "subject"
+   ],
+   "wrist": {
+    "ACC": [
+     292800,
+     3
+    ],
+    "BVP": [
+     585600,
+     1
+    ],
+    "EDA": [
+     36600,
+     1
+    ],
+    "TEMP": [
+     36600,
+     1
+    ]
+   },
+   "activity_codes": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0
+   ]
+  },
+  {
+   "file": "PPG_FieldStudy/S5/S5.pkl",
+   "keys": [
+    "rpeaks",
+    "signal",
+    "label",
+    "activity",
+    "questionnaire",
+    "subject"
+   ],
+   "wrist": {
+    "ACC": [
+     297760,
+     3
+    ],
+    "BVP": [
+     595520,
+     1
+    ],
+    "EDA": [
+     37220,
+     1
+    ],
+    "TEMP": [
+     37220,
+     1
+    ]
+   },
+   "activity_codes": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0
+   ]
+  },
+  {
+   "file": "PPG_FieldStudy/S6/S6.pkl",
+   "keys": [
+    "rpeaks",
+    "signal",
+    "label",
+    "activity",
+    "questionnaire",
+    "subject"
+   ],
+   "wrist": {
+    "ACC": [
+     168000,
+     3
+    ],
+    "BVP": [
+     336000,
+     1
+    ],
+    "EDA": [
+     21000,
+     1
+    ],
+    "TEMP": [
+     21000,
+     1
+    ]
+   },
+   "activity_codes": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0
+   ]
+  },
+  {
+   "file": "PPG_FieldStudy/S7/S7.pkl",
+   "keys": [
+    "rpeaks",
+    "signal",
+    "label",
+    "activity",
+    "questionnaire",
+    "subject"
+   ],
+   "wrist": {
+    "ACC": [
+     298976,
+     3
+    ],
+    "BVP": [
+     597952,
+     1
+    ],
+    "EDA": [
+     37372,
+     1
+    ],
+    "TEMP": [
+     37372,
+     1
+    ]
+   },
+   "activity_codes": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0
+   ]
+  },
+  {
+   "file": "PPG_FieldStudy/S8/S8.pkl",
+   "keys": [
+    "rpeaks",
+    "signal",
+    "label",
+    "activity",
+    "questionnaire",
+    "subject"
+   ],
+   "wrist": {
+    "ACC": [
+     258560,
+     3
+    ],
+    "BVP": [
+     517120,
+     1
+    ],
+    "EDA": [
+     32320,
+     1
+    ],
+    "TEMP": [
+     32320,
+     1
+    ]
+   },
+   "activity_codes": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0
+   ]
+  },
+  {
+   "file": "PPG_FieldStudy/S9/S9.pkl",
+   "keys": [
+    "rpeaks",
+    "signal",
+    "label",
+    "activity",
+    "questionnaire",
+    "subject"
+   ],
+   "wrist": {
+    "ACC": [
+     273920,
+     3
+    ],
+    "BVP": [
+     547840,
+     1
+    ],
+    "EDA": [
+     34240,
+     1
+    ],
+    "TEMP": [
+     34240,
+     1
+    ]
+   },
+   "activity_codes": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0
+   ]
+  }
+ ],
+ "stress": [
+  {
+   "folder": "AEROBIC/S01",
+   "signals": {
+    "ACC": {
+     "start": "2013-03-03 17:43:37,2013-03-03 17:43:37,2013-03-03 17:43:37",
+     "rate": "32.0,32.0,32.0",
+     "count": 65286
+    },
+    "BVP": {
+     "start": "2013-03-03 17:43:37",
+     "rate": "64.0",
+     "count": 130570
+    },
+    "EDA": {
+     "start": "2013-03-03 17:43:37",
+     "rate": "4.0",
+     "count": 8160
+    },
+    "TEMP": {
+     "start": "2013-03-03 17:43:37",
+     "rate": "4.0",
+     "count": 8160
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/S02",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-23 18:12:41,2013-02-23 18:12:41,2013-02-23 18:12:41",
+     "rate": "32.0,32.0,32.0",
+     "count": 65208
+    },
+    "BVP": {
+     "start": "2013-02-23 18:12:41",
+     "rate": "64.0",
+     "count": 130405
+    },
+    "EDA": {
+     "start": "2013-02-23 18:12:41",
+     "rate": "4.0",
+     "count": 8148
+    },
+    "TEMP": {
+     "start": "2013-02-23 18:12:41",
+     "rate": "4.0",
+     "count": 8144
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/S03",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-20 18:09:08,2013-02-20 18:09:08,2013-02-20 18:09:08",
+     "rate": "32.0,32.0,32.0",
+     "count": 46020
+    },
+    "BVP": {
+     "start": "2013-02-20 18:09:08",
+     "rate": "64.0",
+     "count": 92037
+    },
+    "EDA": {
+     "start": "2013-02-20 18:09:08",
+     "rate": "4.0",
+     "count": 5748
+    },
+    "TEMP": {
+     "start": "2013-02-20 18:09:08",
+     "rate": "4.0",
+     "count": 5752
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/S04",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-23 09:50:16,2013-02-23 09:50:16,2013-02-23 09:50:16",
+     "rate": "32.0,32.0,32.0",
+     "count": 65286
+    },
+    "BVP": {
+     "start": "2013-02-23 09:50:16",
+     "rate": "64.0",
+     "count": 130570
+    },
+    "EDA": {
+     "start": "2013-02-23 09:50:16",
+     "rate": "4.0",
+     "count": 8160
+    },
+    "TEMP": {
+     "start": "2013-02-23 09:50:16",
+     "rate": "4.0",
+     "count": 8160
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/S05",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-25 11:37:57,2013-02-25 11:37:57,2013-02-25 11:37:57",
+     "rate": "32.0,32.0,32.0",
+     "count": 63294
+    },
+    "BVP": {
+     "start": "2013-02-25 11:37:57",
+     "rate": "64.0",
+     "count": 126577
+    },
+    "EDA": {
+     "start": "2013-02-25 11:37:57",
+     "rate": "4.0",
+     "count": 7908
+    },
+    "TEMP": {
+     "start": "2013-02-25 11:37:57",
+     "rate": "4.0",
+     "count": 7912
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/S06",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-25 18:38:45,2013-02-25 18:38:45,2013-02-25 18:38:45",
+     "rate": "32.0,32.0,32.0",
+     "count": 66120
+    },
+    "BVP": {
+     "start": "2013-02-25 18:38:45",
+     "rate": "64.0",
+     "count": 132231
+    },
+    "EDA": {
+     "start": "2013-02-25 18:38:45",
+     "rate": "4.0",
+     "count": 8262
+    },
+    "TEMP": {
+     "start": "2013-02-25 18:38:45",
+     "rate": "4.0",
+     "count": 8264
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/S07",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-23 11:54:15,2013-02-23 11:54:15,2013-02-23 11:54:15",
+     "rate": "32.0,32.0,32.0",
+     "count": 53748
+    },
+    "BVP": {
+     "start": "2013-02-23 11:54:15",
+     "rate": "64.0",
+     "count": 107492
+    },
+    "EDA": {
+     "start": "2013-02-23 11:54:15",
+     "rate": "4.0",
+     "count": 6714
+    },
+    "TEMP": {
+     "start": "2013-02-23 11:54:15",
+     "rate": "4.0",
+     "count": 6712
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/S08",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-25 18:00:59,2013-02-25 18:00:59,2013-02-25 18:00:59",
+     "rate": "32.0,32.0,32.0",
+     "count": 64950
+    },
+    "BVP": {
+     "start": "2013-02-25 18:00:59",
+     "rate": "64.0",
+     "count": 129899
+    },
+    "EDA": {
+     "start": "2013-02-25 18:00:59",
+     "rate": "4.0",
+     "count": 8118
+    },
+    "TEMP": {
+     "start": "2013-02-25 18:00:59",
+     "rate": "4.0",
+     "count": 8120
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/S09",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-23 15:49:55,2013-02-23 15:49:55,2013-02-23 15:49:55",
+     "rate": "32.0,32.0,32.0",
+     "count": 65208
+    },
+    "BVP": {
+     "start": "2013-02-23 15:49:55",
+     "rate": "64.0",
+     "count": 130405
+    },
+    "EDA": {
+     "start": "2013-02-23 15:49:55",
+     "rate": "4.0",
+     "count": 8148
+    },
+    "TEMP": {
+     "start": "2013-02-23 15:49:55",
+     "rate": "4.0",
+     "count": 8144
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/S10",
+   "signals": {
+    "ACC": {
+     "start": "2013-03-08 12:03:30,2013-03-08 12:03:30,2013-03-08 12:03:30",
+     "rate": "32.0,32.0,32.0",
+     "count": 65208
+    },
+    "BVP": {
+     "start": "2013-03-08 12:03:30",
+     "rate": "64.0",
+     "count": 130427
+    },
+    "EDA": {
+     "start": "2013-03-08 12:03:30",
+     "rate": "4.0",
+     "count": 8148
+    },
+    "TEMP": {
+     "start": "2013-03-08 12:03:30",
+     "rate": "4.0",
+     "count": 8152
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/S11_a",
+   "signals": {
+    "ACC": {
+     "start": "2013-03-08 12:40:29,2013-03-08 12:40:29,2013-03-08 12:40:29",
+     "rate": "32.0,32.0,32.0",
+     "count": 51804
+    },
+    "BVP": {
+     "start": "2013-03-08 12:40:29",
+     "rate": "64.0",
+     "count": 103609
+    },
+    "EDA": {
+     "start": "2013-03-08 12:40:29",
+     "rate": "4.0",
+     "count": 6474
+    },
+    "TEMP": {
+     "start": "2013-03-08 12:40:29",
+     "rate": "4.0",
+     "count": 6472
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/S11_b",
+   "signals": {
+    "ACC": {
+     "start": "2013-03-08 13:11:07,2013-03-08 13:11:07,2013-03-08 13:11:07",
+     "rate": "32.0,32.0,32.0",
+     "count": 9576
+    },
+    "BVP": {
+     "start": "2013-03-08 13:11:07",
+     "rate": "64.0",
+     "count": 19162
+    },
+    "EDA": {
+     "start": "2013-03-08 13:11:07",
+     "rate": "4.0",
+     "count": 1194
+    },
+    "TEMP": {
+     "start": "2013-03-08 13:11:07",
+     "rate": "4.0",
+     "count": 1192
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/S13",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-25 14:19:16,2013-02-25 14:19:16,2013-02-25 14:19:16",
+     "rate": "32.0,32.0,32.0",
+     "count": 66786
+    },
+    "BVP": {
+     "start": "2013-02-25 14:19:16",
+     "rate": "64.0",
+     "count": 133573
+    },
+    "EDA": {
+     "start": "2013-02-25 14:19:16",
+     "rate": "4.0",
+     "count": 8346
+    },
+    "TEMP": {
+     "start": "2013-02-25 14:19:16",
+     "rate": "4.0",
+     "count": 8344
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/S14",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-27 12:41:50,2013-02-27 12:41:50,2013-02-27 12:41:50",
+     "rate": "32.0,32.0,32.0",
+     "count": 69522
+    },
+    "BVP": {
+     "start": "2013-02-27 12:41:50",
+     "rate": "64.0",
+     "count": 139040
+    },
+    "EDA": {
+     "start": "2013-02-27 12:41:50",
+     "rate": "4.0",
+     "count": 8688
+    },
+    "TEMP": {
+     "start": "2013-02-27 12:41:50",
+     "rate": "4.0",
+     "count": 8688
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/S15",
+   "signals": {
+    "ACC": {
+     "start": "2013-03-08 13:19:44,2013-03-08 13:19:44,2013-03-08 13:19:44",
+     "rate": "32.0,32.0,32.0",
+     "count": 65214
+    },
+    "BVP": {
+     "start": "2013-03-08 13:19:44",
+     "rate": "64.0",
+     "count": 130427
+    },
+    "EDA": {
+     "start": "2013-03-08 13:19:44",
+     "rate": "4.0",
+     "count": 8148
+    },
+    "TEMP": {
+     "start": "2013-03-08 13:19:44",
+     "rate": "4.0",
+     "count": 8152
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/S16",
+   "signals": {
+    "ACC": {
+     "start": "2013-03-02 17:54:51,2013-03-02 17:54:51,2013-03-02 17:54:51",
+     "rate": "32.0,32.0,32.0",
+     "count": 65364
+    },
+    "BVP": {
+     "start": "2013-03-02 17:54:51",
+     "rate": "64.0",
+     "count": 130735
+    },
+    "EDA": {
+     "start": "2013-03-02 17:54:51",
+     "rate": "4.0",
+     "count": 8172
+    },
+    "TEMP": {
+     "start": "2013-03-02 17:54:51",
+     "rate": "4.0",
+     "count": 8168
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/S17",
+   "signals": {
+    "ACC": {
+     "start": "2013-03-13 18:53:18,2013-03-13 18:53:18,2013-03-13 18:53:18",
+     "rate": "32.0,32.0,32.0",
+     "count": 65208
+    },
+    "BVP": {
+     "start": "2013-03-13 18:53:18",
+     "rate": "64.0",
+     "count": 130416
+    },
+    "EDA": {
+     "start": "2013-03-13 18:53:18",
+     "rate": "4.0",
+     "count": 8148
+    },
+    "TEMP": {
+     "start": "2013-03-13 18:53:18",
+     "rate": "4.0",
+     "count": 8152
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/S18",
+   "signals": {
+    "ACC": {
+     "start": "2013-03-08 11:26:06,2013-03-08 11:26:06,2013-03-08 11:26:06",
+     "rate": "32.0,32.0,32.0",
+     "count": 65292
+    },
+    "BVP": {
+     "start": "2013-03-08 11:26:06",
+     "rate": "64.0",
+     "count": 130581
+    },
+    "EDA": {
+     "start": "2013-03-08 11:26:06",
+     "rate": "4.0",
+     "count": 8160
+    },
+    "TEMP": {
+     "start": "2013-03-08 11:26:06",
+     "rate": "4.0",
+     "count": 8160
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/f01",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-04 12:06:34,2013-07-04 12:06:34,2013-07-04 12:06:34",
+     "rate": "32.0,32.0,32.0",
+     "count": 86370
+    },
+    "BVP": {
+     "start": "2013-07-04 12:06:34",
+     "rate": "64.0",
+     "count": 172700
+    },
+    "EDA": {
+     "start": "2013-07-04 12:06:34",
+     "rate": "4.0",
+     "count": 10794
+    },
+    "TEMP": {
+     "start": "2013-07-04 12:06:34",
+     "rate": "4.0",
+     "count": 10792
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/f02",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-04 13:23:46,2013-07-04 13:23:46,2013-07-04 13:23:46",
+     "rate": "32.0,32.0,32.0",
+     "count": 56226
+    },
+    "BVP": {
+     "start": "2013-07-04 13:23:46",
+     "rate": "64.0",
+     "count": 112442
+    },
+    "EDA": {
+     "start": "2013-07-04 13:23:46",
+     "rate": "4.0",
+     "count": 7020
+    },
+    "TEMP": {
+     "start": "2013-07-04 13:23:46",
+     "rate": "4.0",
+     "count": 7016
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/f03",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-04 12:06:30,2013-07-04 12:06:30,2013-07-04 12:06:30",
+     "rate": "32.0,32.0,32.0",
+     "count": 86274
+    },
+    "BVP": {
+     "start": "2013-07-04 12:06:30",
+     "rate": "64.0",
+     "count": 172590
+    },
+    "EDA": {
+     "start": "2013-07-04 12:06:30",
+     "rate": "4.0",
+     "count": 10776
+    },
+    "TEMP": {
+     "start": "2013-07-04 12:06:30",
+     "rate": "4.0",
+     "count": 10792
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/f04",
+   "signals": {
+    "ACC": {
+     "start": "2013-06-20 12:55:45,2013-06-20 12:55:45,2013-06-20 12:55:45",
+     "rate": "32.0,32.0,32.0",
+     "count": 80568
+    },
+    "BVP": {
+     "start": "2013-06-20 12:55:45",
+     "rate": "64.0",
+     "count": 161073
+    },
+    "EDA": {
+     "start": "2013-06-20 12:55:45",
+     "rate": "4.0",
+     "count": 10074
+    },
+    "TEMP": {
+     "start": "2013-06-20 12:55:45",
+     "rate": "4.0",
+     "count": 10072
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/f05",
+   "signals": {
+    "ACC": {
+     "start": "2013-06-20 11:52:28,2013-06-20 11:52:28,2013-06-20 11:52:28",
+     "rate": "32.0,32.0,32.0",
+     "count": 98490
+    },
+    "BVP": {
+     "start": "2013-06-20 11:52:28",
+     "rate": "64.0",
+     "count": 196999
+    },
+    "EDA": {
+     "start": "2013-06-20 11:52:28",
+     "rate": "4.0",
+     "count": 12312
+    },
+    "TEMP": {
+     "start": "2013-06-20 11:52:28",
+     "rate": "4.0",
+     "count": 12296
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/f06",
+   "signals": {
+    "ACC": {
+     "start": "2013-06-20 11:57:44,2013-06-20 11:57:44,2013-06-20 11:57:44",
+     "rate": "32.0,32.0,32.0",
+     "count": 86694
+    },
+    "BVP": {
+     "start": "2013-06-20 11:57:44",
+     "rate": "64.0",
+     "count": 173492
+    },
+    "EDA": {
+     "start": "2013-06-20 11:57:44",
+     "rate": "4.0",
+     "count": 10836
+    },
+    "TEMP": {
+     "start": "2013-06-20 11:57:44",
+     "rate": "4.0",
+     "count": 10848
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/f07",
+   "signals": {
+    "ACC": {
+     "start": "2013-06-20 12:03:54,2013-06-20 12:03:54,2013-06-20 12:03:54",
+     "rate": "32.0,32.0,32.0",
+     "count": 74634
+    },
+    "BVP": {
+     "start": "2013-06-20 12:03:54",
+     "rate": "64.0",
+     "count": 149314
+    },
+    "EDA": {
+     "start": "2013-06-20 12:03:54",
+     "rate": "4.0",
+     "count": 9324
+    },
+    "TEMP": {
+     "start": "2013-06-20 12:03:54",
+     "rate": "4.0",
+     "count": 9336
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/f08",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-22 15:45:37,2013-07-22 15:45:37,2013-07-22 15:45:37",
+     "rate": "32.0,32.0,32.0",
+     "count": 76464
+    },
+    "BVP": {
+     "start": "2013-07-22 15:45:37",
+     "rate": "64.0",
+     "count": 152944
+    },
+    "EDA": {
+     "start": "2013-07-22 15:45:37",
+     "rate": "4.0",
+     "count": 9558
+    },
+    "TEMP": {
+     "start": "2013-07-22 15:45:37",
+     "rate": "4.0",
+     "count": 9560
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/f09",
+   "signals": {
+    "ACC": {
+     "start": "2013-06-20 12:56:39,2013-06-20 12:56:39,2013-06-20 12:56:39",
+     "rate": "32.0,32.0,32.0",
+     "count": 82908
+    },
+    "BVP": {
+     "start": "2013-06-20 12:56:39",
+     "rate": "64.0",
+     "count": 165792
+    },
+    "EDA": {
+     "start": "2013-06-20 12:56:39",
+     "rate": "4.0",
+     "count": 10368
+    },
+    "TEMP": {
+     "start": "2013-06-20 12:56:39",
+     "rate": "4.0",
+     "count": 10360
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/f10",
+   "signals": {
+    "ACC": {
+     "start": "2013-06-20 12:56:14,2013-06-20 12:56:14,2013-06-20 12:56:14",
+     "rate": "32.0,32.0,32.0",
+     "count": 83442
+    },
+    "BVP": {
+     "start": "2013-06-20 12:56:14",
+     "rate": "64.0",
+     "count": 166848
+    },
+    "EDA": {
+     "start": "2013-06-20 12:56:14",
+     "rate": "4.0",
+     "count": 10434
+    },
+    "TEMP": {
+     "start": "2013-06-20 12:56:14",
+     "rate": "4.0",
+     "count": 10432
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/f11",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-04 13:21:30,2013-07-04 13:21:30,2013-07-04 13:21:30",
+     "rate": "32.0,32.0,32.0",
+     "count": 61266
+    },
+    "BVP": {
+     "start": "2013-07-04 13:21:30",
+     "rate": "64.0",
+     "count": 122485
+    },
+    "EDA": {
+     "start": "2013-07-04 13:21:30",
+     "rate": "4.0",
+     "count": 7644
+    },
+    "TEMP": {
+     "start": "2013-07-04 13:21:30",
+     "rate": "4.0",
+     "count": 7656
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/f12",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-04 12:11:02,2013-07-04 12:11:02,2013-07-04 12:11:02",
+     "rate": "32.0,32.0,32.0",
+     "count": 71442
+    },
+    "BVP": {
+     "start": "2013-07-04 12:11:02",
+     "rate": "64.0",
+     "count": 142835
+    },
+    "EDA": {
+     "start": "2013-07-04 12:11:02",
+     "rate": "4.0",
+     "count": 8922
+    },
+    "TEMP": {
+     "start": "2013-07-04 12:11:02",
+     "rate": "4.0",
+     "count": 8952
+    }
+   }
+  },
+  {
+   "folder": "AEROBIC/f13",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-04 13:09:26,2013-07-04 13:09:26,2013-07-04 13:09:26",
+     "rate": "32.0,32.0,32.0",
+     "count": 83202
+    },
+    "BVP": {
+     "start": "2013-07-04 13:09:26",
+     "rate": "64.0",
+     "count": 166441
+    },
+    "EDA": {
+     "start": "2013-07-04 13:09:26",
+     "rate": "4.0",
+     "count": 10386
+    },
+    "TEMP": {
+     "start": "2013-07-04 13:09:26",
+     "rate": "4.0",
+     "count": 10400
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/S01",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-20 18:42:53,2013-02-20 18:42:53,2013-02-20 18:42:53",
+     "rate": "32.0,32.0,32.0",
+     "count": 36630
+    },
+    "BVP": {
+     "start": "2013-02-20 18:42:53",
+     "rate": "64.0",
+     "count": 73249
+    },
+    "EDA": {
+     "start": "2013-02-20 18:42:53",
+     "rate": "4.0",
+     "count": 4578
+    },
+    "TEMP": {
+     "start": "2013-02-20 18:42:53",
+     "rate": "4.0",
+     "count": 4576
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/S02",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-20 19:19:20,2013-02-20 19:19:20,2013-02-20 19:19:20",
+     "rate": "32.0,32.0,32.0",
+     "count": 35964
+    },
+    "BVP": {
+     "start": "2013-02-20 19:19:20",
+     "rate": "64.0",
+     "count": 71918
+    },
+    "EDA": {
+     "start": "2013-02-20 19:19:20",
+     "rate": "4.0",
+     "count": 4494
+    },
+    "TEMP": {
+     "start": "2013-02-20 19:19:20",
+     "rate": "4.0",
+     "count": 4496
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/S03",
+   "signals": {
+    "ACC": {
+     "start": "2013-03-06 17:52:14,2013-03-06 17:52:14,2013-03-06 17:52:14",
+     "rate": "32.0,32.0,32.0",
+     "count": 40236
+    },
+    "BVP": {
+     "start": "2013-03-06 17:52:14",
+     "rate": "64.0",
+     "count": 80465
+    },
+    "EDA": {
+     "start": "2013-03-06 17:52:14",
+     "rate": "4.0",
+     "count": 5028
+    },
+    "TEMP": {
+     "start": "2013-03-06 17:52:14",
+     "rate": "4.0",
+     "count": 5024
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/S04",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-24 13:01:27,2013-02-24 13:01:27,2013-02-24 13:01:27",
+     "rate": "32.0,32.0,32.0",
+     "count": 37128
+    },
+    "BVP": {
+     "start": "2013-02-24 13:01:27",
+     "rate": "64.0",
+     "count": 74250
+    },
+    "EDA": {
+     "start": "2013-02-24 13:01:27",
+     "rate": "4.0",
+     "count": 4638
+    },
+    "TEMP": {
+     "start": "2013-02-24 13:01:27",
+     "rate": "4.0",
+     "count": 4640
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/S05",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-23 12:43:28,2013-02-23 12:43:28,2013-02-23 12:43:28",
+     "rate": "32.0,32.0,32.0",
+     "count": 36294
+    },
+    "BVP": {
+     "start": "2013-02-23 12:43:28",
+     "rate": "64.0",
+     "count": 72589
+    },
+    "EDA": {
+     "start": "2013-02-23 12:43:28",
+     "rate": "4.0",
+     "count": 4536
+    },
+    "TEMP": {
+     "start": "2013-02-23 12:43:28",
+     "rate": "4.0",
+     "count": 4536
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/S06",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-23 13:25:02,2013-02-23 13:25:02,2013-02-23 13:25:02",
+     "rate": "32.0,32.0,32.0",
+     "count": 27072
+    },
+    "BVP": {
+     "start": "2013-02-23 13:25:02",
+     "rate": "64.0",
+     "count": 54153
+    },
+    "EDA": {
+     "start": "2013-02-23 13:25:02",
+     "rate": "4.0",
+     "count": 3384
+    },
+    "TEMP": {
+     "start": "2013-02-23 13:25:02",
+     "rate": "4.0",
+     "count": 3384
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/S07",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-24 12:21:58,2013-02-24 12:21:58,2013-02-24 12:21:58",
+     "rate": "32.0,32.0,32.0",
+     "count": 38622
+    },
+    "BVP": {
+     "start": "2013-02-24 12:21:58",
+     "rate": "64.0",
+     "count": 77253
+    },
+    "EDA": {
+     "start": "2013-02-24 12:21:58",
+     "rate": "4.0",
+     "count": 4824
+    },
+    "TEMP": {
+     "start": "2013-02-24 12:21:58",
+     "rate": "4.0",
+     "count": 4824
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/S08",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-23 16:43:02,2013-02-23 16:43:02,2013-02-23 16:43:02",
+     "rate": "32.0,32.0,32.0",
+     "count": 38376
+    },
+    "BVP": {
+     "start": "2013-02-23 16:43:02",
+     "rate": "64.0",
+     "count": 76747
+    },
+    "EDA": {
+     "start": "2013-02-23 16:43:02",
+     "rate": "4.0",
+     "count": 4794
+    },
+    "TEMP": {
+     "start": "2013-02-23 16:43:02",
+     "rate": "4.0",
+     "count": 4792
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/S09",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-24 11:52:08,2013-02-24 11:52:08,2013-02-24 11:52:08",
+     "rate": "32.0,32.0,32.0",
+     "count": 36708
+    },
+    "BVP": {
+     "start": "2013-02-24 11:52:08",
+     "rate": "64.0",
+     "count": 73425
+    },
+    "EDA": {
+     "start": "2013-02-24 11:52:08",
+     "rate": "4.0",
+     "count": 4590
+    },
+    "TEMP": {
+     "start": "2013-02-24 11:52:08",
+     "rate": "4.0",
+     "count": 4584
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/S10",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-23 18:55:02,2013-02-23 18:55:02,2013-02-23 18:55:02",
+     "rate": "32.0,32.0,32.0",
+     "count": 36792
+    },
+    "BVP": {
+     "start": "2013-02-23 18:55:02",
+     "rate": "64.0",
+     "count": 73590
+    },
+    "EDA": {
+     "start": "2013-02-23 18:55:02",
+     "rate": "4.0",
+     "count": 4596
+    },
+    "TEMP": {
+     "start": "2013-02-23 18:55:02",
+     "rate": "4.0",
+     "count": 4600
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/S11",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-24 10:35:51,2013-02-24 10:35:51,2013-02-24 10:35:51",
+     "rate": "32.0,32.0,32.0",
+     "count": 38292
+    },
+    "BVP": {
+     "start": "2013-02-24 10:35:51",
+     "rate": "64.0",
+     "count": 76582
+    },
+    "EDA": {
+     "start": "2013-02-24 10:35:51",
+     "rate": "4.0",
+     "count": 4782
+    },
+    "TEMP": {
+     "start": "2013-02-24 10:35:51",
+     "rate": "4.0",
+     "count": 4784
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/S12",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-24 11:13:24,2013-02-24 11:13:24,2013-02-24 11:13:24",
+     "rate": "32.0,32.0,32.0",
+     "count": 36294
+    },
+    "BVP": {
+     "start": "2013-02-24 11:13:24",
+     "rate": "64.0",
+     "count": 72589
+    },
+    "EDA": {
+     "start": "2013-02-24 11:13:24",
+     "rate": "4.0",
+     "count": 4536
+    },
+    "TEMP": {
+     "start": "2013-02-24 11:13:24",
+     "rate": "4.0",
+     "count": 4536
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/S13",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-24 17:43:32,2013-02-24 17:43:32,2013-02-24 17:43:32",
+     "rate": "32.0,32.0,32.0",
+     "count": 36708
+    },
+    "BVP": {
+     "start": "2013-02-24 17:43:32",
+     "rate": "64.0",
+     "count": 73425
+    },
+    "EDA": {
+     "start": "2013-02-24 17:43:32",
+     "rate": "4.0",
+     "count": 4590
+    },
+    "TEMP": {
+     "start": "2013-02-24 17:43:32",
+     "rate": "4.0",
+     "count": 4584
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/S14",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-24 18:13:04,2013-02-24 18:13:04,2013-02-24 18:13:04",
+     "rate": "32.0,32.0,32.0",
+     "count": 36042
+    },
+    "BVP": {
+     "start": "2013-02-24 18:13:04",
+     "rate": "64.0",
+     "count": 72094
+    },
+    "EDA": {
+     "start": "2013-02-24 18:13:04",
+     "rate": "4.0",
+     "count": 4506
+    },
+    "TEMP": {
+     "start": "2013-02-24 18:13:04",
+     "rate": "4.0",
+     "count": 4504
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/S15",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-25 12:16:22,2013-02-25 12:16:22,2013-02-25 12:16:22",
+     "rate": "32.0,32.0,32.0",
+     "count": 37374
+    },
+    "BVP": {
+     "start": "2013-02-25 12:16:22",
+     "rate": "64.0",
+     "count": 74756
+    },
+    "EDA": {
+     "start": "2013-02-25 12:16:22",
+     "rate": "4.0",
+     "count": 4668
+    },
+    "TEMP": {
+     "start": "2013-02-25 12:16:22",
+     "rate": "4.0",
+     "count": 4672
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/S16_a",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-25 15:03:39,2013-02-25 15:03:39,2013-02-25 15:03:39",
+     "rate": "32.0,32.0,32.0",
+     "count": 18834
+    },
+    "BVP": {
+     "start": "2013-02-25 15:03:39",
+     "rate": "64.0",
+     "count": 37664
+    },
+    "EDA": {
+     "start": "2013-02-25 15:03:39",
+     "rate": "4.0",
+     "count": 2352
+    },
+    "TEMP": {
+     "start": "2013-02-25 15:03:39",
+     "rate": "4.0",
+     "count": 2352
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/S16_b",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-25 15:14:19,2013-02-25 15:14:19,2013-02-25 15:14:19",
+     "rate": "32.0,32.0,32.0",
+     "count": 21624
+    },
+    "BVP": {
+     "start": "2013-02-25 15:14:19",
+     "rate": "64.0",
+     "count": 43252
+    },
+    "EDA": {
+     "start": "2013-02-25 15:14:19",
+     "rate": "4.0",
+     "count": 2700
+    },
+    "TEMP": {
+     "start": "2013-02-25 15:14:19",
+     "rate": "4.0",
+     "count": 2704
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/S17",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-25 19:22:42,2013-02-25 19:22:42,2013-02-25 19:22:42",
+     "rate": "32.0,32.0,32.0",
+     "count": 37548
+    },
+    "BVP": {
+     "start": "2013-02-25 19:22:42",
+     "rate": "64.0",
+     "count": 75086
+    },
+    "EDA": {
+     "start": "2013-02-25 19:22:42",
+     "rate": "4.0",
+     "count": 4692
+    },
+    "TEMP": {
+     "start": "2013-02-25 19:22:42",
+     "rate": "4.0",
+     "count": 4688
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/S18",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-25 19:57:24,2013-02-25 19:57:24,2013-02-25 19:57:24",
+     "rate": "32.0,32.0,32.0",
+     "count": 36876
+    },
+    "BVP": {
+     "start": "2013-02-25 19:57:24",
+     "rate": "64.0",
+     "count": 73755
+    },
+    "EDA": {
+     "start": "2013-02-25 19:57:24",
+     "rate": "4.0",
+     "count": 4608
+    },
+    "TEMP": {
+     "start": "2013-02-25 19:57:24",
+     "rate": "4.0",
+     "count": 4608
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/f01",
+   "signals": {
+    "ACC": {
+     "start": "2013-06-20 11:57:17,2013-06-20 11:57:17,2013-06-20 11:57:17",
+     "rate": "32.0,32.0,32.0",
+     "count": 83820
+    },
+    "BVP": {
+     "start": "2013-06-20 11:57:17",
+     "rate": "64.0",
+     "count": 167684
+    },
+    "EDA": {
+     "start": "2013-06-20 11:57:17",
+     "rate": "4.0",
+     "count": 10470
+    },
+    "TEMP": {
+     "start": "2013-06-20 11:57:17",
+     "rate": "4.0",
+     "count": 10480
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/f02",
+   "signals": {
+    "ACC": {
+     "start": "2013-06-20 12:53:18,2013-06-20 12:53:18,2013-06-20 12:53:18",
+     "rate": "32.0,32.0,32.0",
+     "count": 76536
+    },
+    "BVP": {
+     "start": "2013-06-20 12:53:18",
+     "rate": "64.0",
+     "count": 153098
+    },
+    "EDA": {
+     "start": "2013-06-20 12:53:18",
+     "rate": "4.0",
+     "count": 9570
+    },
+    "TEMP": {
+     "start": "2013-06-20 12:53:18",
+     "rate": "4.0",
+     "count": 9552
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/f03",
+   "signals": {
+    "ACC": {
+     "start": "2013-06-20 11:51:19,2013-06-20 11:51:19,2013-06-20 11:51:19",
+     "rate": "32.0,32.0,32.0",
+     "count": 94080
+    },
+    "BVP": {
+     "start": "2013-06-20 11:51:19",
+     "rate": "64.0",
+     "count": 188276
+    },
+    "EDA": {
+     "start": "2013-06-20 11:51:19",
+     "rate": "4.0",
+     "count": 11766
+    },
+    "TEMP": {
+     "start": "2013-06-20 11:51:19",
+     "rate": "4.0",
+     "count": 11768
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/f04",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-04 13:22:27,2013-07-04 13:22:27,2013-07-04 13:22:27",
+     "rate": "32.0,32.0,32.0",
+     "count": 46452
+    },
+    "BVP": {
+     "start": "2013-07-04 13:22:27",
+     "rate": "64.0",
+     "count": 92873
+    },
+    "EDA": {
+     "start": "2013-07-04 13:22:27",
+     "rate": "4.0",
+     "count": 5802
+    },
+    "TEMP": {
+     "start": "2013-07-04 13:22:27",
+     "rate": "4.0",
+     "count": 5808
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/f05",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-04 13:08:34,2013-07-04 13:08:34,2013-07-04 13:08:34",
+     "rate": "32.0,32.0,32.0",
+     "count": 75414
+    },
+    "BVP": {
+     "start": "2013-07-04 13:08:34",
+     "rate": "64.0",
+     "count": 150821
+    },
+    "EDA": {
+     "start": "2013-07-04 13:08:34",
+     "rate": "4.0",
+     "count": 9432
+    },
+    "TEMP": {
+     "start": "2013-07-04 13:08:34",
+     "rate": "4.0",
+     "count": 9424
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/f06",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-04 12:10:40,2013-07-04 12:10:40,2013-07-04 12:10:40",
+     "rate": "32.0,32.0,32.0",
+     "count": 57162
+    },
+    "BVP": {
+     "start": "2013-07-04 12:10:40",
+     "rate": "64.0",
+     "count": 114367
+    },
+    "EDA": {
+     "start": "2013-07-04 12:10:40",
+     "rate": "4.0",
+     "count": 7134
+    },
+    "TEMP": {
+     "start": "2013-07-04 12:10:40",
+     "rate": "4.0",
+     "count": 7160
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/f07",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-04 13:07:35,2013-07-04 13:07:35,2013-07-04 13:07:35",
+     "rate": "32.0,32.0,32.0",
+     "count": 76614
+    },
+    "BVP": {
+     "start": "2013-07-04 13:07:35",
+     "rate": "64.0",
+     "count": 153263
+    },
+    "EDA": {
+     "start": "2013-07-04 13:07:35",
+     "rate": "4.0",
+     "count": 9588
+    },
+    "TEMP": {
+     "start": "2013-07-04 13:07:35",
+     "rate": "4.0",
+     "count": 9576
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/f08",
+   "signals": {
+    "ACC": {
+     "start": "2013-06-20 12:10:44,2013-06-20 12:10:44,2013-06-20 12:10:44",
+     "rate": "32.0,32.0,32.0",
+     "count": 66882
+    },
+    "BVP": {
+     "start": "2013-06-20 12:10:44",
+     "rate": "64.0",
+     "count": 133771
+    },
+    "EDA": {
+     "start": "2013-06-20 12:10:44",
+     "rate": "4.0",
+     "count": 8346
+    },
+    "TEMP": {
+     "start": "2013-06-20 12:10:44",
+     "rate": "4.0",
+     "count": 8344
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/f09",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-04 12:10:05,2013-07-04 12:10:05,2013-07-04 12:10:05",
+     "rate": "32.0,32.0,32.0",
+     "count": 57342
+    },
+    "BVP": {
+     "start": "2013-07-04 12:10:05",
+     "rate": "64.0",
+     "count": 114719
+    },
+    "EDA": {
+     "start": "2013-07-04 12:10:05",
+     "rate": "4.0",
+     "count": 7158
+    },
+    "TEMP": {
+     "start": "2013-07-04 12:10:05",
+     "rate": "4.0",
+     "count": 7184
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/f10",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-17 10:31:43,2013-07-17 10:31:43,2013-07-17 10:31:43",
+     "rate": "32.0,32.0,32.0",
+     "count": 45162
+    },
+    "BVP": {
+     "start": "2013-07-17 10:31:43",
+     "rate": "64.0",
+     "count": 90343
+    },
+    "EDA": {
+     "start": "2013-07-17 10:31:43",
+     "rate": "4.0",
+     "count": 5652
+    },
+    "TEMP": {
+     "start": "2013-07-17 10:31:43",
+     "rate": "4.0",
+     "count": 5648
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/f11",
+   "signals": {
+    "ACC": {
+     "start": "2013-06-20 12:49:36,2013-06-20 12:49:36,2013-06-20 12:49:36",
+     "rate": "32.0,32.0,32.0",
+     "count": 87918
+    },
+    "BVP": {
+     "start": "2013-06-20 12:49:36",
+     "rate": "64.0",
+     "count": 175846
+    },
+    "EDA": {
+     "start": "2013-06-20 12:49:36",
+     "rate": "4.0",
+     "count": 10992
+    },
+    "TEMP": {
+     "start": "2013-06-20 12:49:36",
+     "rate": "4.0",
+     "count": 11000
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/f12",
+   "signals": {
+    "ACC": {
+     "start": "2013-06-20 12:52:39,2013-06-20 12:52:39,2013-06-20 12:52:39",
+     "rate": "32.0,32.0,32.0",
+     "count": 79986
+    },
+    "BVP": {
+     "start": "2013-06-20 12:52:39",
+     "rate": "64.0",
+     "count": 160039
+    },
+    "EDA": {
+     "start": "2013-06-20 12:52:39",
+     "rate": "4.0",
+     "count": 9996
+    },
+    "TEMP": {
+     "start": "2013-06-20 12:52:39",
+     "rate": "4.0",
+     "count": 10000
+    }
+   }
+  },
+  {
+   "folder": "ANAEROBIC/f13",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-02 17:02:15,2013-07-02 17:02:15,2013-07-02 17:02:15",
+     "rate": "32.0,32.0,32.0",
+     "count": 90786
+    },
+    "BVP": {
+     "start": "2013-07-02 17:02:15",
+     "rate": "64.0",
+     "count": 181709
+    },
+    "EDA": {
+     "start": "2013-07-02 17:02:15",
+     "rate": "4.0",
+     "count": 11340
+    },
+    "TEMP": {
+     "start": "2013-07-02 17:02:15",
+     "rate": "4.0",
+     "count": 11344
+    }
+   }
+  },
+  {
+   "folder": "STRESS/S01",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-20 17:55:19,2013-02-20 17:55:19,2013-02-20 17:55:19",
+     "rate": "32.0,32.0,32.0",
+     "count": 71178
+    },
+    "BVP": {
+     "start": "2013-02-20 17:55:19",
+     "rate": "64.0",
+     "count": 142351
+    },
+    "EDA": {
+     "start": "2013-02-20 17:55:19",
+     "rate": "4.0",
+     "count": 8898
+    },
+    "TEMP": {
+     "start": "2013-02-20 17:55:19",
+     "rate": "4.0",
+     "count": 8896
+    }
+   }
+  },
+  {
+   "folder": "STRESS/S02",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-20 18:49:29,2013-02-20 18:49:29,2013-02-20 18:49:29",
+     "rate": "32.0,32.0,32.0",
+     "count": 99084
+    },
+    "BVP": {
+     "start": "2013-02-20 18:49:29",
+     "rate": "64.0",
+     "count": 198176
+    },
+    "EDA": {
+     "start": "2013-02-20 18:49:29",
+     "rate": "4.0",
+     "count": 12384
+    },
+    "TEMP": {
+     "start": "2013-02-20 18:49:29",
+     "rate": "4.0",
+     "count": 12384
+    }
+   }
+  },
+  {
+   "folder": "STRESS/S03",
+   "signals": {
+    "ACC": {
+     "start": "2013-03-06 17:04:13,2013-03-06 17:04:13,2013-03-06 17:04:13",
+     "rate": "32.0,32.0,32.0",
+     "count": 50748
+    },
+    "BVP": {
+     "start": "2013-03-06 17:04:13",
+     "rate": "64.0",
+     "count": 101486
+    },
+    "EDA": {
+     "start": "2013-03-06 17:04:13",
+     "rate": "4.0",
+     "count": 6342
+    },
+    "TEMP": {
+     "start": "2013-03-06 17:04:13",
+     "rate": "4.0",
+     "count": 6344
+    }
+   }
+  },
+  {
+   "folder": "STRESS/S04",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-24 12:23:49,2013-02-24 12:23:49,2013-02-24 12:23:49",
+     "rate": "32.0,32.0,32.0",
+     "count": 55458
+    },
+    "BVP": {
+     "start": "2013-02-24 12:23:49",
+     "rate": "64.0",
+     "count": 110924
+    },
+    "EDA": {
+     "start": "2013-02-24 12:23:49",
+     "rate": "4.0",
+     "count": 6930
+    },
+    "TEMP": {
+     "start": "2013-02-24 12:23:49",
+     "rate": "4.0",
+     "count": 6928
+    }
+   }
+  },
+  {
+   "folder": "STRESS/S05",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-23 11:46:26,2013-02-23 11:46:26,2013-02-23 11:46:26",
+     "rate": "32.0,32.0,32.0",
+     "count": 50592
+    },
+    "BVP": {
+     "start": "2013-02-23 11:46:26",
+     "rate": "64.0",
+     "count": 101178
+    },
+    "EDA": {
+     "start": "2013-02-23 11:46:26",
+     "rate": "4.0",
+     "count": 6324
+    },
+    "TEMP": {
+     "start": "2013-02-23 11:46:26",
+     "rate": "4.0",
+     "count": 6320
+    }
+   }
+  },
+  {
+   "folder": "STRESS/S06",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-23 12:22:59,2013-02-23 12:22:59,2013-02-23 12:22:59",
+     "rate": "32.0,32.0,32.0",
+     "count": 46200
+    },
+    "BVP": {
+     "start": "2013-02-23 12:22:59",
+     "rate": "64.0",
+     "count": 92400
+    },
+    "EDA": {
+     "start": "2013-02-23 12:22:59",
+     "rate": "4.0",
+     "count": 5772
+    },
+    "TEMP": {
+     "start": "2013-02-23 12:22:59",
+     "rate": "4.0",
+     "count": 5776
+    }
+   }
+  },
+  {
+   "folder": "STRESS/S07",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-24 11:47:55,2013-02-24 11:47:55,2013-02-24 11:47:55",
+     "rate": "32.0,32.0,32.0",
+     "count": 45714
+    },
+    "BVP": {
+     "start": "2013-02-24 11:47:55",
+     "rate": "64.0",
+     "count": 91432
+    },
+    "EDA": {
+     "start": "2013-02-24 11:47:55",
+     "rate": "4.0",
+     "count": 5712
+    },
+    "TEMP": {
+     "start": "2013-02-24 11:47:55",
+     "rate": "4.0",
+     "count": 5712
+    }
+   }
+  },
+  {
+   "folder": "STRESS/S08",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-23 16:02:04,2013-02-23 16:02:04,2013-02-23 16:02:04",
+     "rate": "32.0,32.0,32.0",
+     "count": 45720
+    },
+    "BVP": {
+     "start": "2013-02-23 16:02:04",
+     "rate": "64.0",
+     "count": 91443
+    },
+    "EDA": {
+     "start": "2013-02-23 16:02:04",
+     "rate": "4.0",
+     "count": 5712
+    },
+    "TEMP": {
+     "start": "2013-02-23 16:02:04",
+     "rate": "4.0",
+     "count": 5712
+    }
+   }
+  },
+  {
+   "folder": "STRESS/S09",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-24 11:15:28,2013-02-24 11:15:28,2013-02-24 11:15:28",
+     "rate": "32.0,32.0,32.0",
+     "count": 46356
+    },
+    "BVP": {
+     "start": "2013-02-24 11:15:28",
+     "rate": "64.0",
+     "count": 92708
+    },
+    "EDA": {
+     "start": "2013-02-24 11:15:28",
+     "rate": "4.0",
+     "count": 5790
+    },
+    "TEMP": {
+     "start": "2013-02-24 11:15:28",
+     "rate": "4.0",
+     "count": 5792
+    }
+   }
+  },
+  {
+   "folder": "STRESS/S10",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-23 18:03:27,2013-02-23 18:03:27,2013-02-23 18:03:27",
+     "rate": "32.0,32.0,32.0",
+     "count": 53064
+    },
+    "BVP": {
+     "start": "2013-02-23 18:03:27",
+     "rate": "64.0",
+     "count": 106128
+    },
+    "EDA": {
+     "start": "2013-02-23 18:03:27",
+     "rate": "4.0",
+     "count": 6630
+    },
+    "TEMP": {
+     "start": "2013-02-23 18:03:27",
+     "rate": "4.0",
+     "count": 6632
+    }
+   }
+  },
+  {
+   "folder": "STRESS/S11",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-24 09:51:45,2013-02-24 09:51:45,2013-02-24 09:51:45",
+     "rate": "32.0,32.0,32.0",
+     "count": 44838
+    },
+    "BVP": {
+     "start": "2013-02-24 09:51:45",
+     "rate": "64.0",
+     "count": 89672
+    },
+    "EDA": {
+     "start": "2013-02-24 09:51:45",
+     "rate": "4.0",
+     "count": 5604
+    },
+    "TEMP": {
+     "start": "2013-02-24 09:51:45",
+     "rate": "4.0",
+     "count": 5600
+    }
+   }
+  },
+  {
+   "folder": "STRESS/S12",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-24 10:26:36,2013-02-24 10:26:36,2013-02-24 10:26:36",
+     "rate": "32.0,32.0,32.0",
+     "count": 51306
+    },
+    "BVP": {
+     "start": "2013-02-24 10:26:36",
+     "rate": "64.0",
+     "count": 102619
+    },
+    "EDA": {
+     "start": "2013-02-24 10:26:36",
+     "rate": "4.0",
+     "count": 6414
+    },
+    "TEMP": {
+     "start": "2013-02-24 10:26:36",
+     "rate": "4.0",
+     "count": 6408
+    }
+   }
+  },
+  {
+   "folder": "STRESS/S13",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-24 17:05:44,2013-02-24 17:05:44,2013-02-24 17:05:44",
+     "rate": "32.0,32.0,32.0",
+     "count": 51948
+    },
+    "BVP": {
+     "start": "2013-02-24 17:05:44",
+     "rate": "64.0",
+     "count": 103895
+    },
+    "EDA": {
+     "start": "2013-02-24 17:05:44",
+     "rate": "4.0",
+     "count": 6492
+    },
+    "TEMP": {
+     "start": "2013-02-24 17:05:44",
+     "rate": "4.0",
+     "count": 6488
+    }
+   }
+  },
+  {
+   "folder": "STRESS/S14",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-24 17:37:41,2013-02-24 17:37:41,2013-02-24 17:37:41",
+     "rate": "32.0,32.0,32.0",
+     "count": 53940
+    },
+    "BVP": {
+     "start": "2013-02-24 17:37:41",
+     "rate": "64.0",
+     "count": 107888
+    },
+    "EDA": {
+     "start": "2013-02-24 17:37:41",
+     "rate": "4.0",
+     "count": 6744
+    },
+    "TEMP": {
+     "start": "2013-02-24 17:37:41",
+     "rate": "4.0",
+     "count": 6736
+    }
+   }
+  },
+  {
+   "folder": "STRESS/S15",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-25 11:35:59,2013-02-25 11:35:59,2013-02-25 11:35:59",
+     "rate": "32.0,32.0,32.0",
+     "count": 52266
+    },
+    "BVP": {
+     "start": "2013-02-25 11:35:59",
+     "rate": "64.0",
+     "count": 104533
+    },
+    "EDA": {
+     "start": "2013-02-25 11:35:59",
+     "rate": "4.0",
+     "count": 6534
+    },
+    "TEMP": {
+     "start": "2013-02-25 11:35:59",
+     "rate": "4.0",
+     "count": 6528
+    }
+   }
+  },
+  {
+   "folder": "STRESS/S16",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-25 14:15:54,2013-02-25 14:15:54,2013-02-25 14:15:54",
+     "rate": "32.0,32.0,32.0",
+     "count": 53226
+    },
+    "BVP": {
+     "start": "2013-02-25 14:15:54",
+     "rate": "64.0",
+     "count": 106447
+    },
+    "EDA": {
+     "start": "2013-02-25 14:15:54",
+     "rate": "4.0",
+     "count": 6654
+    },
+    "TEMP": {
+     "start": "2013-02-25 14:15:54",
+     "rate": "4.0",
+     "count": 6648
+    }
+   }
+  },
+  {
+   "folder": "STRESS/S17",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-25 18:40:08,2013-02-25 18:40:08,2013-02-25 18:40:08",
+     "rate": "32.0,32.0,32.0",
+     "count": 51546
+    },
+    "BVP": {
+     "start": "2013-02-25 18:40:08",
+     "rate": "64.0",
+     "count": 103092
+    },
+    "EDA": {
+     "start": "2013-02-25 18:40:08",
+     "rate": "4.0",
+     "count": 6444
+    },
+    "TEMP": {
+     "start": "2013-02-25 18:40:08",
+     "rate": "4.0",
+     "count": 6440
+    }
+   }
+  },
+  {
+   "folder": "STRESS/S18",
+   "signals": {
+    "ACC": {
+     "start": "2013-02-25 19:17:36,2013-02-25 19:17:36,2013-02-25 19:17:36",
+     "rate": "32.0,32.0,32.0",
+     "count": 52188
+    },
+    "BVP": {
+     "start": "2013-02-25 19:17:36",
+     "rate": "64.0",
+     "count": 104368
+    },
+    "EDA": {
+     "start": "2013-02-25 19:17:36",
+     "rate": "4.0",
+     "count": 6522
+    },
+    "TEMP": {
+     "start": "2013-02-25 19:17:36",
+     "rate": "4.0",
+     "count": 6520
+    }
+   }
+  },
+  {
+   "folder": "STRESS/f01",
+   "signals": {
+    "ACC": {
+     "start": "2013-06-12 16:18:58,2013-06-12 16:18:58,2013-06-12 16:18:58",
+     "rate": "32.0,32.0,32.0",
+     "count": 104070
+    },
+    "BVP": {
+     "start": "2013-06-12 16:18:58",
+     "rate": "64.0",
+     "count": 208153
+    },
+    "EDA": {
+     "start": "2013-06-12 16:18:58",
+     "rate": "4.0",
+     "count": 13008
+    },
+    "TEMP": {
+     "start": "2013-06-12 16:18:58",
+     "rate": "4.0",
+     "count": 12992
+    }
+   }
+  },
+  {
+   "folder": "STRESS/f02",
+   "signals": {
+    "ACC": {
+     "start": "2013-06-12 17:26:25,2013-06-12 17:26:25,2013-06-12 17:26:25",
+     "rate": "32.0,32.0,32.0",
+     "count": 95208
+    },
+    "BVP": {
+     "start": "2013-06-12 17:26:25",
+     "rate": "64.0",
+     "count": 190520
+    },
+    "EDA": {
+     "start": "2013-06-12 17:26:25",
+     "rate": "4.0",
+     "count": 11904
+    },
+    "TEMP": {
+     "start": "2013-06-12 17:26:25",
+     "rate": "4.0",
+     "count": 11912
+    }
+   }
+  },
+  {
+   "folder": "STRESS/f03",
+   "signals": {
+    "ACC": {
+     "start": "2013-06-12 18:28:42,2013-06-12 18:28:42,2013-06-12 18:28:42",
+     "rate": "32.0,32.0,32.0",
+     "count": 115062
+    },
+    "BVP": {
+     "start": "2013-06-12 18:28:42",
+     "rate": "64.0",
+     "count": 230142
+    },
+    "EDA": {
+     "start": "2013-06-12 18:28:42",
+     "rate": "4.0",
+     "count": 14388
+    },
+    "TEMP": {
+     "start": "2013-06-12 18:28:42",
+     "rate": "4.0",
+     "count": 14376
+    }
+   }
+  },
+  {
+   "folder": "STRESS/f04",
+   "signals": {
+    "ACC": {
+     "start": "2013-06-15 19:44:24,2013-06-15 19:44:24,2013-06-15 19:44:24",
+     "rate": "32.0,32.0,32.0",
+     "count": 116700
+    },
+    "BVP": {
+     "start": "2013-06-15 19:44:24",
+     "rate": "64.0",
+     "count": 233387
+    },
+    "EDA": {
+     "start": "2013-06-15 19:44:24",
+     "rate": "4.0",
+     "count": 14592
+    },
+    "TEMP": {
+     "start": "2013-06-15 19:44:24",
+     "rate": "4.0",
+     "count": 14584
+    }
+   }
+  },
+  {
+   "folder": "STRESS/f05",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-02 10:07:30,2013-07-02 10:07:30,2013-07-02 10:07:30",
+     "rate": "32.0,32.0,32.0",
+     "count": 146958
+    },
+    "BVP": {
+     "start": "2013-07-02 10:07:30",
+     "rate": "64.0",
+     "count": 293920
+    },
+    "EDA": {
+     "start": "2013-07-02 10:07:30",
+     "rate": "4.0",
+     "count": 18372
+    },
+    "TEMP": {
+     "start": "2013-07-02 10:07:30",
+     "rate": "4.0",
+     "count": 18392
+    }
+   }
+  },
+  {
+   "folder": "STRESS/f06",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-11 16:04:59,2013-07-11 16:04:59,2013-07-11 16:04:59",
+     "rate": "32.0,32.0,32.0",
+     "count": 101508
+    },
+    "BVP": {
+     "start": "2013-07-11 16:04:59",
+     "rate": "64.0",
+     "count": 203126
+    },
+    "EDA": {
+     "start": "2013-07-11 16:04:59",
+     "rate": "4.0",
+     "count": 12690
+    },
+    "TEMP": {
+     "start": "2013-07-11 16:04:59",
+     "rate": "4.0",
+     "count": 12688
+    }
+   }
+  },
+  {
+   "folder": "STRESS/f07",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-12 20:01:45,2013-07-12 20:01:45,2013-07-12 20:01:45",
+     "rate": "32.0,32.0,32.0",
+     "count": 110652
+    },
+    "BVP": {
+     "start": "2013-07-12 20:01:45",
+     "rate": "64.0",
+     "count": 221342
+    },
+    "EDA": {
+     "start": "2013-07-12 20:01:45",
+     "rate": "4.0",
+     "count": 13824
+    },
+    "TEMP": {
+     "start": "2013-07-12 20:01:45",
+     "rate": "4.0",
+     "count": 13824
+    }
+   }
+  },
+  {
+   "folder": "STRESS/f08",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-03 19:16:37,2013-07-03 19:16:37,2013-07-03 19:16:37",
+     "rate": "32.0,32.0,32.0",
+     "count": 101784
+    },
+    "BVP": {
+     "start": "2013-07-03 19:16:37",
+     "rate": "64.0",
+     "count": 203632
+    },
+    "EDA": {
+     "start": "2013-07-03 19:16:37",
+     "rate": "4.0",
+     "count": 12726
+    },
+    "TEMP": {
+     "start": "2013-07-03 19:16:37",
+     "rate": "4.0",
+     "count": 12720
+    }
+   }
+  },
+  {
+   "folder": "STRESS/f09",
+   "signals": {
+    "ACC": {
+     "start": "2013-06-30 12:03:41,2013-06-30 12:03:41,2013-06-30 12:03:41",
+     "rate": "32.0,32.0,32.0",
+     "count": 103470
+    },
+    "BVP": {
+     "start": "2013-06-30 12:03:41",
+     "rate": "64.0",
+     "count": 206987
+    },
+    "EDA": {
+     "start": "2013-06-30 12:03:41",
+     "rate": "4.0",
+     "count": 12930
+    },
+    "TEMP": {
+     "start": "2013-06-30 12:03:41",
+     "rate": "4.0",
+     "count": 12928
+    }
+   }
+  },
+  {
+   "folder": "STRESS/f10",
+   "signals": {
+    "ACC": {
+     "start": "2013-06-30 09:59:44,2013-06-30 09:59:44,2013-06-30 09:59:44",
+     "rate": "32.0,32.0,32.0",
+     "count": 87432
+    },
+    "BVP": {
+     "start": "2013-06-30 09:59:44",
+     "rate": "64.0",
+     "count": 174933
+    },
+    "EDA": {
+     "start": "2013-06-30 09:59:44",
+     "rate": "4.0",
+     "count": 10938
+    },
+    "TEMP": {
+     "start": "2013-06-30 09:59:44",
+     "rate": "4.0",
+     "count": 10920
+    }
+   }
+  },
+  {
+   "folder": "STRESS/f11",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-14 18:02:40,2013-07-14 18:02:40,2013-07-14 18:02:40",
+     "rate": "32.0,32.0,32.0",
+     "count": 99924
+    },
+    "BVP": {
+     "start": "2013-07-14 18:02:40",
+     "rate": "64.0",
+     "count": 199914
+    },
+    "EDA": {
+     "start": "2013-07-14 18:02:40",
+     "rate": "4.0",
+     "count": 12486
+    },
+    "TEMP": {
+     "start": "2013-07-14 18:02:40",
+     "rate": "4.0",
+     "count": 12488
+    }
+   }
+  },
+  {
+   "folder": "STRESS/f12",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-01 15:21:17,2013-07-01 15:21:17,2013-07-01 15:21:17",
+     "rate": "32.0,32.0,32.0",
+     "count": 153852
+    },
+    "BVP": {
+     "start": "2013-07-01 15:21:17",
+     "rate": "64.0",
+     "count": 307791
+    },
+    "EDA": {
+     "start": "2013-07-01 15:21:17",
+     "rate": "4.0",
+     "count": 19236
+    },
+    "TEMP": {
+     "start": "2013-07-01 15:21:17",
+     "rate": "4.0",
+     "count": 19232
+    }
+   }
+  },
+  {
+   "folder": "STRESS/f13",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-03 10:51:24,2013-07-03 10:51:24,2013-07-03 10:51:24",
+     "rate": "32.0,32.0,32.0",
+     "count": 123558
+    },
+    "BVP": {
+     "start": "2013-07-03 10:51:24",
+     "rate": "64.0",
+     "count": 247181
+    },
+    "EDA": {
+     "start": "2013-07-03 10:51:24",
+     "rate": "4.0",
+     "count": 15462
+    },
+    "TEMP": {
+     "start": "2013-07-03 10:51:24",
+     "rate": "4.0",
+     "count": 15440
+    }
+   }
+  },
+  {
+   "folder": "STRESS/f14_a",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-12 22:46:39,2013-07-12 22:46:39,2013-07-12 22:46:39",
+     "rate": "32.0,32.0,32.0",
+     "count": 22518
+    },
+    "BVP": {
+     "start": "2013-07-12 22:46:39",
+     "rate": "64.0",
+     "count": 45034
+    },
+    "EDA": {
+     "start": "2013-07-12 22:46:39",
+     "rate": "4.0",
+     "count": 2814
+    },
+    "TEMP": {
+     "start": "2013-07-12 22:46:39",
+     "rate": "4.0",
+     "count": 2816
+    }
+   }
+  },
+  {
+   "folder": "STRESS/f14_b",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-12 22:59:54,2013-07-12 22:59:54,2013-07-12 22:59:54",
+     "rate": "32.0,32.0,32.0",
+     "count": 69402
+    },
+    "BVP": {
+     "start": "2013-07-12 22:59:54",
+     "rate": "64.0",
+     "count": 138765
+    },
+    "EDA": {
+     "start": "2013-07-12 22:59:54",
+     "rate": "4.0",
+     "count": 8682
+    },
+    "TEMP": {
+     "start": "2013-07-12 22:59:54",
+     "rate": "4.0",
+     "count": 8672
+    }
+   }
+  },
+  {
+   "folder": "STRESS/f15",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-13 17:19:47,2013-07-13 17:19:47,2013-07-13 17:19:47",
+     "rate": "32.0,32.0,32.0",
+     "count": 135042
+    },
+    "BVP": {
+     "start": "2013-07-13 17:19:47",
+     "rate": "64.0",
+     "count": 270072
+    },
+    "EDA": {
+     "start": "2013-07-13 17:19:47",
+     "rate": "4.0",
+     "count": 16878
+    },
+    "TEMP": {
+     "start": "2013-07-13 17:19:47",
+     "rate": "4.0",
+     "count": 16880
+    }
+   }
+  },
+  {
+   "folder": "STRESS/f16",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-19 10:52:55,2013-07-19 10:52:55,2013-07-19 10:52:55",
+     "rate": "32.0,32.0,32.0",
+     "count": 103686
+    },
+    "BVP": {
+     "start": "2013-07-19 10:52:55",
+     "rate": "64.0",
+     "count": 207361
+    },
+    "EDA": {
+     "start": "2013-07-19 10:52:55",
+     "rate": "4.0",
+     "count": 12954
+    },
+    "TEMP": {
+     "start": "2013-07-19 10:52:55",
+     "rate": "4.0",
+     "count": 12944
+    }
+   }
+  },
+  {
+   "folder": "STRESS/f17",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-20 16:00:52,2013-07-20 16:00:52,2013-07-20 16:00:52",
+     "rate": "32.0,32.0,32.0",
+     "count": 110142
+    },
+    "BVP": {
+     "start": "2013-07-20 16:00:52",
+     "rate": "64.0",
+     "count": 220253
+    },
+    "EDA": {
+     "start": "2013-07-20 16:00:52",
+     "rate": "4.0",
+     "count": 13758
+    },
+    "TEMP": {
+     "start": "2013-07-20 16:00:52",
+     "rate": "4.0",
+     "count": 13768
+    }
+   }
+  },
+  {
+   "folder": "STRESS/f18",
+   "signals": {
+    "ACC": {
+     "start": "2013-07-21 19:25:10,2013-07-21 19:25:10,2013-07-21 19:25:10",
+     "rate": "32.0,32.0,32.0",
+     "count": 100524
+    },
+    "BVP": {
+     "start": "2013-07-21 19:25:10",
+     "rate": "64.0",
+     "count": 201080
+    },
+    "EDA": {
+     "start": "2013-07-21 19:25:10",
+     "rate": "4.0",
+     "count": 12552
+    },
+    "TEMP": {
+     "start": "2013-07-21 19:25:10",
+     "rate": "4.0",
+     "count": 12560
+    }
+   }
+  }
+ ]
+}

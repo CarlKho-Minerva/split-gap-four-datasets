@@ -1,0 +1,25 @@
+{
+ "key": "belfrouh2026subject",
+ "record": {
+  "source": "crossref",
+  "id": "10.2139/ssrn.7655833",
+  "doi": "10.2139/ssrn.7655833",
+  "title": "Subject-dependent, subject-independent, or pooled? What each evaluation regime really measures in EEG imagined-speech decoding",
+  "authors": [
+   "Sanae Belfrouh",
+   "Fatima  Zahra Salmam",
+   "Rahhal Errattahi"
+  ],
+  "year": 2026,
+  "abstract": "Reported accuracies for EEG imagined-speech decoding vary widely and are difficult to compare, partly because studies differ in the evaluation regime they use. We examine what published \"within-subject\" results on the five-class imagined-speech track of the 2020 International BCI Competition (BCIC2020-3; 15 subjects, 64 channels) actually measure. Using a compact topographic-map convolutional network as a fixed measurement instrument, we apply an identical held-out test set across three training regimes: subject-dependent (SD), subject-independent leave-one-subject-out (SI), and pooled (subject-mixed). SD decoding reaches 49.7% balanced accuracy; SI decoding is near chance (22.5%); pooled evaluation reaches 41.1%. Because the pooled and SI models differ only in whether the target subject appeared in training, the 18.5 percentage-point gap between them measures subject-specific information that does not transfer to an unseen user. A protocol triangulation with a predefined leakage control further shows that shuffled cross-validation can inflate an individual subject by up to 24.6 points. The dataset nonetheless contains genuine subject-dependent signal, remaining well above chance under a leakage-safe protocol. We conclude that \"within-subject\" benchmarks on this dataset are subject-mixed and partly inflated, and that imagined-speech accuracy should be reported by explicit regime.",
+  "venue": "",
+  "type": "posted-content",
+  "volume": null,
+  "issue": null,
+  "pages": null,
+  "publisher": "Elsevier BV",
+  "url": "https://doi.org/10.2139/ssrn.7655833"
+ },
+ "fetched": "2026-11-07T01:37:02-0800",
+ "sha256": "443bbe8b70b6254b5cb6eb76955cf917d13a30aeecd2a3b7ee80ea0453caf479"
+}

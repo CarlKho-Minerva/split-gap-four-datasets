@@ -1,0 +1,32 @@
+{
+ "generated": "2026-11-07T13:32:07-0800",
+ "python": "3.14.8",
+ "script_sha256": "52e1b671cbb3e7ac737a058379efcf22d5c0b3a98ad6aed3ff53a7711d9fd09f",
+ "config_sha256": "905e68581a72c0541ab8b02fede166e2292f75c20b825279921f3f2e5ae72a02",
+ "data_sha256": {
+  "emg/emg_data_for_gestures.zip": "e82247b6478e5a1c5ad621c1f2cc1bb878547c51f01f4e6226abb2a4819ce4ee",
+  "stress/wearable-device-dataset-1.0.1.zip": "afbff3e8e7230bdc765d0ccfc5c3460964021cdfefa8e351f8ad8f78a1b27c48",
+  "ppg/ppg_dalia.zip": "5772387956e34e2e2dc4c2ddbeb98cb70569d5112fa4c13ee98a17680b84a1f3",
+  "eeg/eegmmidb-1.0.0.zip": "0ff5f7f38d1d14b8e485581ad4cf5b327e6494bc2ac7c7d7d4f7e9518a950cbe"
+ },
+ "files": {
+  "paper/fig_central.pdf": "5943d28b2afe1c3d2cce6f2990d3ee375b345aeedaf12455651d4fd347bd975e",
+  "paper/numbers.tex": "9c0d7bd481d68493fbb77e4daed5fc50bc31b9e6f6ec19df5bbc7c031bec135d",
+  "paper/tables/tab_audit.tex": "c8634f87b42e9d7795bbc544943b34a9e780b62af2c4991f56f737e720e2af93",
+  "paper/tables/tab_data.tex": "1788d2d1f03a8703afc7f1ee0fdfdf6555a49fb99c329224c66c25c96dd32c37",
+  "paper/tables/tab_primary.tex": "a4894128cfc858114fecde24d2be1856275d488c30aad460cdc90822dba141dd",
+  "paper/tables/tab_sensitivity.tex": "3ed4ed899b8474ecca9b1075dab41ec56ba8c2bc96a768060bcddf81c7113a91",
+  "results/comparisons.json": "fdd84a48e2bcd21ffdebdfed54e9628add82c6e4806bb5827a861090cd0516d1",
+  "results/eeg_predictions.json": "2f58bb2e04ffdaa69b3faf5562d0dcfe62e35f6f2bbb1299a734c9bcacf97f6d",
+  "results/eeg_windows.json": "7481dbb6f143d688ee31601b7cc4bee17c5ec2166ded1a4841e31a7bf84d2551",
+  "results/emg_predictions.json": "e329ed26adca75a0e50c5ac52fab4809131bde9a707467d9efdf15bc6ac27d9c",
+  "results/emg_windows.json": "cc9f8428a54072d92518da5a99090bed156be257ad8baff67eed2e0520ab974e",
+  "results/figures.json": "2381f7e711f63040fd45d7f6e11e9b6f265425ef49d06eee3dce1c638cae766a",
+  "results/ppg_predictions.json": "9fe5a91d2d899ba045a7923c2b2e642f4c889a629e711ba2361ab1e9977f0875",
+  "results/ppg_windows.json": "6ad171b8bc06f9bc76aece530bb2a7e3eb7dfdcf1aff5f4ea7ebe9b5efa69a13",
+  "results/reproducibility_manifest.json": "c09d242600be672cd21e2aee6fdc93d7a63e23eb66fa8d76a21167ad98415977",
+  "results/stable_numbers.json": "dd7772737876ce496c2c317a40d98d260dd6c652db85a4769d985f71a669d494",
+  "results/stress_predictions.json": "796a6926f1fdd9c741dbd9f33710bc77bae37640badeb8c6520233bc0b3fe14d",
+  "results/stress_windows.json": "3370b73db69aed0bd08428bf60758d0b3a44374abe7f46ba15081dcc6bbd767d"
+ }
+}

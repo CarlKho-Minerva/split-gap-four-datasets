@@ -1,0 +1,51 @@
+{
+ "sources": {
+  "analysis/analysis.py": "52e1b671cbb3e7ac737a058379efcf22d5c0b3a98ad6aed3ff53a7711d9fd09f",
+  "analysis/config.json": "905e68581a72c0541ab8b02fede166e2292f75c20b825279921f3f2e5ae72a02",
+  "analysis/data_readers.py": "cb7eff124b0a70ef362cc6a397ed92686c1ae7cd2e839dde85b68fb21b0c3956",
+  "analysis/figure_style.json": "414aa576a3f9828724ce5ee0bf97c48c5fcc0e6f11edabd3e9e8043303402586",
+  "deviations.json": "ec6028c8b0ad013545b2efb93d71e68f419bfebcef6eb97288f1887ef001b641",
+  "prereg.md": "476b6b4e93ae5c1f9ee10c9c54175a49f1c2261b88a460067f55d6438c11ae5a",
+  "provenance.json": "9330ab8ef3ed079a1ff785e8d3606a5856b7db36cce70b6940e4fb8ff402b246",
+  "reproducibility/NOTICE.md": "6910d951f90f1bd8d34c6a774af9f7115e70fd260c2cf25118c246b4ad3a782d",
+  "reproducibility/README.md": "5311b73e27034f0101b257cc400b696dee1e03931eacb3b4326f8a7d0a100ebd",
+  "reproducibility/config_locked.json": "01f858298bc45281f11a4eeadcfef445a00ff066b2a7d1f5c4c90fa545a7b34b",
+  "reproducibility/environment.lock.json": "6c9cea2ce30b96866e573e8f15328ede9b82107ebd3bb84daaa1680c58118108",
+  "reproducibility/make_release.py": "da1b62747cb7f6a384729aeff85618c19e2a0465f0e3741e5d6fab3493febb57",
+  "reproducibility/prereg_locked.md": "476b6b4e93ae5c1f9ee10c9c54175a49f1c2261b88a460067f55d6438c11ae5a",
+  "reproducibility/reproduce.sh": "65575489aa2e7016095b1ff3253a52e71aa8e12522d77813b016ac49d4ed631e",
+  "reproducibility/requirements.lock": "9e43183d2b97ff88c7e5516e716bae06ae89b071be96607df1a5840de0b84e02",
+  "reproducibility/vendor/np_pipeline/__init__.py": "9c7a2d2dbe2e6085c346d3f341cac90ddbc53f2f111f5f5fcf1d20d1ff80bdd3",
+  "reproducibility/vendor/np_pipeline/kit.py": "3ee837dad7d61f38cdc7270bd9693682474b9b39be03b0c697a61d8605df5dfa",
+  "reproducibility/verify.py": "c543a3dae1c5df94b563728cb073da784184e9fcf7adb6143f6855ec6d0766c3"
+ },
+ "toolkit_source_sha256": "3ee837dad7d61f38cdc7270bd9693682474b9b39be03b0c697a61d8605df5dfa",
+ "environment": {
+  "python": "3.14.8",
+  "packages": {
+   "cloudpickle": "3.1.2",
+   "contourpy": "1.4.0",
+   "cycler": "0.12.1",
+   "fonttools": "4.68.0",
+   "iniconfig": "2.3.1",
+   "joblib": "1.6.0",
+   "kiwisolver": "1.5.1",
+   "matplotlib": "3.11.2",
+   "narwhals": "2.28.0",
+   "numpy": "2.5.4",
+   "packaging": "26.3",
+   "pandas": "3.1.1",
+   "pillow": "13.0.0",
+   "pip": "26.2.1",
+   "pluggy": "1.7.0",
+   "Pygments": "2.21.0",
+   "pyparsing": "3.3.3",
+   "pytest": "9.2.0",
+   "python-dateutil": "4.0.0",
+   "scikit-learn": "1.9.1",
+   "scipy": "1.18.1",
+   "threadpoolctl": "3.7.0",
+   "tzdata": "2026.6"
+  }
+ }
+}

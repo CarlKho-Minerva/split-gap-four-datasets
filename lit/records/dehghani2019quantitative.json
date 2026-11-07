@@ -1,0 +1,26 @@
+{
+ "key": "dehghani2019quantitative",
+ "record": {
+  "source": "crossref",
+  "id": "10.3390/s19225026",
+  "doi": "10.3390/s19225026",
+  "title": "A Quantitative Comparison of Overlapping and Non-Overlapping Sliding Windows for Human Activity Recognition Using Inertial Sensors",
+  "authors": [
+   "Akbar Dehghani",
+   "Omid Sarbishei",
+   "Tristan Glatard",
+   "Emad Shihab"
+  ],
+  "year": 2019,
+  "abstract": "The sliding window technique is widely used to segment inertial sensor signals, i.e., accelerometers and gyroscopes, for activity recognition. In this technique, the sensor signals are partitioned into fix sized time windows which can be of two types: (1) non-overlapping windows, in which time windows do not intersect, and (2) overlapping windows, in which they do. There is a generalized idea about the positive impact of using overlapping sliding windows on the performance of recognition systems in Human Activity Recognition. In this paper, we analyze the impact of overlapping sliding windows on the performance of Human Activity Recognition systems with different evaluation techniques, namely, subject-dependent cross validation and subject-independent cross validation. Our results show that the performance improvements regarding overlapping windowing reported in the literature seem to be associated with the underlying limitations of subject-dependent cross validation. Furthermore, we do not observe any performance gain from the use of such technique in conjunction with subject-independent cross validation. We conclude that when using subject-independent cross validation, non-overlapping sliding windows reach the same performance as sliding windows. This result has significant implications on the resource usage for training the human activity recognition systems.",
+  "venue": "Sensors",
+  "type": "journal-article",
+  "volume": "19",
+  "issue": "22",
+  "pages": "5026",
+  "publisher": "MDPI AG",
+  "url": "https://doi.org/10.3390/s19225026"
+ },
+ "fetched": "2026-11-07T01:04:49-0800",
+ "sha256": "7a3a41755d1f32cb31877a4342c376c3cd89db3bfc6e965cd5534a78804da00f"
+}

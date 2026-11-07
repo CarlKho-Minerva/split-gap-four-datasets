@@ -1,0 +1,26 @@
+[
+ {
+  "n": 1,
+  "file": "analysis/analysis.py",
+  "what": "Ignore the final incomplete unlabelled row of EMG participant 34 series 1; retain every complete row and both recordings.",
+  "why": "First analyze run failed before producing outcome metrics. Full row-width inspection found exactly one malformed row, the final row in that file, with eight channels and timestamp but no class. No label is imputed and no window extends beyond the final complete labelled sample.",
+  "ts": "2026-11-07T01:09:36-0800",
+  "after_results": false
+ },
+ {
+  "n": 2,
+  "file": "analysis/config.json",
+  "what": "Reduce figure height, increase figure font size and use explicit common gap display limits; statistical constants are unchanged.",
+  "why": "The first PDF floated the central figure onto the next page. A compact inline figure is needed at the top of the Introduction, with readable labels and intervals at the prespecified estimates.",
+  "ts": "2026-11-07T01:17:11-0800",
+  "after_results": true
+ },
+ {
+  "n": 3,
+  "file": "analysis/analysis.py",
+  "what": "Remove elapsed runtime from scientific-number exports; retain separate execution metadata and add pinned dependencies, immutable lock snapshots, deterministic numeric records and audit/source hashes.",
+  "why": "Reviewer A reproduced every statistical result but identified non-deterministic runtime and missing dependency/audit provenance. These are reproducibility-bookkeeping changes only; no sampling, feature, model, seed, interval or hypothesis rule changes.",
+  "ts": "2026-11-07T01:44:04-0800",
+  "after_results": true
+ }
+]

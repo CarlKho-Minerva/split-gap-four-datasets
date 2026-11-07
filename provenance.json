@@ -1,0 +1,91 @@
+{
+ "datasets": [
+  {
+   "key": "emg",
+   "dataset": "EMG Data for Gestures",
+   "creators": "N. Krilova, I. Kastalskiy, V. Kazantsev, V. A. Makarov, S. Lobov",
+   "doi": "10.24432/C5ZP5C",
+   "landing_url": "https://archive.ics.uci.edu/dataset/481/emg+data+for+gestures",
+   "licence": "CC-BY-4.0",
+   "licence_name": "CC BY 4.0 (Creative Commons Attribution 4.0 International)",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+   "licence_check": {
+    "url": "https://archive.ics.uci.edu/dataset/481/emg+data+for+gestures",
+    "ok": true,
+    "found": "sed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license. This allows for the sharing and adaptation of the"
+   },
+   "licence_curated": "Read 2026-11-06 on the landing page by np_pipeline.core._licence_on_page: 'This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license. This allows for the sharing and adaptation of the datasets for any purpose, provided that the appropriate credit is given.'",
+   "citation": "Krilova, N., Kastalskiy, I., Kazantsev, V., Makarov, V., and Lobov, S. (2018). EMG Data for Gestures [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5ZP5C",
+   "files": {
+    "emg_data_for_gestures.zip": "e82247b6478e5a1c5ad621c1f2cc1bb878547c51f01f4e6226abb2a4819ce4ee"
+   }
+  },
+  {
+   "key": "stress",
+   "dataset": "Wearable Device Dataset from Induced Stress and Structured Exercise Sessions",
+   "creators": "A. Hongn, F. Bosch, L. Prado, P. Bonomini",
+   "doi": "10.13026/he0v-tf17",
+   "landing_url": "https://physionet.org/content/wearable-device-dataset/1.0.1/",
+   "licence": "ODC-By-1.0",
+   "licence_name": "Open Data Commons Attribution License v1.0 (ODC-By 1.0)",
+   "licence_url": "https://opendatacommons.org/licenses/by/1-0/",
+   "licence_check": {
+    "url": "https://physionet.org/content/wearable-device-dataset/1.0.1/",
+    "ok": true,
+    "found": "they conform to the terms of the specified license. License Open Data Commons Attribution License v1.0 Discovery DOI (v1.0.1) 10.13026/he0v-tf17 DOI (latest) 10.1"
+   },
+   "licence_curated": "Read 2026-11-06 on the landing page (version 1.0.1) by np_pipeline.core._licence_on_page: 'License: Open Data Commons Attribution License v1.0'. The licence text (LICENSE.txt in the stress download; the same text on PhysioNet's view-license page) grants in 3.1 use 'explicitly' including commercial use, and in 3.1(e) distribution of the whole or part, including Derivative Databases; 4.3 says a Produced Work used publicly (a paper, its figures and tables) must carry a notice that the content came from the Database and is available under this License, which the paper's Data and code availability section gives.",
+   "citation": "Hongn, A., Bosch, F., Prado, L., and Bonomini, P. (2025). Wearable Device Dataset from Induced Stress and Structured Exercise Sessions (version 1.0.1). PhysioNet. https://doi.org/10.13026/he0v-tf17",
+   "files": {
+    "wearable-device-dataset-1.0.1.zip": "afbff3e8e7230bdc765d0ccfc5c3460964021cdfefa8e351f8ad8f78a1b27c48"
+   }
+  },
+  {
+   "key": "ppg",
+   "dataset": "PPG-DaLiA",
+   "creators": "A. Reiss, I. Indlekofer, P. Schmidt",
+   "doi": "10.24432/C53890",
+   "landing_url": "https://archive.ics.uci.edu/dataset/495/ppg+dalia",
+   "licence": "CC-BY-4.0",
+   "licence_name": "CC BY 4.0 (Creative Commons Attribution 4.0 International)",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+   "licence_check": {
+    "url": "https://archive.ics.uci.edu/dataset/495/ppg+dalia",
+    "ok": true,
+    "found": "sed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license. This allows for the sharing and adaptation of the"
+   },
+   "licence_curated": "Read 2026-11-06 on the landing page by np_pipeline.core._licence_on_page: 'This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license. This allows for the sharing and adaptation of the datasets for any purpose, provided that the appropriate credit is given.'",
+   "citation": "Reiss, A., Indlekofer, I., and Schmidt, P. (2019). PPG-DaLiA [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C53890",
+   "files": {
+    "ppg_dalia.zip": "5772387956e34e2e2dc4c2ddbeb98cb70569d5112fa4c13ee98a17680b84a1f3"
+   }
+  },
+  {
+   "key": "eeg",
+   "dataset": "EEG Motor Movement/Imagery Dataset",
+   "creators": "G. Schalk",
+   "doi": "10.13026/C28G6P",
+   "landing_url": "https://physionet.org/content/eegmmidb/1.0.0/",
+   "licence": "ODC-By-1.0",
+   "licence_name": "Open Data Commons Attribution License v1.0 (ODC-By 1.0)",
+   "licence_url": "https://opendatacommons.org/licenses/by/1-0/",
+   "licence_check": {
+    "url": "https://physionet.org/content/eegmmidb/1.0.0/",
+    "ok": true,
+    "found": "they conform to the terms of the specified license. License Open Data Commons Attribution License v1.0 Discovery DOI (v1.0.0) 10.13026/C28G6P Topics eeg neuroelec"
+   },
+   "licence_curated": "Read 2026-11-06 on the landing page (version 1.0.0) by np_pipeline.core._licence_on_page: 'License: Open Data Commons Attribution License v1.0'. The licence text (LICENSE.txt in the stress download; the same text on PhysioNet's view-license page) grants in 3.1 use 'explicitly' including commercial use, and in 3.1(e) distribution of the whole or part, including Derivative Databases; 4.3 says a Produced Work used publicly (a paper, its figures and tables) must carry a notice that the content came from the Database and is available under this License, which the paper's Data and code availability section gives.",
+   "citation": "Schalk, G. (2009). EEG Motor Movement/Imagery Dataset (version 1.0.0). PhysioNet. https://doi.org/10.13026/C28G6P",
+   "files": {
+    "eegmmidb-1.0.0.zip": "0ff5f7f38d1d14b8e485581ad4cf5b327e6494bc2ac7c7d7d4f7e9518a950cbe"
+   }
+  }
+ ],
+ "files": {
+  "emg/emg_data_for_gestures.zip": "e82247b6478e5a1c5ad621c1f2cc1bb878547c51f01f4e6226abb2a4819ce4ee",
+  "stress/wearable-device-dataset-1.0.1.zip": "afbff3e8e7230bdc765d0ccfc5c3460964021cdfefa8e351f8ad8f78a1b27c48",
+  "ppg/ppg_dalia.zip": "5772387956e34e2e2dc4c2ddbeb98cb70569d5112fa4c13ee98a17680b84a1f3",
+  "eeg/eegmmidb-1.0.0.zip": "0ff5f7f38d1d14b8e485581ad4cf5b327e6494bc2ac7c7d7d4f7e9518a950cbe"
+ },
+ "fetched": "2026-11-07T01:00:52-0800"
+}

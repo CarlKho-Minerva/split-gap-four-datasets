@@ -1,0 +1,27 @@
+{
+ "key": "hongn2025wearable",
+ "record": {
+  "source": "crossref",
+  "id": "10.1038/s41597-025-04845-9",
+  "doi": "10.1038/s41597-025-04845-9",
+  "title": "Wearable Physiological Signals under Acute Stress and Exercise Conditions",
+  "authors": [
+   "Andrea Hongn",
+   "Facundo Bosch",
+   "Lara Eleonora Prado",
+   "Jos\u00e9 Manuel Ferr\u00e1ndez",
+   "Mar\u00eda Paula Bonomini"
+  ],
+  "year": 2025,
+  "abstract": "",
+  "venue": "Scientific Data",
+  "type": "journal-article",
+  "volume": "12",
+  "issue": "1",
+  "pages": null,
+  "publisher": "Springer Science and Business Media LLC",
+  "url": "https://doi.org/10.1038/s41597-025-04845-9"
+ },
+ "fetched": "2026-11-07T01:05:16-0800",
+ "sha256": "08c28655a0d8051ac62f74cfe72e17b9fa96cefc039a81cb3ffb2699beb5afb9"
+}

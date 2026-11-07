@@ -1,0 +1,27 @@
+{
+ "key": "lobov2018latent",
+ "record": {
+  "source": "crossref",
+  "id": "10.3390/s18041122",
+  "doi": "10.3390/s18041122",
+  "title": "Latent Factors Limiting the Performance of sEMG-Interfaces",
+  "authors": [
+   "Sergey Lobov",
+   "Nadia Krilova",
+   "Innokentiy Kastalskiy",
+   "Victor Kazantsev",
+   "Valeri Makarov"
+  ],
+  "year": 2018,
+  "abstract": "Recent advances in recording and real-time analysis of surface electromyographic signals (sEMG) have fostered the use of sEMG human\u2013machine interfaces for controlling personal computers, prostheses of upper limbs, and exoskeletons among others. Despite a relatively high mean performance, sEMG-interfaces still exhibit strong variance in the fidelity of gesture recognition among different users. Here, we systematically study the latent factors determining the performance of sEMG-interfaces in synthetic tests and in an arcade game. We show that the degree of muscle cooperation and the amount of the body fatty tissue are the decisive factors in synthetic tests. Our data suggest that these factors can only be adjusted by long-term training, which promotes fine-tuning of low-level neural circuits driving the muscles. Short-term training has no effect on synthetic tests, but significantly increases the game scoring. This implies that it works at a higher decision-making level, not relevant for synthetic gestures. We propose a procedure that enables quantification of the gestures\u2019 fidelity in a dynamic gaming environment. For each individual subject, the approach allows identifying \u201cproblematic\u201d gestures that decrease gaming performance. This information can be used for optimizing the training strategy and for adapting the signal processing algorithms to individual users, which could be a way for a qualitative leap in the development of future sEMG-interfaces.",
+  "venue": "Sensors",
+  "type": "journal-article",
+  "volume": "18",
+  "issue": "4",
+  "pages": "1122",
+  "publisher": "MDPI AG",
+  "url": "https://doi.org/10.3390/s18041122"
+ },
+ "fetched": "2026-11-07T01:04:51-0800",
+ "sha256": "df82381db80c8c7e8c99e332bc5992d2c2c2d5bf1889b9a3d149d559cc096d1e"
+}

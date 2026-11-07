@@ -1,0 +1,31 @@
+{
+ "key": "pollard2026physionet",
+ "record": {
+  "source": "crossref",
+  "id": "10.1038/s44360-026-00096-z",
+  "doi": "10.1038/s44360-026-00096-z",
+  "title": "PhysioNet as a global platform for biomedical research",
+  "authors": [
+   "Tom Pollard",
+   "Benjamin E. Moody",
+   "Li-wei H. Lehman",
+   "Brian J. Gow",
+   "Chrystinne Fernandes",
+   "Chen Xie",
+   "Alistair Johnson",
+   "Roger G. Mark",
+   "Thomas Heldt"
+  ],
+  "year": 2026,
+  "abstract": "",
+  "venue": "Nature Health",
+  "type": "journal-article",
+  "volume": "1",
+  "issue": "8",
+  "pages": "792-795",
+  "publisher": "Springer Science and Business Media LLC",
+  "url": "https://doi.org/10.1038/s44360-026-00096-z"
+ },
+ "fetched": "2026-11-07T13:23:03-0800",
+ "sha256": "6e1036e33bef945b31186392009232edf05869aa440b844c4572a93076d4a6aa"
+}

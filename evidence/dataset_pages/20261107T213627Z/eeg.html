@@ -1,0 +1,1753 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>EEG Motor Movement/Imagery Dataset v1.0.0</title>
+    
+  <!-- wfdb-python: <p>Version: 1.0.0</p> -->
+  
+    <meta name="description" content="EEG recordings obtained from 109 volunteers.">
+  
+  
+    <meta name="citation_title" content="EEG Motor Movement/Imagery Dataset">
+
+  <meta name="citation_author" content="Schalk, Gerwin">
+
+<meta name="citation_publication_date" content="2009/9/9">
+
+  <meta name="citation_doi" content="10.13026/C28G6P">
+
+<meta name="citation_technical_report_institution" content="PhysioNet">
+
+  
+
+    
+<link rel="stylesheet" type="text/css" href="/static/bootstrap/css/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="/static/font-awesome/css/all.css"/>
+<link rel="stylesheet" type="text/css" href="/static/custom/css/physionet.css?v=2"/>
+    
+  <link rel="stylesheet" type="text/css" href="/static/project/css/project-content.css?v=3"/>
+  <link rel="stylesheet" type="text/css" href="/static/highlight/css/default.min.css"/>
+
+    
+<script src="/static/jquery/jquery.min.js"></script>
+<script src="/static/popper/popper.min.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87592301-7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-87592301-7');
+</script>
+    
+  <script src="/static/mathjax/MathJax.js?config=MML_HTMLorMML"></script>
+  <script src="/static/highlight/js/highlight.min.js"></script>
+  <script src="/static/custom/js/copy-to-clipboard.js"></script>
+
+    <link rel="shortcut icon" type="image/png" href="/static/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/bootstrap/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="/static/fonts/inter-local.css">
+    <link rel="stylesheet" type="text/css" href="/static/custom/css/style.css?v=2">
+  </head>
+
+  
+  <body class="modern-ui flexbody">
+    
+
+
+
+
+<div class="modern-ui nav-wrapper">
+  <nav class="nav">
+    <div class="container my-0 h-100 d-flex justify-content-between align-items-center">
+      <button type="button" class="nav__hamburger circle-button mr-2"
+              popovertarget="nav__hamburger_popup"
+              title="Menu">
+        <i class="nav__hamburger__list bi bi-list"></i>
+        <i class="nav__hamburger__x bi bi-x"></i>
+        <span class="visually-hidden">Menu</span>
+      </button>
+      <a href="/">
+        
+          <img src="/static/images/physionet-logo.svg" width="200px" alt="PhysioNet">
+        
+      </a>
+      <div class="nav__links align-items-center">
+        
+          
+            <a href="/about/publish/" class="nav-link">Share</a>
+          
+        
+          
+            <a href="/about/" class="nav-link">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <a href="/about/faqs/" class="nav-link">FAQs</a>
+          
+        
+          
+        
+          
+        
+
+        <div>
+          <button type="button" class="nav-link nav-link--expandable"
+                  popovertarget="nav__explore_popup">
+            Explore <i class="bi bi-chevron-down ml-2"></i>
+          </button>
+          <dialog class="nav-link__popup" id="nav__explore_popup" popover
+                  aria-label="Explore">
+            <div class="nav-sublinks">
+              
+                <a class="nav-sublink" href="/about/database/">
+                  <div class="nav-sublink__icon">
+                    
+                      <img src="/static/images/icons/data.png" alt="" height="32px">
+                    
+                  </div>
+                  <div class="nav-sublink__text">
+                    <span class="nav-sublink__title">Data</span>
+                    <span class="nav-sublink__description">View datasets</span>
+                  </div>
+                </a>
+              
+                <a class="nav-sublink" href="/about/software/">
+                  <div class="nav-sublink__icon">
+                    
+                      <img src="/static/images/icons/software.png" alt="" height="32px">
+                    
+                  </div>
+                  <div class="nav-sublink__text">
+                    <span class="nav-sublink__title">Software</span>
+                    <span class="nav-sublink__description">View software</span>
+                  </div>
+                </a>
+              
+                <a class="nav-sublink" href="/about/challenge/">
+                  <div class="nav-sublink__icon">
+                    
+                      <img src="/static/images/icons/challenges.png" alt="" height="32px">
+                    
+                  </div>
+                  <div class="nav-sublink__text">
+                    <span class="nav-sublink__title">Challenges</span>
+                    <span class="nav-sublink__description">View challenges</span>
+                  </div>
+                </a>
+              
+                <a class="nav-sublink" href="/about/tutorial/">
+                  <div class="nav-sublink__icon">
+                    
+                      <img src="/static/images/icons/tutorials.png" alt="" height="32px">
+                    
+                  </div>
+                  <div class="nav-sublink__text">
+                    <span class="nav-sublink__title">Tutorials</span>
+                    <span class="nav-sublink__description">View tutorials</span>
+                  </div>
+                </a>
+              
+              </div>
+          </dialog>
+        </div>
+      </div>
+      <div class="nav__actions d-flex ml-md-4">
+        <form action="/content/" class="mr-2">
+          <div class="nav__search">
+            <input type="text" name="topic" placeholder="Search for anything...">
+            <div class="nav__search__actions">
+              <button type="button" class="nav__search__close mr-2"
+                      title="Cancel">
+                <i class="bi bi-x"></i>
+                <span class="visually-hidden">Cancel</span>
+              </button>
+              <button type="submit" class="circle-button">Search</button>
+            </div>
+          </div>
+        </form>
+        <button type="button" class="nav__search__open circle-button mr-md-2"
+                title="Search PhysioNet">
+          <i class="bi bi-search"></i>
+          <span class="visually-hidden">Search PhysioNet</span>
+        </button>
+        
+          <a class="nav__user" href="/login/"
+             title="Log in">
+            <i class="bi bi-person"></i>
+            <span class="visually-hidden">Log in</span>
+          </a>
+        
+      </div>
+    </div>
+
+    <dialog class="nav__mobile" id="nav__hamburger_popup" popover
+            aria-label="Menu">
+      
+        
+          <a href="/about/publish/" class="nav-link">Share</a>
+        
+      
+        
+          <a href="/about/" class="nav-link">About</a>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <a href="/about/faqs/" class="nav-link">FAQs</a>
+        
+      
+        
+      
+        
+      
+      <hr>
+      <div class="nav-sublinks">
+        
+          <a class="nav-sublink" href="/about/database/">
+            <div class="nav-sublink__icon">
+              
+                <img src="/static/images/icons/data.png" alt="" height="32px">
+              
+              </div>
+            <div class="nav-sublink__text">
+              <span class="nav-sublink__title">Data</span>
+              <span class="nav-sublink__description">View datasets</span>
+            </div>
+          </a>
+        
+          <a class="nav-sublink" href="/about/software/">
+            <div class="nav-sublink__icon">
+              
+                <img src="/static/images/icons/software.png" alt="" height="32px">
+              
+              </div>
+            <div class="nav-sublink__text">
+              <span class="nav-sublink__title">Software</span>
+              <span class="nav-sublink__description">View software</span>
+            </div>
+          </a>
+        
+          <a class="nav-sublink" href="/about/challenge/">
+            <div class="nav-sublink__icon">
+              
+                <img src="/static/images/icons/challenges.png" alt="" height="32px">
+              
+              </div>
+            <div class="nav-sublink__text">
+              <span class="nav-sublink__title">Challenges</span>
+              <span class="nav-sublink__description">View challenges</span>
+            </div>
+          </a>
+        
+          <a class="nav-sublink" href="/about/tutorial/">
+            <div class="nav-sublink__icon">
+              
+                <img src="/static/images/icons/tutorials.png" alt="" height="32px">
+              
+              </div>
+            <div class="nav-sublink__text">
+              <span class="nav-sublink__title">Tutorials</span>
+              <span class="nav-sublink__description">View tutorials</span>
+            </div>
+          </a>
+        
+      </div>
+    </dialog>
+  </nav>
+</div>
+
+    <div class="nav-spacer"></div>
+
+    <main>
+  <div class="container">
+    
+
+    <div class="project-header">
+      <div class="mb-2">
+        <span class="badge badge-dark"><i class="fa fa-database"></i> Database</span>
+        <span class="badge badge-success"><i class="fas fa-lock-open"></i> Open Access</span>
+        <a href="/content/eegmmidb/metrics/1.0.0/" class="badge badge-dataset-index" title="Dataset Index (2026) from Scholar Data"><span class="badge-dataset-index-label"><i class="fas fa-chart-line"></i> Dataset Index</span><span class="badge-dataset-index-value">9</span></a>
+      </div>
+      <h1>EEG Motor Movement/Imagery Dataset</h1>
+      <p class="project-authors">
+        
+          <button type="button" class="author-popover-trigger" data-toggle="popover" data-placement="bottom" data-html="true" data-content="&lt;p&gt;&lt;strong&gt;Affiliations&lt;/strong&gt;&lt;br&gt;Wadsworth Center, New York State Department of Health, Albany, NY 12201-0509, USA&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Profile&lt;/strong&gt;&lt;br&gt;&lt;a href=&quot;/users/gschalk/&quot; target=&quot;_blank&quot;&gt;gschalk&lt;/a&gt;&lt;/p&gt;" aria-label="Gerwin Schalk: show author information" aria-expanded="false">Gerwin Schalk<i class="fas fa-caret-down" aria-hidden="true"></i></button>
+        
+      </p>
+      <div class="project-meta">
+        <span>Published Sept. 9, 2009</span>
+        <span class="project-meta-sep">&middot;</span>
+        <span>Version 1.0.0</span>
+      </div>
+    </div>
+
+    
+
+    
+
+    <!-- Latest news and announcements -->
+    
+      <div class="alert alert-primary" role="alert">
+        
+        
+          <p>
+            <strong>EEG Motor Movement/Imagery Dataset</strong>
+            <em>(Sept. 9, 2009, midnight)</em>
+            <p><a href="https://doi.org/10.13026/C28G6P">A set of 64-channel EEGs</a> from subjects who performed a series of motor/imagery tasks has been contributed to PhysioNet by the developers of the <a href="http://www.bci2000.org/">BCI2000</a> instrumentation system for brain-computer interface research.</p>
+            
+          </p>
+          
+          
+      </div>
+    
+
+    <div class="row">
+      <!-- Main column -->
+      <div class="col-md-8">
+        
+        
+        
+          <div class="citation-box">
+
+  
+    <div class="citation-section">
+      <span class="citation-label">When using this resource, please cite:</span>
+      <span class="citation-actions">
+        <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#citationModal" title="View citation formats"><i class="bi bi-quote"></i> Cite</button>
+        
+          <button type="button" class="btn btn-sm btn-outline-secondary ml-1 btn-copy-bibtex" title="Copy BibTeX" data-clipboard-target="bibtex-data"><i class="bi bi-clipboard"></i> Copy BibTeX</button>
+        
+      </span>
+      <p class="citation-text">Schalk, G. (2009). EEG Motor Movement/Imagery Dataset (version 1.0.0). <i>PhysioNet</i>. RRID:SCR_007345. <a href="https://doi.org/10.13026/C28G6P" rel="nofollow">https://doi.org/10.13026/C28G6P</a></p>
+      <textarea id="bibtex-data" style="display:none;">@article{PhysioNet-eegmmidb-1.0.0,
+  author = {Schalk, Gerwin},
+  title = {{EEG Motor Movement/Imagery Dataset}},
+  journal = {{PhysioNet}},
+  year = {2009},
+  month = sep,
+  note = {Version 1.0.0},
+  doi = {10.13026/C28G6P},
+  url = {https://doi.org/10.13026/C28G6P}
+}</textarea>
+    </div>
+
+    <div class="modal fade" id="citationModal">
+  <div class="modal-dialog citation" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+    <table><tbody>
+      
+        
+        <tr>
+          <th>MLA</th>
+          <td>Schalk, Gerwin. "EEG Motor Movement/Imagery Dataset" (version 1.0.0). <i>PhysioNet</i> (2009). RRID:SCR_007345. <a href="https://doi.org/10.13026/C28G6P" rel="nofollow">https://doi.org/10.13026/C28G6P</a></td>
+        </tr>
+        
+      
+        
+        <tr>
+          <th>APA</th>
+          <td>Schalk, G. (2009). EEG Motor Movement/Imagery Dataset (version 1.0.0). <i>PhysioNet</i>. RRID:SCR_007345. <a href="https://doi.org/10.13026/C28G6P" rel="nofollow">https://doi.org/10.13026/C28G6P</a></td>
+        </tr>
+        
+      
+        
+        <tr>
+          <th>Chicago</th>
+          <td>Schalk, Gerwin. "EEG Motor Movement/Imagery Dataset" (version 1.0.0). <i>PhysioNet</i> (2009). RRID:SCR_007345. <a href="https://doi.org/10.13026/C28G6P" rel="nofollow">https://doi.org/10.13026/C28G6P</a></td>
+        </tr>
+        
+      
+        
+        <tr>
+          <th>Harvard</th>
+          <td>Schalk, G. (2009) 'EEG Motor Movement/Imagery Dataset' (version 1.0.0), <i>PhysioNet</i>. RRID:SCR_007345. Available at: <a href="https://doi.org/10.13026/C28G6P" rel="nofollow">https://doi.org/10.13026/C28G6P</a></td>
+        </tr>
+        
+      
+        
+        <tr>
+          <th>Vancouver</th>
+          <td>Schalk G. EEG Motor Movement/Imagery Dataset (version 1.0.0). PhysioNet. 2009. RRID:SCR_007345. Available from: <a href="https://doi.org/10.13026/C28G6P" rel="nofollow">https://doi.org/10.13026/C28G6P</a></td>
+        </tr>
+        
+      
+        
+      
+    </tbody></table>
+    
+    <div class="mt-3">
+      <strong>BibTeX</strong>
+      <button class="btn btn-sm btn-outline-secondary ml-2 btn-copy-bibtex btn-copy-bibtex-modal" data-clipboard-target="bibtex-data">Copy</button>
+      <pre class="mt-2 p-2 border rounded" style="white-space: pre-wrap; background-color: #f8f9fa;">@article{PhysioNet-eegmmidb-1.0.0,
+  author = {Schalk, Gerwin},
+  title = {{EEG Motor Movement/Imagery Dataset}},
+  journal = {{PhysioNet}},
+  year = {2009},
+  month = sep,
+  note = {Version 1.0.0},
+  doi = {10.13026/C28G6P},
+  url = {https://doi.org/10.13026/C28G6P}
+}</pre>
+    </div>
+    
+          </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+  
+    <div class="citation-section">
+      <span class="citation-label">Additionally, please cite the original publication:</span>
+      <p class="citation-text">Schalk, G., McFarland, D.J., Hinterberger, T., Birbaumer, N., Wolpaw, J.R. BCI2000: A General-Purpose Brain-Computer Interface (BCI) System. IEEE Transactions on Biomedical Engineering 51(6):1034-1043, 2004. <a href="http://www.ncbi.nlm.nih.gov/pubmed/15188875" rel="nofollow">http://www.ncbi.nlm.nih.gov/pubmed/15188875</a></p>
+    </div>
+  
+
+  
+    <div class="citation-section">
+      <span class="citation-label">Please include the standard citation for PhysioNet:</span>
+      <span class="citation-actions">
+        <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal" data-target="#citationModalPlatform" title="View citation formats"><i class="bi bi-quote"></i> Cite</button>
+        
+          <button type="button" class="btn btn-sm btn-outline-secondary ml-1 btn-copy-bibtex" title="Copy BibTeX" data-clipboard-target="bibtex-data-platform"><i class="bi bi-clipboard"></i> Copy BibTeX</button>
+        
+      </span>
+      <p class="citation-text">Pollard, T., Moody, B. E., Lehman, L., Gow, B., Fernandes, C., Xie, C., Johnson, A., Mark, R. G., &amp; Heldt, T. (2026). PhysioNet as a global platform for biomedical research. Nature Health. <a href="https://doi.org/10.1038/s44360-026-00096-z" rel="nofollow">https://doi.org/10.1038/s44360-026-00096-z</a>. Available from: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13641116/" rel="nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC13641116/</a></p>
+      <textarea id="bibtex-data-platform" style="display:none;">@article{pollard_physionet_2026, title = {{PhysioNet} as a global platform for biomedical research}, volume = {1}, issn = {3005-0693}, url = {https://doi.org/10.1038/s44360-026-00096-z}, doi = {10.1038/s44360-026-00096-z}, abstract = {Twenty-five years after its first public repository was established, the PhysioNet resource for biomedical and clinical data has enabled tens of thousands of research papers. Further efforts are ongoing to advance secure data sharing, community engagement and scalable research infrastructure.}, number = {8}, journal = {Nature Health}, author = {Pollard, Tom and Moody, Benjamin E. and Lehman, Li-wei H. and Gow, Brian J. and Fernandes, Chrystinne and Xie, Chen and Johnson, Alistair and Mark, Roger G. and Heldt, Thomas}, month = aug, year = {2026}, pages = {792--795},}</textarea>
+    </div>
+  
+
+  <div class="modal fade" id="citationModalPlatform">
+  <div class="modal-dialog citation" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+  <table><tbody>
+    
+      
+        <tr>
+          <th>APA</th>
+          <td>Pollard, T., Moody, B. E., Lehman, L., Gow, B., Fernandes, C., Xie, C., Johnson, A., Mark, R. G., &amp; Heldt, T. (2026). PhysioNet as a global platform for biomedical research. Nature Health. <a href="https://doi.org/10.1038/s44360-026-00096-z" rel="nofollow">https://doi.org/10.1038/s44360-026-00096-z</a>. Available from: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13641116/" rel="nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC13641116/</a></td>
+        </tr>
+      
+    
+      
+        <tr>
+          <th>MLA</th>
+          <td>Pollard, Tom, et al. “PhysioNet as a Global Platform for Biomedical Research.” Nature Health, 2026, <a href="https://doi.org/10.1038/s44360-026-00096-z" rel="nofollow">https://doi.org/10.1038/s44360-026-00096-z</a>. Available from: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13641116/" rel="nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC13641116/</a></td>
+        </tr>
+      
+    
+      
+        <tr>
+          <th>CHICAGO</th>
+          <td>Pollard, Tom, Benjamin E. Moody, Li-wei Lehman, Brian Gow, Chrystinne Fernandes, Chen Xie, Alistair Johnson, Roger G. Mark, and Thomas Heldt. “PhysioNet as a Global Platform for Biomedical Research.” Nature Health (2026). <a href="https://doi.org/10.1038/s44360-026-00096-z.i" rel="nofollow">https://doi.org/10.1038/s44360-026-00096-z.i</a> Available from: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13641116/" rel="nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC13641116/</a></td>
+        </tr>
+      
+    
+      
+        <tr>
+          <th>HARVARD</th>
+          <td>Pollard, T., Moody, B.E., Lehman, L., Gow, B., Fernandes, C., Xie, C., Johnson, A., Mark, R.G. and Heldt, T., 2026. PhysioNet as a global platform for biomedical research. Nature Health. Available at: <a href="https://doi.org/10.1038/s44360-026-00096-z" rel="nofollow">https://doi.org/10.1038/s44360-026-00096-z</a>. Available from: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13641116/" rel="nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC13641116/</a></td>
+        </tr>
+      
+    
+      
+        <tr>
+          <th>VANCOUVER</th>
+          <td>Pollard T, Moody BE, Lehman L, Gow B, Fernandes C, Xie C, et al. PhysioNet as a global platform for biomedical research. Nature Health. 2026. doi:10.1038/s44360-026-00096-z. Available from: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13641116/" rel="nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC13641116/</a></td>
+        </tr>
+      
+    
+      
+    
+  </tbody></table>
+  
+  <div class="mt-3">
+    <strong>BibTeX</strong>
+    <button class="btn btn-sm btn-outline-secondary ml-2 btn-copy-bibtex btn-copy-bibtex-modal" data-clipboard-target="bibtex-data-platform">Copy</button>
+    <pre class="mt-2 p-2 border rounded" style="white-space: pre-wrap; background-color: #f8f9fa;">@article{pollard_physionet_2026, title = {{PhysioNet} as a global platform for biomedical research}, volume = {1}, issn = {3005-0693}, url = {https://doi.org/10.1038/s44360-026-00096-z}, doi = {10.1038/s44360-026-00096-z}, abstract = {Twenty-five years after its first public repository was established, the PhysioNet resource for biomedical and clinical data has enabled tens of thousands of research papers. Further efforts are ongoing to advance secure data sharing, community engagement and scalable research infrastructure.}, number = {8}, journal = {Nature Health}, author = {Pollard, Tom and Moody, Benjamin E. and Lehman, Li-wei H. and Gow, Brian J. and Fernandes, Chrystinne and Xie, Chen and Johnson, Alistair and Mark, Roger G. and Heldt, Thomas}, month = aug, year = {2026}, pages = {792--795},}</pre>
+  </div>
+  
+        </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+        
+        
+          
+
+  
+    <h2 id="abstract">Abstract</h2>
+    The EEG Motor Movement/Imagery Dataset provides 64-channel electroencephalography recordings collected with the BCI2000 system during real and imagined motor tasks. Participants completed 14 experimental runs, including two one-minute baseline recordings with eyes open and eyes closed, followed by three repetitions of four two-minute task conditions. These conditions involved either executing or imagining unilateral fist movements in response to left/right visual targets, or executing or imagining bilateral fist or foot movements in response to top/bottom visual targets. EEG signals were recorded according to the international 10-10 electrode placement system at a sampling rate of 160 Hz and are provided in EDF+ format with accompanying annotation channels. Event labels identify rest periods and task onsets using three codes: T0 for rest, T1 for left-fist or both-fists movement/imagery depending on the run type, and T2 for right-fist or both-feet movement/imagery. The dataset supports research in brain-computer interfaces, motor imagery classification, movement-related EEG dynamics, and the development of signal-processing and machine-learning methods for neural decoding.
+    <hr>
+  
+
+  
+    <h2 id="background">Background</h2>
+    The EEG Motor Movement/Imagery Dataset was developed to support research on brain-computer interfaces, motor execution, and motor imagery using electroencephalography. The dataset contains EEG recordings collected while subjects performed or imagined specific motor actions in response to visual targets. Because the protocol includes both actual movement and imagined movement conditions, the dataset is useful for studying movement-related EEG activity and for developing algorithms that distinguish rest, motor execution, and motor imagery states.
+    <hr>
+  
+
+  
+    <h2 id="methods">Methods</h2>
+    EEG data were recorded using the BCI2000 system from 64 scalp electrodes arranged according to the international 10-10 system. Each subject completed 14 experimental runs. The first two runs were one-minute baseline recordings, one with eyes open and one with eyes closed. The remaining 12 runs consisted of three repetitions of four two-minute task conditions.
+
+In the unilateral fist tasks, a visual target appeared on either the left or right side of the screen. Depending on the task, the subject either opened and closed the corresponding fist or imagined doing so until the target disappeared, after which the subject relaxed. In the bilateral hand/foot tasks, a visual target appeared at the top or bottom of the screen. Depending on the task, the subject either opened and closed both fists for a top target or both feet for a bottom target, or imagined performing those actions, until the target disappeared, followed by relaxation.
+    <hr>
+  
+
+  
+    <h2 id="description">Data Description</h2>
+    <p>The data are provided in EDF+ format. Each recording contains 64 EEG signals sampled at 160 samples per second, along with an annotation channel. For compatibility with PhysioToolkit software, a corresponding PhysioNet-compatible <code>.event</code> annotation file was also generated for each recording. The  <code>.event</code> files and the annotation channels in the EDF+ files contain identical annotation information.</p>
+
+<p>Annotations use three event codes. <code>T0</code> corresponds to rest. <code>T1</code> corresponds to the onset of left-fist movement or imagery in unilateral fist runs, and to both-fists movement or imagery in bilateral hand/foot runs. T2 corresponds to the onset of right-fist movement or imagery in unilateral fist runs, and to both-feet movement or imagery in bilateral hand/foot runs. In BCI2000-format versions of the data, these labels correspond to values 0, 1, and 2 in the  <code>TargetCode</code> state variable.</p>
+
+<p>The EEG montage includes 64 electrodes from the international 10-10 system, excluding Nz, F9, F10, FT9, FT10, A1, A2, TP9, TP10, P9, and P10. Signal indices in the recordings are numbered from 0 to 63, while the associated montage figure numbers electrodes from 1 to 64.</p>
+    <hr>
+  
+
+  
+    <h2 id="usage-notes">Usage Notes</h2>
+    <p>Users should interpret the event labels in the context of the specific run. The meanings of T1 and T2 differ between unilateral fist runs and bilateral hand/foot runs: in some runs they indicate left- or right-fist events, while in others they indicate both-fists or both-feet events. Analyses should therefore map event codes to task labels using the run number.</p></p>
+
+<p>The baseline recordings provide eyes-open and eyes-closed resting EEG data and should be treated separately from the motor execution and imagery task runs. The dataset may be used for classification of motor imagery, comparison of executed versus imagined movement, analysis of rest versus task-related EEG activity, and evaluation of signal-processing methods for EEG-based brain-computer interfaces.</p>
+
+<p>Care should be taken when working with channel labels and electrode indices, since the signal numbering in the records begins at 0, whereas the montage figure uses numbering from 1 to 64.</p>
+    <hr>
+  
+
+  
+
+  
+
+  
+    <h2 id="acknowledgements">Acknowledgements</h2>
+    <p>This dataset was created and contributed to PhysioNet by Gerwin Schalk and colleagues at the BCI R&D Program, Wadsworth Center, New York State Department of Health, Albany, New York. W. A. Sarnacki collected the data. Aditya Joshi compiled the dataset and prepared the documentation. D. J. McFarland was responsible for the experimental design, and J. R. Wolpaw provided project oversight. The work was supported by NIH/NIBIB grants EB006356 and EB00856.</p>
+    <hr>
+  
+
+  
+
+
+
+
+        
+        
+  <h2 id="cited-by">Cited by</h2>
+  <p>
+    22 publications cite this project.
+    The most recent are listed below.
+  </p>
+  
+<ul class="list-unstyled citing-works">
+  
+    <li class="mb-3">
+      <a href="https://doi.org/10.5281/zenodo.23891615" rel="noopener">NeuroControl in Metasiberia: Experimental Integration of EEG, Motor Imagery Classification, and Virtual Avatar Control</a><br>
+      <small class="text-muted">
+        Shipilov Denis.
+        <em>Zenodo (CERN European Organization for Nuclear Research)</em>,
+        2026.
+        
+      </small>
+    </li>
+  
+    <li class="mb-3">
+      <a href="https://doi.org/10.5281/zenodo.23589121" rel="noopener">Ocular-correlated signals and decision rules in DTW decoding of motor-imagery EEG: code and results</a><br>
+      <small class="text-muted">
+        Abzal E. Kyzyrkanov, Zharasbek D. Baishemirov, Toleuov Zh. Timur et al.
+        <em>Zenodo (CERN European Organization for Nuclear Research)</em>,
+        2026.
+        
+      </small>
+    </li>
+  
+    <li class="mb-3">
+      <a href="https://doi.org/10.5281/zenodo.23135692" rel="noopener">Code and results for: Evaluation Bias in Cross-Context Generalization of EEG-Based Affective Computing: A Simulation Study</a><br>
+      <small class="text-muted">
+        Morteza Fani Tazekandkahlan, Sina Samadi Gharehveran, Kimia Shirini.
+        <em>Zenodo (CERN European Organization for Nuclear Research)</em>,
+        2026.
+        
+      </small>
+    </li>
+  
+    <li class="mb-3">
+      <a href="https://doi.org/10.1088/1741-2552/aeab36" rel="noopener">Diff-ADN: a diffusion-guided artifact denoising network with deterministic residual refinement for EEG</a><br>
+      <small class="text-muted">
+        Mudasir Jamil, Muhammad Zulkifal Aziz, Binwen Huang et al.
+        <em>Journal of Neural Engineering</em>,
+        2026.
+        
+      </small>
+    </li>
+  
+    <li class="mb-3">
+      <a href="https://doi.org/10.1038/s41597-026-08165-4" rel="noopener">Dataset for Multiple Basketball Motor Observation and Motor Imagery Based on Functional Connectivity Analysis</a><br>
+      <small class="text-muted">
+        Jiaqi Wang, Ming Tang, Lingrong Jia et al.
+        <em>Scientific Data</em>,
+        2026.
+        
+      </small>
+    </li>
+  
+</ul>
+
+  <p>
+    <a href="/content/eegmmidb/citations/1.0.0/">View all 22 publications</a>
+  </p>
+  <p><small class="text-muted">Citation data from <a href="https://openalex.org" rel="noopener">OpenAlex</a>. Papers that use the project without citing it may be missing.</small></p>
+  <hr>
+
+
+        
+      </div>
+      <!-- /.main column -->
+
+      <!-- Sidebar Column -->
+      <div class="col-md-4">
+        
+        
+        
+        <div class="card mb-3">
+          <div class="card-body sidebar-info contents-nav">
+            <h6 class="sidebar-heading">Contents</h6>
+            <ul>
+              
+                
+                  <li><a href="#abstract" >Abstract</a></li>
+                
+              
+                
+                  <li><a href="#background" >Background</a></li>
+                
+              
+                
+                  <li><a href="#methods" >Methods</a></li>
+                
+              
+                
+                  <li><a href="#description" >Data Description</a></li>
+                
+              
+                
+                  <li><a href="#usage-notes" >Usage Notes</a></li>
+                
+              
+                
+              
+                
+              
+                
+                  <li><a href="#acknowledgements" >Acknowledgements</a></li>
+                
+              
+                
+              
+              
+              
+                <li><a href="#cited-by" >Cited by</a></li>
+              
+              <li><a href="#files" >Files</a></li>
+              
+            </ul>
+          </div>
+        </div>
+        
+
+        
+
+        <div class="card mb-3">
+          <div class="card-body sidebar-info">
+            <h6 class="sidebar-heading">Share</h6>
+            <div class="d-flex flex-wrap" style="gap: 8px;">
+              <a class="sharebtn"
+                href="mailto:?subject=EEG%20Motor%20Movement/Imagery%20Dataset&body=https://physionet.org/content/eegmmidb/1.0.0/"
+                title="Share with email"><i class="far fa-envelope"></i> Email</a>
+              <a class="sharebtn"
+                href="https://www.linkedin.com/shareArticle?url=https://physionet.org/content/eegmmidb/1.0.0/"
+                title="Share on LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+              <a class="sharebtn"
+                href="https://www.reddit.com/submit?url=https://physionet.org/content/eegmmidb/1.0.0/&title=EEG%20Motor%20Movement/Imagery%20Dataset"
+                title="Share on Reddit"><i class="fab fa-reddit"></i> Reddit</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3">
+          <div class="card-body sidebar-info">
+            <h6 class="sidebar-heading">Access</h6>
+            <dl class="sidebar-dl">
+              <dt>Access Policy</dt>
+              <dd>Anyone can access the files, as long as they conform to the terms of the specified license.</dd>
+              <dt>License</dt>
+              <dd><a href="/content/eegmmidb/view-license/1.0.0/">Open Data Commons Attribution License v1.0</a></dd>
+              
+              
+            </dl>
+          </div>
+        </div>
+
+        <div class="card mb-3">
+          <div class="card-body sidebar-info">
+            <h6 class="sidebar-heading">Discovery</h6>
+            <dl class="sidebar-dl">
+              
+              <dt>DOI (v1.0.0)</dt>
+              <dd><a href="https://doi.org/10.13026/C28G6P">10.13026/C28G6P</a></dd>
+              
+              
+              
+              
+              <dt>Topics</dt>
+              <dd><a href="/content/?topic=eeg"><span class="badge badge-pn">eeg</span></a> <a href="/content/?topic=neuroelectric"><span class="badge badge-pn">neuroelectric</span></a> <a href="/content/?topic=movement"><span class="badge badge-pn">movement</span></a> </dd>
+              
+              
+              <dt>Cited by</dt>
+              <dd><a href="/content/eegmmidb/citations/1.0.0/">22 publications</a></dd>
+              
+              
+            </dl>
+          </div>
+        </div>
+
+        <div class="card mb-3">
+          <div class="card-body sidebar-info">
+            <h6 class="sidebar-heading">Project Views</h6>
+            <dl class="sidebar-dl">
+              <dt>Current Version</dt>
+              <dd>971</dd>
+              <dt>All Versions</dt>
+              <dd>971</dd>
+            </dl>
+            <div class="mt-2">
+              <a href="/content/eegmmidb/metrics/1.0.0/" class="btn btn-sm btn-outline-secondary">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3">
+          <div class="card-body sidebar-info">
+            <h6 class="sidebar-heading">Corresponding Author</h6>
+            
+              <em>You must be logged in to view the contact information.</em>
+            
+          </div>
+        </div>
+
+        <div class="card mb-3">
+  <div class="card-body sidebar-info">
+    <h6 class="sidebar-heading">Versions</h6>
+    <ul class="list-group list-group-flush project-version-list">
+      
+        <li class="list-group-item px-0">
+          <a href="/content/eegmmidb/1.0.0/">
+            <span class="project-version">1.0.0</span>
+            <time datetime="2009-09-09">
+              Sept. 9, 2009
+            </time>
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+</div>
+
+      </div>
+      <!-- /.sidebar -->
+    </div>
+    <h2 id="files">Files</h2>
+    
+      
+        
+          
+            <p>Total uncompressed size: 3.4 GB.</p>
+          
+        
+        <h5>Access the files</h5>
+        
+
+        <ul>
+          
+            <li><a href="/content/eegmmidb/get-zip/1.0.0/">Download
+              the ZIP file</a> (1.9 GB)
+            </li>
+          
+          
+            
+          
+           
+
+          
+            
+              <li>
+                Download with the <a href="https://github.com/MIT-LCP/physionet#installation">PhysioNet Python package</a>:
+                <pre class="shell-command">physionet download eegmmidb --version 1.0.0</pre>
+                
+              </li>
+            
+            <li>
+              Download the files using your terminal:
+              <pre class="shell-command">wget -r -N -c -np https://physionet.org/files/eegmmidb/1.0.0/</pre>
+            </li>
+          
+
+          
+            
+              <li>
+                Download the files using AWS command line tools:
+                <pre class="shell-command">aws s3 sync --no-sign-request s3://physionet-open/eegmmidb/1.0.0/ DESTINATION</pre>
+              </li>
+            
+          
+
+        </ul>
+        
+
+        
+          
+            <p><a href="/lightwave/?db=eegmmidb/1.0.0"><i
+              class="fas fa-chart-line"></i> Visualize waveforms</a></p>
+          
+        
+
+        <div id="files-panel" class="card">
+          
+<div class="card-header"
+     data-dfp-panel-url="/content/eegmmidb/files-panel/1.0.0/"
+     data-dfp-cur-dir="">
+  Folder Navigation:
+  <span class="dir-breadcrumbs"><span class="dir-breadcrumb-self">&lt;base&gt;</span></span>
+</div>
+
+  
+<table class="files-panel">
+  <col class="files-panel-name"></col>
+  <col class="files-panel-size"></col>
+  <col class="files-panel-date"></col>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Size</th>
+      <th>Modified</th>
+    </tr>
+  </thead>
+  <tbody>
+  
+  
+    <tr class="subdir">
+      <td><a href="S001/#files-panel" data-dfp-dir="S001">S001</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S002/#files-panel" data-dfp-dir="S002">S002</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S003/#files-panel" data-dfp-dir="S003">S003</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S004/#files-panel" data-dfp-dir="S004">S004</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S005/#files-panel" data-dfp-dir="S005">S005</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S006/#files-panel" data-dfp-dir="S006">S006</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S007/#files-panel" data-dfp-dir="S007">S007</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S008/#files-panel" data-dfp-dir="S008">S008</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S009/#files-panel" data-dfp-dir="S009">S009</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S010/#files-panel" data-dfp-dir="S010">S010</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S011/#files-panel" data-dfp-dir="S011">S011</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S012/#files-panel" data-dfp-dir="S012">S012</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S013/#files-panel" data-dfp-dir="S013">S013</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S014/#files-panel" data-dfp-dir="S014">S014</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S015/#files-panel" data-dfp-dir="S015">S015</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S016/#files-panel" data-dfp-dir="S016">S016</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S017/#files-panel" data-dfp-dir="S017">S017</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S018/#files-panel" data-dfp-dir="S018">S018</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S019/#files-panel" data-dfp-dir="S019">S019</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S020/#files-panel" data-dfp-dir="S020">S020</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S021/#files-panel" data-dfp-dir="S021">S021</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S022/#files-panel" data-dfp-dir="S022">S022</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S023/#files-panel" data-dfp-dir="S023">S023</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S024/#files-panel" data-dfp-dir="S024">S024</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S025/#files-panel" data-dfp-dir="S025">S025</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S026/#files-panel" data-dfp-dir="S026">S026</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S027/#files-panel" data-dfp-dir="S027">S027</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S028/#files-panel" data-dfp-dir="S028">S028</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S029/#files-panel" data-dfp-dir="S029">S029</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S030/#files-panel" data-dfp-dir="S030">S030</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S031/#files-panel" data-dfp-dir="S031">S031</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S032/#files-panel" data-dfp-dir="S032">S032</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S033/#files-panel" data-dfp-dir="S033">S033</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S034/#files-panel" data-dfp-dir="S034">S034</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S035/#files-panel" data-dfp-dir="S035">S035</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S036/#files-panel" data-dfp-dir="S036">S036</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S037/#files-panel" data-dfp-dir="S037">S037</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S038/#files-panel" data-dfp-dir="S038">S038</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S039/#files-panel" data-dfp-dir="S039">S039</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S040/#files-panel" data-dfp-dir="S040">S040</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S041/#files-panel" data-dfp-dir="S041">S041</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S042/#files-panel" data-dfp-dir="S042">S042</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S043/#files-panel" data-dfp-dir="S043">S043</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S044/#files-panel" data-dfp-dir="S044">S044</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S045/#files-panel" data-dfp-dir="S045">S045</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S046/#files-panel" data-dfp-dir="S046">S046</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S047/#files-panel" data-dfp-dir="S047">S047</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S048/#files-panel" data-dfp-dir="S048">S048</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S049/#files-panel" data-dfp-dir="S049">S049</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S050/#files-panel" data-dfp-dir="S050">S050</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S051/#files-panel" data-dfp-dir="S051">S051</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S052/#files-panel" data-dfp-dir="S052">S052</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S053/#files-panel" data-dfp-dir="S053">S053</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S054/#files-panel" data-dfp-dir="S054">S054</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S055/#files-panel" data-dfp-dir="S055">S055</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S056/#files-panel" data-dfp-dir="S056">S056</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S057/#files-panel" data-dfp-dir="S057">S057</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S058/#files-panel" data-dfp-dir="S058">S058</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S059/#files-panel" data-dfp-dir="S059">S059</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S060/#files-panel" data-dfp-dir="S060">S060</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S061/#files-panel" data-dfp-dir="S061">S061</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S062/#files-panel" data-dfp-dir="S062">S062</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S063/#files-panel" data-dfp-dir="S063">S063</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S064/#files-panel" data-dfp-dir="S064">S064</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S065/#files-panel" data-dfp-dir="S065">S065</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S066/#files-panel" data-dfp-dir="S066">S066</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S067/#files-panel" data-dfp-dir="S067">S067</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S068/#files-panel" data-dfp-dir="S068">S068</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S069/#files-panel" data-dfp-dir="S069">S069</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S070/#files-panel" data-dfp-dir="S070">S070</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S071/#files-panel" data-dfp-dir="S071">S071</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S072/#files-panel" data-dfp-dir="S072">S072</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S073/#files-panel" data-dfp-dir="S073">S073</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S074/#files-panel" data-dfp-dir="S074">S074</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S075/#files-panel" data-dfp-dir="S075">S075</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S076/#files-panel" data-dfp-dir="S076">S076</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S077/#files-panel" data-dfp-dir="S077">S077</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S078/#files-panel" data-dfp-dir="S078">S078</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S079/#files-panel" data-dfp-dir="S079">S079</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S080/#files-panel" data-dfp-dir="S080">S080</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S081/#files-panel" data-dfp-dir="S081">S081</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S082/#files-panel" data-dfp-dir="S082">S082</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S083/#files-panel" data-dfp-dir="S083">S083</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S084/#files-panel" data-dfp-dir="S084">S084</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S085/#files-panel" data-dfp-dir="S085">S085</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S086/#files-panel" data-dfp-dir="S086">S086</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S087/#files-panel" data-dfp-dir="S087">S087</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S088/#files-panel" data-dfp-dir="S088">S088</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S089/#files-panel" data-dfp-dir="S089">S089</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S090/#files-panel" data-dfp-dir="S090">S090</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S091/#files-panel" data-dfp-dir="S091">S091</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S092/#files-panel" data-dfp-dir="S092">S092</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S093/#files-panel" data-dfp-dir="S093">S093</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S094/#files-panel" data-dfp-dir="S094">S094</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S095/#files-panel" data-dfp-dir="S095">S095</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S096/#files-panel" data-dfp-dir="S096">S096</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S097/#files-panel" data-dfp-dir="S097">S097</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S098/#files-panel" data-dfp-dir="S098">S098</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S099/#files-panel" data-dfp-dir="S099">S099</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S100/#files-panel" data-dfp-dir="S100">S100</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S101/#files-panel" data-dfp-dir="S101">S101</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S102/#files-panel" data-dfp-dir="S102">S102</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S103/#files-panel" data-dfp-dir="S103">S103</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S104/#files-panel" data-dfp-dir="S104">S104</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S105/#files-panel" data-dfp-dir="S105">S105</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S106/#files-panel" data-dfp-dir="S106">S106</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S107/#files-panel" data-dfp-dir="S107">S107</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S108/#files-panel" data-dfp-dir="S108">S108</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+    <tr class="subdir">
+      <td><a href="S109/#files-panel" data-dfp-dir="S109">S109</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+  
+  
+    <tr>
+      <td><a href="64_channel_sharbrough-old.png">64_channel_sharbrough-old.png</a>
+        <a class="download" href="/files/eegmmidb/1.0.0/64_channel_sharbrough-old.png?download"
+           title="Download 64_channel_sharbrough-old.png">
+          <span class="visually-hidden">(download)</span>
+        </a>
+      </td>
+      <td>56.1 KB</td>
+      <td>2009-08-28</td>
+    </tr>
+  
+    <tr>
+      <td><a href="64_channel_sharbrough.pdf">64_channel_sharbrough.pdf</a>
+        <a class="download" href="/files/eegmmidb/1.0.0/64_channel_sharbrough.pdf?download"
+           title="Download 64_channel_sharbrough.pdf">
+          <span class="visually-hidden">(download)</span>
+        </a>
+      </td>
+      <td>16.9 KB</td>
+      <td>2009-08-28</td>
+    </tr>
+  
+    <tr>
+      <td><a href="64_channel_sharbrough.png">64_channel_sharbrough.png</a>
+        <a class="download" href="/files/eegmmidb/1.0.0/64_channel_sharbrough.png?download"
+           title="Download 64_channel_sharbrough.png">
+          <span class="visually-hidden">(download)</span>
+        </a>
+      </td>
+      <td>61.8 KB</td>
+      <td>2015-08-19</td>
+    </tr>
+  
+    <tr>
+      <td><a href="ANNOTATORS">ANNOTATORS</a>
+        <a class="download" href="/files/eegmmidb/1.0.0/ANNOTATORS?download"
+           title="Download ANNOTATORS">
+          <span class="visually-hidden">(download)</span>
+        </a>
+      </td>
+      <td>24 B</td>
+      <td>2009-08-28</td>
+    </tr>
+  
+    <tr>
+      <td><a href="RECORDS">RECORDS</a>
+        <a class="download" href="/files/eegmmidb/1.0.0/RECORDS?download"
+           title="Download RECORDS">
+          <span class="visually-hidden">(download)</span>
+        </a>
+      </td>
+      <td>25.3 KB</td>
+      <td>2016-04-19</td>
+    </tr>
+  
+    <tr>
+      <td><a href="SHA256SUMS.txt">SHA256SUMS.txt</a>
+        <a class="download" href="/files/eegmmidb/1.0.0/SHA256SUMS.txt?download"
+           title="Download SHA256SUMS.txt">
+          <span class="visually-hidden">(download)</span>
+        </a>
+      </td>
+      <td>253.8 KB</td>
+      <td>2019-02-20</td>
+    </tr>
+  
+    <tr>
+      <td><a href="wfdbcal">wfdbcal</a>
+        <a class="download" href="/files/eegmmidb/1.0.0/wfdbcal?download"
+           title="Download wfdbcal">
+          <span class="visually-hidden">(download)</span>
+        </a>
+      </td>
+      <td>1.6 KB</td>
+      <td>2009-08-06</td>
+    </tr>
+  
+  </tbody>
+</table>
+
+
+        </div>
+      
+
+      
+    
+    <br>
+    
+</div>
+
+
+
+</main>
+
+    
+<link rel="stylesheet" type="text/css" href="/static/custom/css/footer.css"/>
+
+<div class="modern-ui">
+  <footer class="footer w-100 secondary-bg py-5">
+    <div class="container my-0 py-0 py-md-5">
+      
+        <img src="/static/images/physionet-logo-white.svg" width="180px" alt="PhysioNet" class="pb-2" />
+      
+      <div class="footer__columns light-text">
+        <div>
+          
+            <p class="dark-light-text mb-2">Maintained by the MIT Laboratory for Computational Physiology</p>
+          
+          
+            <p class="dark-light-text mb-2">Supported by the National Institute of Biomedical Imaging and Bioengineering (NIBIB), National Heart Lung and Blood Institute (NHLBI), and NIH Office of the Director under NIH grant numbers U24EB037545 and R01EB030362</p>
+          
+        </div>
+        <div class="d-flex flex-column pl-0 pl-md-5 pt-4 pt-md-0">
+          <h2 class="text-white font-weight-bold">Navigation</h2>
+          <a href="/content" class="pb-3 dark-light-text">Discover Data</a>
+          <a href="/about/publish" class="pb-3 dark-light-text">Share Data</a>
+          <a href="/about" class="pb-3 dark-light-text">About</a>
+          <a href="/news" class="pb-3 dark-light-text">News</a>
+        </div>
+        <div class="d-flex flex-column pt-4 pt-md-0">
+          <h2 class="text-white font-weight-bold">Explore</h2>
+          
+            <a href="/about/database/" class="pb-3 dark-light-text">Data</a>
+          
+            <a href="/about/software/" class="pb-3 dark-light-text">Software</a>
+          
+            <a href="/about/challenge/" class="pb-3 dark-light-text">Challenges</a>
+          
+            <a href="/about/tutorial/" class="pb-3 dark-light-text">Tutorials</a>
+          
+        </div>
+        <!-- <div class="d-flex flex-column flex-grow">
+          <h2 class="text-white font-weight-bold">Subscribe to our Newsletter</h2>
+          <input type="email" class="form-control mb-2" placeholder="Your email">
+          <button type="button" class="primary-button">Subscribe Now</button>
+        </div> -->
+      </div>
+      <hr >
+      <div class="d-flex flex-column align-items-center justify-content-between flex-md-row">
+        <div class="d-flex pt-2 pt-md-0">
+          
+            <a class="mr-3" href="https://github.com/MIT-LCP/physionet-build/"><img src="/static/images/icons/github.png" height="18px"></a>
+          
+          
+          
+            <a class="mr-3" href="http://linkedin.com/company/physionet"><img src="/static/images/icons/linkedin.png" height="18px"></a>
+          
+          
+        </div>
+        <div class="pt-4 pt-md-0">
+          
+          
+          
+             <a class="dark-light-text" href="https://accessibility.mit.edu/">Accessibility</a>
+          
+        </div>
+      </div>
+      
+      <p class="footer__software-credit dark-light-text text-center mt-4 mb-0">
+        Built with <a class="dark-light-text" href="https://github.com/MIT-LCP/physionet-build">PhysioNet software</a>
+        from the MIT Laboratory for Computational Physiology, supported by NIH grant U24EB037545.
+      </p>
+    </div>
+  </footer>
+</div>
+
+
+    
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+<script src="/static/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+<script src="/static/custom/js/navbar.js"></script>
+
+    
+  <script src="/static/project/js/dynamic-files-panel.js"></script>
+  <script src="/static/custom/js/enable-popover.js?v=3"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+    
+  <!-- https://schema.org/ metadata for discovery -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Dataset",
+  "name": "EEG Motor Movement/Imagery Dataset",
+  "description": "The EEG Motor Movement/Imagery Dataset provides 64\u002Dchannel electroencephalography recordings collected with the BCI2000 system during real and imagined motor tasks. Participants completed 14 experimental runs, including two one\u002Dminute baseline recordings with eyes open and eyes closed, followed by three repetitions of four two\u002Dminute task conditions. These conditions involved either executing or imagining unilateral fist movements in response to left/right visual targets, or executing or imagining bilateral fist or foot movements in response to top/bottom visual targets. EEG signals were recorded according to the international 10\u002D10 electrode placement system at a sampling rate of 160 Hz and are provided in EDF+ format with accompanying annotation channels. Event labels identify rest periods and task onsets using three codes: T0 for rest, T1 for left\u002Dfist or both\u002Dfists movement/imagery depending on the run type, and T2 for right\u002Dfist or both\u002Dfeet movement/imagery. The dataset supports research in brain\u002Dcomputer interfaces, motor imagery classification, movement\u002Drelated EEG dynamics, and the development of signal\u002Dprocessing and machine\u002Dlearning methods for neural decoding.",
+  "version": "1.0.0",
+  "license": "https://opendatacommons.org/licenses/by/index.html",
+  "datePublished" : "Sept. 9, 2009",
+  "url": "https://physionet.org/content/eegmmidb/1.0.0/",
+  
+  "identifier": "https://doi.org/10.13026/C28G6P",
+  
+  
+  
+  "creator": [
+  
+    {
+      "@type": "Person",
+      "givenName": "Gerwin",
+      "familyName": "Schalk",
+      "name": "Gerwin Schalk"
+    }
+  
+    ],
+  "includedInDataCatalog":{
+     "@type": "DataCatalog",
+     "name": "physionet.org"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://physionet.org/content/eegmmidb/1.0.0/#files"
+    }
+  ]
+}
+</script>
+
+  </body>
+  
+</html>

@@ -1,0 +1,8 @@
+{
+ "python": "3.14.8",
+ "implementation": "CPython",
+ "machine": "arm64",
+ "system": "Darwin",
+ "release": "25.5.0",
+ "mac_os": "26.5"
+}

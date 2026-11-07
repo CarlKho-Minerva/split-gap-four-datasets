@@ -1,0 +1,205 @@
+{
+ "kit": {
+  "ink": "#1A1A1A",
+  "muted": "#555555",
+  "rule": "#777777",
+  "band": "#EEEEEE"
+ },
+ "figures": {
+  "fig_central": {
+   "file": "paper/fig_central.pdf",
+   "surface": "#FFFFFF",
+   "series": [
+    "#0072B2",
+    "#D55E00",
+    "#009E73"
+   ],
+   "neutral": [
+    "#777777",
+    "#EEEEEE",
+    "#1A1A1A"
+   ],
+   "colour_scales": [],
+   "text": [
+    {
+     "text": "Muscle signals\nGestures",
+     "colour": "#1A1A1A",
+     "role": "title",
+     "panel": "Muscle signals\nGestures"
+    },
+    {
+     "text": "Accuracy gap\n(percentage points)",
+     "colour": "#1A1A1A",
+     "role": "axis label"
+    },
+    {
+     "text": "0",
+     "colour": "#1A1A1A",
+     "role": "tick label"
+    },
+    {
+     "text": "25",
+     "colour": "#1A1A1A",
+     "role": "tick label"
+    },
+    {
+     "text": "50",
+     "colour": "#1A1A1A",
+     "role": "tick label"
+    },
+    {
+     "text": "New person",
+     "colour": "#1A1A1A",
+     "role": "tick label"
+    },
+    {
+     "text": "Other recording",
+     "colour": "#1A1A1A",
+     "role": "tick label"
+    },
+    {
+     "text": "Wrist signals\nSessions",
+     "colour": "#1A1A1A",
+     "role": "title",
+     "panel": "Wrist signals\nSessions"
+    },
+    {
+     "text": "Accuracy gap\n(percentage points)",
+     "colour": "#1A1A1A",
+     "role": "axis label"
+    },
+    {
+     "text": "0",
+     "colour": "#1A1A1A",
+     "role": "tick label"
+    },
+    {
+     "text": "25",
+     "colour": "#1A1A1A",
+     "role": "tick label"
+    },
+    {
+     "text": "50",
+     "colour": "#1A1A1A",
+     "role": "tick label"
+    },
+    {
+     "text": "No repeat\nrecording",
+     "colour": "#555555",
+     "role": "label",
+     "panel": "Wrist signals\nSessions"
+    },
+    {
+     "text": "Wrist signals\nActivities",
+     "colour": "#1A1A1A",
+     "role": "title",
+     "panel": "Wrist signals\nActivities"
+    },
+    {
+     "text": "Accuracy gap\n(percentage points)",
+     "colour": "#1A1A1A",
+     "role": "axis label"
+    },
+    {
+     "text": "0",
+     "colour": "#1A1A1A",
+     "role": "tick label"
+    },
+    {
+     "text": "25",
+     "colour": "#1A1A1A",
+     "role": "tick label"
+    },
+    {
+     "text": "50",
+     "colour": "#1A1A1A",
+     "role": "tick label"
+    },
+    {
+     "text": "No repeat\nrecording",
+     "colour": "#555555",
+     "role": "label",
+     "panel": "Wrist signals\nActivities"
+    },
+    {
+     "text": "Scalp signals\nImagined movements",
+     "colour": "#1A1A1A",
+     "role": "title",
+     "panel": "Scalp signals\nImagined movements"
+    },
+    {
+     "text": "Accuracy gap\n(percentage points)",
+     "colour": "#1A1A1A",
+     "role": "axis label"
+    },
+    {
+     "text": "0",
+     "colour": "#1A1A1A",
+     "role": "tick label"
+    },
+    {
+     "text": "25",
+     "colour": "#1A1A1A",
+     "role": "tick label"
+    },
+    {
+     "text": "50",
+     "colour": "#1A1A1A",
+     "role": "tick label"
+    }
+   ],
+   "axes": [
+    {
+     "title": "Muscle signals\nGestures",
+     "xlabel": "Accuracy gap\n(percentage points)",
+     "ylabel": "",
+     "has_data": true,
+     "position": [
+      0.15,
+      0.25,
+      0.1779,
+      0.55
+     ]
+    },
+    {
+     "title": "Wrist signals\nSessions",
+     "xlabel": "Accuracy gap\n(percentage points)",
+     "ylabel": "",
+     "has_data": true,
+     "position": [
+      0.3724,
+      0.25,
+      0.1779,
+      0.55
+     ]
+    },
+    {
+     "title": "Wrist signals\nActivities",
+     "xlabel": "Accuracy gap\n(percentage points)",
+     "ylabel": "",
+     "has_data": true,
+     "position": [
+      0.5947,
+      0.25,
+      0.1779,
+      0.55
+     ]
+    },
+    {
+     "title": "Scalp signals\nImagined movements",
+     "xlabel": "Accuracy gap\n(percentage points)",
+     "ylabel": "",
+     "has_data": true,
+     "position": [
+      0.8171,
+      0.25,
+      0.1779,
+      0.55
+     ]
+    }
+   ],
+   "dual_axes": [],
+   "overlaps": []
+  }
+ }
+}

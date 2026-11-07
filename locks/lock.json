@@ -1,0 +1,8 @@
+{
+ "locked": "2026-11-07T01:07:07-0800",
+ "commit": "e2d0a55af9f6b9f19549a0f3cdb2d4a87dd68bd2",
+ "sha256": {
+  "prereg.md": "476b6b4e93ae5c1f9ee10c9c54175a49f1c2261b88a460067f55d6438c11ae5a",
+  "analysis/config.json": "01f858298bc45281f11a4eeadcfef445a00ff066b2a7d1f5c4c90fa545a7b34b"
+ }
+}

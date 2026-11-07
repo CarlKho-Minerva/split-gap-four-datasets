@@ -1,0 +1,27 @@
+{
+ "key": "schalk2004bci2000",
+ "record": {
+  "source": "crossref",
+  "id": "10.1109/tbme.2004.827072",
+  "doi": "10.1109/tbme.2004.827072",
+  "title": "BCI2000: A General-Purpose Brain-Computer Interface (BCI) System",
+  "authors": [
+   "G. Schalk",
+   "D.J. McFarland",
+   "T. Hinterberger",
+   "N. Birbaumer",
+   "J.R. Wolpaw"
+  ],
+  "year": 2004,
+  "abstract": "",
+  "venue": "IEEE Transactions on Biomedical Engineering",
+  "type": "journal-article",
+  "volume": "51",
+  "issue": "6",
+  "pages": "1034-1043",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "url": "https://doi.org/10.1109/tbme.2004.827072"
+ },
+ "fetched": "2026-11-07T01:04:53-0800",
+ "sha256": "f38cb8d89fc49b49e4e95c0da0e910aa274685830773913b7f69482e4e7042a9"
+}

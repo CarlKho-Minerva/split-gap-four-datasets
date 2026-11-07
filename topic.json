@@ -1,0 +1,140 @@
+{
+ "rank": 1,
+ "id": "split-gap-four-datasets",
+ "tier": "low-hanging",
+ "field": "evaluation methods for body-signal classifiers (sEMG, wrist physiology, EEG)",
+ "needs_gpu": false,
+ "title": "How much do random window splits inflate accuracy across four open biosignal datasets?",
+ "question": "On four open datasets that cover four kinds of body signal (armband EMG gestures, wrist recordings of stress and exercise sessions, wrist recordings of daily activities, and EEG during imagined hand movement), how many percentage points higher is classification accuracy when overlapping analysis windows are split at random than when the model is tested on another recording of the same person, and than when it is tested on a person it never saw? Each dataset is tested on every split it allows: all three for the EMG and EEG sets; random and new person only for the stress and PPG-DaLiA sets, where a person has one recording per label (each dataset's `splits` says why).",
+ "why_publishable": "The pilot (card 1, emg-split-leakage) measured this gap on one dataset, and its moderator-reviewer judged one dataset too narrow for an arXiv slot. Asking the same pre-registered question once across four datasets, four signal types and 15 to 109 people per set gives a general answer: whether the random split's advantage appears for every signal, and how large it is for each. One pre-registration, one analysis script, one central figure with the four datasets side by side, one windowing rule (each dataset's window length from its own convention, the same overlap for all, no window crossing a label change) and the same classifiers on simple per-window features (the pilot's nearest-neighbour model, with a linear discriminant as a check). A gap is the random-split accuracy minus the held-out accuracy on the same test windows, averaged over participants, with a participant-level bootstrap interval adjusted for the six comparisons (two each for EMG and EEG, one each for stress and PPG-DaLiA). No gap means the whole interval lies within plus or minus 2 percentage points (a margin fixed in config.json before any model is trained); a gap means the whole interval lies above plus 2 points; anything else is inconclusive. Each accuracy is reported next to its chance level, because the tasks have two to eight classes, and the four gaps are never averaged into one number. This is one question asked once, not four papers: no per-dataset version may follow, and the later cards on these datasets (wrist-stress-vs-exercise, ppg-motion-shortcut, mi-below-chance) ask different questions. The literature search must find the closest earlier measurements of evaluation leakage in EMG, wearable and EEG work and say what this adds; if a multi-dataset measurement of the same gaps already exists, abandon. Any statement about how common random splits are in the literature needs a citation or must be dropped. Short methods note (eess.SP, cross-list cs.LG).",
+ "categories": [
+  "eess.SP",
+  "cs.LG"
+ ],
+ "dataset": [
+  {
+   "key": "emg",
+   "name": "EMG Data for Gestures",
+   "creators": "N. Krilova, I. Kastalskiy, V. Kazantsev, V. A. Makarov, S. Lobov",
+   "doi": "10.24432/C5ZP5C",
+   "landing_url": "https://archive.ics.uci.edu/dataset/481/emg+data+for+gestures",
+   "licence": "CC-BY-4.0",
+   "licence_name": "CC BY 4.0 (Creative Commons Attribution 4.0 International)",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+   "licence_needles": [
+    "CC BY 4.0",
+    "Creative Commons Attribution 4.0"
+   ],
+   "licence_curated": "Read 2026-11-06 on the landing page by np_pipeline.core._licence_on_page: 'This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license. This allows for the sharing and adaptation of the datasets for any purpose, provided that the appropriate credit is given.'",
+   "citation": "Krilova, N., Kastalskiy, I., Kazantsev, V., Makarov, V., and Lobov, S. (2018). EMG Data for Gestures [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5ZP5C",
+   "task": "Which of six gestures (codes 1 to 6) a window shows, from the 8 armband channels. Code 7 was not performed by everyone and code 0 is unmarked data; both are excluded, as in the pilot.",
+   "splits": {
+    "random_windows": "yes",
+    "other_recording": "yes: series 1 against series 2 of the same person, recorded the same day one to three minutes apart (from the 72 file names)",
+    "new_person": "yes: 36 people"
+   },
+   "size": "17.7 MB zip (17,699,840 bytes), 36 people, 72 recordings; byte-identical to the pilot's 2026-11-04 download",
+   "files": [
+    {
+     "name": "emg_data_for_gestures.zip",
+     "url": "https://archive.ics.uci.edu/static/public/481/emg+data+for+gestures.zip",
+     "bytes": 17699840,
+     "sha256": "e82247b6478e5a1c5ad621c1f2cc1bb878547c51f01f4e6226abb2a4819ce4ee"
+    }
+   ]
+  },
+  {
+   "key": "stress",
+   "name": "Wearable Device Dataset from Induced Stress and Structured Exercise Sessions",
+   "creators": "A. Hongn, F. Bosch, L. Prado, P. Bonomini",
+   "doi": "10.13026/he0v-tf17",
+   "landing_url": "https://physionet.org/content/wearable-device-dataset/1.0.1/",
+   "licence": "ODC-By-1.0",
+   "licence_name": "Open Data Commons Attribution License v1.0 (ODC-By 1.0)",
+   "licence_url": "https://opendatacommons.org/licenses/by/1-0/",
+   "licence_needles": [
+    "Open Data Commons Attribution License v1.0"
+   ],
+   "licence_curated": "Read 2026-11-06 on the landing page (version 1.0.1) by np_pipeline.core._licence_on_page: 'License: Open Data Commons Attribution License v1.0'. The licence text (LICENSE.txt in the stress download; the same text on PhysioNet's view-license page) grants in 3.1 use 'explicitly' including commercial use, and in 3.1(e) distribution of the whole or part, including Derivative Databases; 4.3 says a Produced Work used publicly (a paper, its figures and tables) must carry a notice that the content came from the Database and is available under this License, which the paper's Data and code availability section gives.",
+   "citation": "Hongn, A., Bosch, F., Prado, L., and Bonomini, P. (2025). Wearable Device Dataset from Induced Stress and Structured Exercise Sessions (version 1.0.1). PhysioNet. https://doi.org/10.13026/he0v-tf17",
+   "descriptor_paper": "Hongn et al., Scientific Data 12, 2025, doi:10.1038/s41597-025-04845-9",
+   "task": "Which of the three sessions (stress, aerobic exercise, anaerobic exercise) a window comes from, from the Empatica E4 wristband's motion (ACC, 32 Hz), pulse (BVP, 64 Hz), skin conductance (EDA, 4 Hz) and skin temperature (TEMP, 4 Hz). data_constraints.txt lists ten problems (duplicated signals in S02 stress, a covered pulse and temperature sensor in f07 stress, early stops, S12 with no aerobic session, recordings split in two such as S11_a and S11_b); the plan says how each is handled before the lock.",
+   "splits": {
+    "random_windows": "yes",
+    "other_recording": "no: each person's stress, aerobic and anaerobic sessions are separate recordings with one label each, so no second recording of a person shares a label",
+    "new_person": "yes: 36 people (S01 to S18, f01 to f18); 31 also have exercise sessions (f14 to f18 did only the stress session). The same folder name is the same person in all three sessions (subject-info.csv)."
+   },
+   "size": "73.1 MB zip (73,121,143 bytes), 259 MB unpacked, 708 files; all 708 matched PhysioNet's SHA256SUMS.txt on 2026-11-06",
+   "files": [
+    {
+     "name": "wearable-device-dataset-1.0.1.zip",
+     "url": "https://physionet.org/content/wearable-device-dataset/get-zip/1.0.1/",
+     "bytes": 73121143,
+     "sha256": "afbff3e8e7230bdc765d0ccfc5c3460964021cdfefa8e351f8ad8f78a1b27c48"
+    }
+   ]
+  },
+  {
+   "key": "ppg",
+   "name": "PPG-DaLiA",
+   "creators": "A. Reiss, I. Indlekofer, P. Schmidt",
+   "doi": "10.24432/C53890",
+   "landing_url": "https://archive.ics.uci.edu/dataset/495/ppg+dalia",
+   "licence": "CC-BY-4.0",
+   "licence_name": "CC BY 4.0 (Creative Commons Attribution 4.0 International)",
+   "licence_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+   "licence_needles": [
+    "CC BY 4.0",
+    "Creative Commons Attribution 4.0"
+   ],
+   "licence_curated": "Read 2026-11-06 on the landing page by np_pipeline.core._licence_on_page: 'This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license. This allows for the sharing and adaptation of the datasets for any purpose, provided that the appropriate credit is given.'",
+   "citation": "Reiss, A., Indlekofer, I., and Schmidt, P. (2019). PPG-DaLiA [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C53890",
+   "descriptor_paper": "Reiss, Indlekofer, Schmidt and Van Laerhoven, Sensors 19(14):3079, 2019, doi:10.3390/s19143079",
+   "task": "Which of the eight protocol activities (sitting, stairs, table soccer, cycling, driving, lunch, walking, working) a window comes from, from the wrist device only (Empatica E4: motion 32 Hz, pulse 64 Hz, skin conductance and temperature 4 Hz). Transient periods between activities are labelled separately and excluded.",
+   "splits": {
+    "random_windows": "yes",
+    "other_recording": "no: one continuous session per person (more than 36 hours across 15 people)",
+    "new_person": "yes: 15 people. S6 lacks about the last hour of the protocol (Reiss et al. 2019)."
+   },
+   "notes": "The download is a zip holding data.zip (2,864,337,783 bytes, stored uncompressed) and readme.pdf; read the readme (pdftotext) before the plan. The wrist device was synchronised to the chest device by hand (a double-tap gesture), so use the synchronised per-person files the readme describes rather than re-aligning raw files. If those are Python pickles, load them only with a restricted unpickler that admits numpy array classes and nothing else: a plain pickle.load can run code stored in the file. Only the wrist signals are needed; hold one person's data in memory at a time.",
+   "size": "2.87 GB (data.zip 2,864,337,783 bytes plus readme.pdf 798.6 KB). UCI sends no length header and ignores range requests, so the exact size and sha256 are recorded at the first fetch.",
+   "files": [
+    {
+     "name": "ppg_dalia.zip",
+     "url": "https://archive.ics.uci.edu/static/public/495/ppg+dalia.zip"
+    }
+   ]
+  },
+  {
+   "key": "eeg",
+   "name": "EEG Motor Movement/Imagery Dataset",
+   "creators": "G. Schalk",
+   "doi": "10.13026/C28G6P",
+   "landing_url": "https://physionet.org/content/eegmmidb/1.0.0/",
+   "licence": "ODC-By-1.0",
+   "licence_name": "Open Data Commons Attribution License v1.0 (ODC-By 1.0)",
+   "licence_url": "https://opendatacommons.org/licenses/by/1-0/",
+   "licence_needles": [
+    "Open Data Commons Attribution License v1.0"
+   ],
+   "licence_curated": "Read 2026-11-06 on the landing page (version 1.0.0) by np_pipeline.core._licence_on_page: 'License: Open Data Commons Attribution License v1.0'. The licence text (LICENSE.txt in the stress download; the same text on PhysioNet's view-license page) grants in 3.1 use 'explicitly' including commercial use, and in 3.1(e) distribution of the whole or part, including Derivative Databases; 4.3 says a Produced Work used publicly (a paper, its figures and tables) must carry a notice that the content came from the Database and is available under this License, which the paper's Data and code availability section gives.",
+   "citation": "Schalk, G. (2009). EEG Motor Movement/Imagery Dataset (version 1.0.0). PhysioNet. https://doi.org/10.13026/C28G6P",
+   "descriptor_paper": "Schalk, McFarland, Hinterberger, Birbaumer and Wolpaw, IEEE Trans. Biomed. Eng. 51(6):1034-1043, 2004, doi:10.1109/TBME.2004.827072",
+   "task": "Imagined left against right fist (event codes T1 and T2 in runs 4, 8 and 12, the left/right imagery runs; T0 rest excluded), from 64 EEG channels at 160 Hz. Each EDF+ file carries its own annotation channel ('EDF Annotations'; S001 run 4 has 15 imagery trials of about 4.1 s, 8 left and 7 right). No EDF library is installed: read the files with numpy (a 256-byte header, 256 bytes per signal, then 16-bit data records). Recordings whose header is not 160 Hz, or whose trials differ from the protocol, are excluded and named in the plan after the headers are read, before the lock.",
+   "splits": {
+    "random_windows": "yes",
+    "other_recording": "yes: the third imagery run of a person after training on the other two; the three runs were recorded in one sitting, so this is another run, not another day",
+    "new_person": "yes: 109 people before exclusions"
+   },
+   "size": "2.00 GB zip (1,997,435,063 bytes), 3.6 GB unpacked, 3,059 files. Only the 327 imagery-run EDF files (runs 4, 8 and 12; 834 MB unpacked) are analysed.",
+   "files": [
+    {
+     "name": "eegmmidb-1.0.0.zip",
+     "url": "https://physionet.org/content/eegmmidb/get-zip/1.0.0/",
+     "bytes": 1997435063
+    }
+   ]
+  }
+ ],
+ "ready": true
+}

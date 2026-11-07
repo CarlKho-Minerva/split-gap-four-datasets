@@ -1,0 +1,977 @@
+{
+ "numbers": {
+  "emgN": {
+   "value": 36.0,
+   "fmt": "int",
+   "text": "36",
+   "desc": "emg: eligible participants"
+  },
+  "emgClasses": {
+   "value": 6.0,
+   "fmt": "int",
+   "text": "6",
+   "desc": "emg: eligible task classes"
+  },
+  "emgWindows": {
+   "value": 11103.0,
+   "fmt": "int",
+   "text": "11{,}103",
+   "desc": "emg: eligible windows before query split"
+  },
+  "emgFiles": {
+   "value": 72.0,
+   "fmt": "int",
+   "text": "72",
+   "desc": "emg: eligible raw recordings/files"
+  },
+  "emgDropped": {
+   "value": 0.0,
+   "fmt": "int",
+   "text": "0",
+   "desc": "emg: windows rejected for nonfinite raw samples"
+  },
+  "emgFeatures": {
+   "value": 32.0,
+   "fmt": "int",
+   "text": "32",
+   "desc": "emg: feature dimensions"
+  },
+  "emgQueries": {
+   "value": 3051.0,
+   "fmt": "int",
+   "text": "3{,}051",
+   "desc": "emg: query predictions per model/protocol summed over repeats; windows may recur across repeats"
+  },
+  "emgTrainMin": {
+   "value": 115.0,
+   "fmt": "int",
+   "text": "115",
+   "desc": "emg: smallest selected training-window count per participant/repeat/protocol"
+  },
+  "emgTrainMax": {
+   "value": 240.0,
+   "fmt": "int",
+   "text": "240",
+   "desc": "emg: largest selected training-window count per participant/repeat/protocol"
+  },
+  "emgChance": {
+   "value": 0.16666666666666666,
+   "fmt": "pct1",
+   "text": "16.7",
+   "desc": "emg: uniform random guess expected accuracy"
+  },
+  "emgMajority": {
+   "value": 0.1842270760992348,
+   "fmt": "pct1",
+   "text": "18.4",
+   "desc": "emg: participant-mean query-majority constant-class accuracy (descriptive, query-label oracle)"
+  },
+  "emgOverlap": {
+   "value": 0.6700584052524848,
+   "fmt": "pct1",
+   "text": "67.0",
+   "desc": "emg: descriptive query/raw-sample sharing proportion, nominal participant interval"
+  },
+  "emgOverlapLo": {
+   "value": 0.651528615727032,
+   "fmt": "pct1",
+   "text": "65.2",
+   "desc": "emg: descriptive query/raw-sample sharing proportion, nominal participant interval"
+  },
+  "emgOverlapHi": {
+   "value": 0.6889934061372478,
+   "fmt": "pct1",
+   "text": "68.9",
+   "desc": "emg: descriptive query/raw-sample sharing proportion, nominal participant interval"
+  },
+  "emgNnRandomAcc": {
+   "value": 0.9859028329072473,
+   "fmt": "pct1",
+   "text": "98.6",
+   "desc": "emg/Nn/Random: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "emgNnRandomLo": {
+   "value": 0.9778480362717671,
+   "fmt": "pct1",
+   "text": "97.8",
+   "desc": "emg/Nn/Random: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "emgNnRandomHi": {
+   "value": 0.9926958771220651,
+   "fmt": "pct1",
+   "text": "99.3",
+   "desc": "emg/Nn/Random: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "emgNnRecordingAcc": {
+   "value": 0.9372755877611133,
+   "fmt": "pct1",
+   "text": "93.7",
+   "desc": "emg/Nn/Recording: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "emgNnRecordingLo": {
+   "value": 0.9176085675409609,
+   "fmt": "pct1",
+   "text": "91.8",
+   "desc": "emg/Nn/Recording: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "emgNnRecordingHi": {
+   "value": 0.9550685373504271,
+   "fmt": "pct1",
+   "text": "95.5",
+   "desc": "emg/Nn/Recording: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "emgNnPersonAcc": {
+   "value": 0.7303655501527735,
+   "fmt": "pct1",
+   "text": "73.0",
+   "desc": "emg/Nn/Person: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "emgNnPersonLo": {
+   "value": 0.6865415620121398,
+   "fmt": "pct1",
+   "text": "68.7",
+   "desc": "emg/Nn/Person: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "emgNnPersonHi": {
+   "value": 0.7716737343093565,
+   "fmt": "pct1",
+   "text": "77.2",
+   "desc": "emg/Nn/Person: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "emgNnRecordingGap": {
+   "value": 0.04862724514613401,
+   "fmt": "pp1",
+   "text": "4.9",
+   "desc": "emg/Nn/Recording: random minus held-out accuracy, percentage points; Bonferroni-adjusted participant interval"
+  },
+  "emgNnRecordingGapLo": {
+   "value": 0.028526377933349105,
+   "fmt": "pp1",
+   "text": "2.9",
+   "desc": "emg/Nn/Recording: random minus held-out accuracy, percentage points; Bonferroni-adjusted participant interval"
+  },
+  "emgNnRecordingGapHi": {
+   "value": 0.07108109977780433,
+   "fmt": "pp1",
+   "text": "7.1",
+   "desc": "emg/Nn/Recording: random minus held-out accuracy, percentage points; Bonferroni-adjusted participant interval"
+  },
+  "emgNnPersonGap": {
+   "value": 0.2555372827544739,
+   "fmt": "pp1",
+   "text": "25.6",
+   "desc": "emg/Nn/Person: random minus held-out accuracy, percentage points; Bonferroni-adjusted participant interval"
+  },
+  "emgNnPersonGapLo": {
+   "value": 0.20354677119565528,
+   "fmt": "pp1",
+   "text": "20.4",
+   "desc": "emg/Nn/Person: random minus held-out accuracy, percentage points; Bonferroni-adjusted participant interval"
+  },
+  "emgNnPersonGapHi": {
+   "value": 0.313780694668405,
+   "fmt": "pp1",
+   "text": "31.4",
+   "desc": "emg/Nn/Person: random minus held-out accuracy, percentage points; Bonferroni-adjusted participant interval"
+  },
+  "emgLdaRandomAcc": {
+   "value": 0.9778087922414215,
+   "fmt": "pct1",
+   "text": "97.8",
+   "desc": "emg/Lda/Random: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "emgLdaRandomLo": {
+   "value": 0.9689700424221636,
+   "fmt": "pct1",
+   "text": "96.9",
+   "desc": "emg/Lda/Random: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "emgLdaRandomHi": {
+   "value": 0.9854424636441469,
+   "fmt": "pct1",
+   "text": "98.5",
+   "desc": "emg/Lda/Random: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "emgLdaRecordingAcc": {
+   "value": 0.9458605764661137,
+   "fmt": "pct1",
+   "text": "94.6",
+   "desc": "emg/Lda/Recording: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "emgLdaRecordingLo": {
+   "value": 0.9263844176651622,
+   "fmt": "pct1",
+   "text": "92.6",
+   "desc": "emg/Lda/Recording: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "emgLdaRecordingHi": {
+   "value": 0.9629622673072721,
+   "fmt": "pct1",
+   "text": "96.3",
+   "desc": "emg/Lda/Recording: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "emgLdaPersonAcc": {
+   "value": 0.7210795395263936,
+   "fmt": "pct1",
+   "text": "72.1",
+   "desc": "emg/Lda/Person: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "emgLdaPersonLo": {
+   "value": 0.6636426074562894,
+   "fmt": "pct1",
+   "text": "66.4",
+   "desc": "emg/Lda/Person: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "emgLdaPersonHi": {
+   "value": 0.776830200063815,
+   "fmt": "pct1",
+   "text": "77.7",
+   "desc": "emg/Lda/Person: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "emgLdaRecordingGap": {
+   "value": 0.03194821577530761,
+   "fmt": "pp1",
+   "text": "3.2",
+   "desc": "emg/Lda/Recording: random minus held-out accuracy, percentage points; nominal unadjusted sensitivity participant interval"
+  },
+  "emgLdaRecordingGapLo": {
+   "value": 0.019247700798982057,
+   "fmt": "pp1",
+   "text": "1.9",
+   "desc": "emg/Lda/Recording: random minus held-out accuracy, percentage points; nominal unadjusted sensitivity participant interval"
+  },
+  "emgLdaRecordingGapHi": {
+   "value": 0.045683651281336966,
+   "fmt": "pp1",
+   "text": "4.6",
+   "desc": "emg/Lda/Recording: random minus held-out accuracy, percentage points; nominal unadjusted sensitivity participant interval"
+  },
+  "emgLdaPersonGap": {
+   "value": 0.2567292527150278,
+   "fmt": "pp1",
+   "text": "25.7",
+   "desc": "emg/Lda/Person: random minus held-out accuracy, percentage points; nominal unadjusted sensitivity participant interval"
+  },
+  "emgLdaPersonGapLo": {
+   "value": 0.2032060092498067,
+   "fmt": "pp1",
+   "text": "20.3",
+   "desc": "emg/Lda/Person: random minus held-out accuracy, percentage points; nominal unadjusted sensitivity participant interval"
+  },
+  "emgLdaPersonGapHi": {
+   "value": 0.3119126366435387,
+   "fmt": "pp1",
+   "text": "31.2",
+   "desc": "emg/Lda/Person: random minus held-out accuracy, percentage points; nominal unadjusted sensitivity participant interval"
+  },
+  "stressN": {
+   "value": 28.0,
+   "fmt": "int",
+   "text": "28",
+   "desc": "stress: eligible participants"
+  },
+  "stressClasses": {
+   "value": 3.0,
+   "fmt": "int",
+   "text": "3",
+   "desc": "stress: eligible task classes"
+  },
+  "stressWindows": {
+   "value": 5696.0,
+   "fmt": "int",
+   "text": "5{,}696",
+   "desc": "stress: eligible windows before query split"
+  },
+  "stressFiles": {
+   "value": 86.0,
+   "fmt": "int",
+   "text": "86",
+   "desc": "stress: eligible raw recordings/files"
+  },
+  "stressDropped": {
+   "value": 0.0,
+   "fmt": "int",
+   "text": "0",
+   "desc": "stress: windows rejected for nonfinite raw samples"
+  },
+  "stressFeatures": {
+   "value": 24.0,
+   "fmt": "int",
+   "text": "24",
+   "desc": "stress: feature dimensions"
+  },
+  "stressQueries": {
+   "value": 3318.0,
+   "fmt": "int",
+   "text": "3{,}318",
+   "desc": "stress: query predictions per model/protocol summed over repeats; windows may recur across repeats"
+  },
+  "stressTrainMin": {
+   "value": 110.0,
+   "fmt": "int",
+   "text": "110",
+   "desc": "stress: smallest selected training-window count per participant/repeat/protocol"
+  },
+  "stressTrainMax": {
+   "value": 265.0,
+   "fmt": "int",
+   "text": "265",
+   "desc": "stress: largest selected training-window count per participant/repeat/protocol"
+  },
+  "stressChance": {
+   "value": 0.3333333333333333,
+   "fmt": "pct1",
+   "text": "33.3",
+   "desc": "stress: uniform random guess expected accuracy"
+  },
+  "stressMajority": {
+   "value": 0.4284632910898667,
+   "fmt": "pct1",
+   "text": "42.8",
+   "desc": "stress: participant-mean query-majority constant-class accuracy (descriptive, query-label oracle)"
+  },
+  "stressOverlap": {
+   "value": 0.9663603142673711,
+   "fmt": "pct1",
+   "text": "96.6",
+   "desc": "stress: descriptive query/raw-sample sharing proportion, nominal participant interval"
+  },
+  "stressOverlapLo": {
+   "value": 0.9571298365765066,
+   "fmt": "pct1",
+   "text": "95.7",
+   "desc": "stress: descriptive query/raw-sample sharing proportion, nominal participant interval"
+  },
+  "stressOverlapHi": {
+   "value": 0.9748629393891354,
+   "fmt": "pct1",
+   "text": "97.5",
+   "desc": "stress: descriptive query/raw-sample sharing proportion, nominal participant interval"
+  },
+  "stressNnRandomAcc": {
+   "value": 0.9910200873344452,
+   "fmt": "pct1",
+   "text": "99.1",
+   "desc": "stress/Nn/Random: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "stressNnRandomLo": {
+   "value": 0.9854665523291458,
+   "fmt": "pct1",
+   "text": "98.5",
+   "desc": "stress/Nn/Random: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "stressNnRandomHi": {
+   "value": 0.9957879723273041,
+   "fmt": "pct1",
+   "text": "99.6",
+   "desc": "stress/Nn/Random: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "stressNnPersonAcc": {
+   "value": 0.6550075304993115,
+   "fmt": "pct1",
+   "text": "65.5",
+   "desc": "stress/Nn/Person: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "stressNnPersonLo": {
+   "value": 0.6160103217615855,
+   "fmt": "pct1",
+   "text": "61.6",
+   "desc": "stress/Nn/Person: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "stressNnPersonHi": {
+   "value": 0.6927547400345938,
+   "fmt": "pct1",
+   "text": "69.3",
+   "desc": "stress/Nn/Person: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "stressNnPersonGap": {
+   "value": 0.3360125568351338,
+   "fmt": "pp1",
+   "text": "33.6",
+   "desc": "stress/Nn/Person: random minus held-out accuracy, percentage points; Bonferroni-adjusted participant interval"
+  },
+  "stressNnPersonGapLo": {
+   "value": 0.2860918596511544,
+   "fmt": "pp1",
+   "text": "28.6",
+   "desc": "stress/Nn/Person: random minus held-out accuracy, percentage points; Bonferroni-adjusted participant interval"
+  },
+  "stressNnPersonGapHi": {
+   "value": 0.3877768699904962,
+   "fmt": "pp1",
+   "text": "38.8",
+   "desc": "stress/Nn/Person: random minus held-out accuracy, percentage points; Bonferroni-adjusted participant interval"
+  },
+  "stressLdaRandomAcc": {
+   "value": 0.9917922601419104,
+   "fmt": "pct1",
+   "text": "99.2",
+   "desc": "stress/Lda/Random: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "stressLdaRandomLo": {
+   "value": 0.9855013544048481,
+   "fmt": "pct1",
+   "text": "98.6",
+   "desc": "stress/Lda/Random: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "stressLdaRandomHi": {
+   "value": 0.9971255567887665,
+   "fmt": "pct1",
+   "text": "99.7",
+   "desc": "stress/Lda/Random: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "stressLdaPersonAcc": {
+   "value": 0.6847827442998133,
+   "fmt": "pct1",
+   "text": "68.5",
+   "desc": "stress/Lda/Person: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "stressLdaPersonLo": {
+   "value": 0.6367630040416133,
+   "fmt": "pct1",
+   "text": "63.7",
+   "desc": "stress/Lda/Person: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "stressLdaPersonHi": {
+   "value": 0.7307191134728533,
+   "fmt": "pct1",
+   "text": "73.1",
+   "desc": "stress/Lda/Person: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "stressLdaPersonGap": {
+   "value": 0.3070095158420969,
+   "fmt": "pp1",
+   "text": "30.7",
+   "desc": "stress/Lda/Person: random minus held-out accuracy, percentage points; nominal unadjusted sensitivity participant interval"
+  },
+  "stressLdaPersonGapLo": {
+   "value": 0.2607199000053676,
+   "fmt": "pp1",
+   "text": "26.1",
+   "desc": "stress/Lda/Person: random minus held-out accuracy, percentage points; nominal unadjusted sensitivity participant interval"
+  },
+  "stressLdaPersonGapHi": {
+   "value": 0.35549800182355606,
+   "fmt": "pp1",
+   "text": "35.5",
+   "desc": "stress/Lda/Person: random minus held-out accuracy, percentage points; nominal unadjusted sensitivity participant interval"
+  },
+  "ppgN": {
+   "value": 14.0,
+   "fmt": "int",
+   "text": "14",
+   "desc": "ppg: eligible participants"
+  },
+  "ppgClasses": {
+   "value": 8.0,
+   "fmt": "int",
+   "text": "8",
+   "desc": "ppg: eligible task classes"
+  },
+  "ppgWindows": {
+   "value": 22712.0,
+   "fmt": "int",
+   "text": "22{,}712",
+   "desc": "ppg: eligible windows before query split"
+  },
+  "ppgFiles": {
+   "value": 14.0,
+   "fmt": "int",
+   "text": "14",
+   "desc": "ppg: eligible raw recordings/files"
+  },
+  "ppgDropped": {
+   "value": 0.0,
+   "fmt": "int",
+   "text": "0",
+   "desc": "ppg: windows rejected for nonfinite raw samples"
+  },
+  "ppgFeatures": {
+   "value": 24.0,
+   "fmt": "int",
+   "text": "24",
+   "desc": "ppg: feature dimensions"
+  },
+  "ppgQueries": {
+   "value": 13494.0,
+   "fmt": "int",
+   "text": "13{,}494",
+   "desc": "ppg: query predictions per model/protocol summed over repeats; windows may recur across repeats"
+  },
+  "ppgTrainMin": {
+   "value": 1093.0,
+   "fmt": "int",
+   "text": "1{,}093",
+   "desc": "ppg: smallest selected training-window count per participant/repeat/protocol"
+  },
+  "ppgTrainMax": {
+   "value": 1255.0,
+   "fmt": "int",
+   "text": "1{,}255",
+   "desc": "ppg: largest selected training-window count per participant/repeat/protocol"
+  },
+  "ppgChance": {
+   "value": 0.125,
+   "fmt": "pct1",
+   "text": "12.5",
+   "desc": "ppg: uniform random guess expected accuracy"
+  },
+  "ppgMajority": {
+   "value": 0.29762782039707064,
+   "fmt": "pct1",
+   "text": "29.8",
+   "desc": "ppg: participant-mean query-majority constant-class accuracy (descriptive, query-label oracle)"
+  },
+  "ppgOverlap": {
+   "value": 0.9074067870516567,
+   "fmt": "pct1",
+   "text": "90.7",
+   "desc": "ppg: descriptive query/raw-sample sharing proportion, nominal participant interval"
+  },
+  "ppgOverlapLo": {
+   "value": 0.8874094138787532,
+   "fmt": "pct1",
+   "text": "88.7",
+   "desc": "ppg: descriptive query/raw-sample sharing proportion, nominal participant interval"
+  },
+  "ppgOverlapHi": {
+   "value": 0.9265157428099351,
+   "fmt": "pct1",
+   "text": "92.7",
+   "desc": "ppg: descriptive query/raw-sample sharing proportion, nominal participant interval"
+  },
+  "ppgNnRandomAcc": {
+   "value": 0.9480331530389551,
+   "fmt": "pct1",
+   "text": "94.8",
+   "desc": "ppg/Nn/Random: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "ppgNnRandomLo": {
+   "value": 0.9350635944803674,
+   "fmt": "pct1",
+   "text": "93.5",
+   "desc": "ppg/Nn/Random: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "ppgNnRandomHi": {
+   "value": 0.9602754528613023,
+   "fmt": "pct1",
+   "text": "96.0",
+   "desc": "ppg/Nn/Random: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "ppgNnPersonAcc": {
+   "value": 0.5519821351205573,
+   "fmt": "pct1",
+   "text": "55.2",
+   "desc": "ppg/Nn/Person: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "ppgNnPersonLo": {
+   "value": 0.4746882012799962,
+   "fmt": "pct1",
+   "text": "47.5",
+   "desc": "ppg/Nn/Person: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "ppgNnPersonHi": {
+   "value": 0.6169084057711555,
+   "fmt": "pct1",
+   "text": "61.7",
+   "desc": "ppg/Nn/Person: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "ppgNnPersonGap": {
+   "value": 0.39605101791839775,
+   "fmt": "pp1",
+   "text": "39.6",
+   "desc": "ppg/Nn/Person: random minus held-out accuracy, percentage points; Bonferroni-adjusted participant interval"
+  },
+  "ppgNnPersonGapLo": {
+   "value": 0.31884101694836764,
+   "fmt": "pp1",
+   "text": "31.9",
+   "desc": "ppg/Nn/Person: random minus held-out accuracy, percentage points; Bonferroni-adjusted participant interval"
+  },
+  "ppgNnPersonGapHi": {
+   "value": 0.4990795274693577,
+   "fmt": "pp1",
+   "text": "49.9",
+   "desc": "ppg/Nn/Person: random minus held-out accuracy, percentage points; Bonferroni-adjusted participant interval"
+  },
+  "ppgLdaRandomAcc": {
+   "value": 0.9084326120058649,
+   "fmt": "pct1",
+   "text": "90.8",
+   "desc": "ppg/Lda/Random: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "ppgLdaRandomLo": {
+   "value": 0.8936792744989305,
+   "fmt": "pct1",
+   "text": "89.4",
+   "desc": "ppg/Lda/Random: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "ppgLdaRandomHi": {
+   "value": 0.9229848090139022,
+   "fmt": "pct1",
+   "text": "92.3",
+   "desc": "ppg/Lda/Random: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "ppgLdaPersonAcc": {
+   "value": 0.5857935651684288,
+   "fmt": "pct1",
+   "text": "58.6",
+   "desc": "ppg/Lda/Person: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "ppgLdaPersonLo": {
+   "value": 0.4992504351763454,
+   "fmt": "pct1",
+   "text": "49.9",
+   "desc": "ppg/Lda/Person: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "ppgLdaPersonHi": {
+   "value": 0.6590022037899244,
+   "fmt": "pct1",
+   "text": "65.9",
+   "desc": "ppg/Lda/Person: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "ppgLdaPersonGap": {
+   "value": 0.32263904683743616,
+   "fmt": "pp1",
+   "text": "32.3",
+   "desc": "ppg/Lda/Person: random minus held-out accuracy, percentage points; nominal unadjusted sensitivity participant interval"
+  },
+  "ppgLdaPersonGapLo": {
+   "value": 0.2549726215304703,
+   "fmt": "pp1",
+   "text": "25.5",
+   "desc": "ppg/Lda/Person: random minus held-out accuracy, percentage points; nominal unadjusted sensitivity participant interval"
+  },
+  "ppgLdaPersonGapHi": {
+   "value": 0.401035192998602,
+   "fmt": "pp1",
+   "text": "40.1",
+   "desc": "ppg/Lda/Person: random minus held-out accuracy, percentage points; nominal unadjusted sensitivity participant interval"
+  },
+  "eegN": {
+   "value": 105.0,
+   "fmt": "int",
+   "text": "105",
+   "desc": "eeg: eligible participants"
+  },
+  "eegClasses": {
+   "value": 2.0,
+   "fmt": "int",
+   "text": "2",
+   "desc": "eeg: eligible task classes"
+  },
+  "eegWindows": {
+   "value": 14175.0,
+   "fmt": "int",
+   "text": "14{,}175",
+   "desc": "eeg: eligible windows before query split"
+  },
+  "eegFiles": {
+   "value": 315.0,
+   "fmt": "int",
+   "text": "315",
+   "desc": "eeg: eligible raw recordings/files"
+  },
+  "eegDropped": {
+   "value": 0.0,
+   "fmt": "int",
+   "text": "0",
+   "desc": "eeg: windows rejected for nonfinite raw samples"
+  },
+  "eegFeatures": {
+   "value": 192.0,
+   "fmt": "int",
+   "text": "192",
+   "desc": "eeg: feature dimensions"
+  },
+  "eegQueries": {
+   "value": 2520.0,
+   "fmt": "int",
+   "text": "2{,}520",
+   "desc": "eeg: query predictions per model/protocol summed over repeats; windows may recur across repeats"
+  },
+  "eegTrainMin": {
+   "value": 90.0,
+   "fmt": "int",
+   "text": "90",
+   "desc": "eeg: smallest selected training-window count per participant/repeat/protocol"
+  },
+  "eegTrainMax": {
+   "value": 90.0,
+   "fmt": "int",
+   "text": "90",
+   "desc": "eeg: largest selected training-window count per participant/repeat/protocol"
+  },
+  "eegChance": {
+   "value": 0.5,
+   "fmt": "pct1",
+   "text": "50.0",
+   "desc": "eeg: uniform random guess expected accuracy"
+  },
+  "eegMajority": {
+   "value": 0.5,
+   "fmt": "pct1",
+   "text": "50.0",
+   "desc": "eeg: participant-mean query-majority constant-class accuracy (descriptive, query-label oracle)"
+  },
+  "eegOverlap": {
+   "value": 0.6936507936507937,
+   "fmt": "pct1",
+   "text": "69.4",
+   "desc": "eeg: descriptive query/raw-sample sharing proportion, nominal participant interval"
+  },
+  "eegOverlapLo": {
+   "value": 0.673015873015873,
+   "fmt": "pct1",
+   "text": "67.3",
+   "desc": "eeg: descriptive query/raw-sample sharing proportion, nominal participant interval"
+  },
+  "eegOverlapHi": {
+   "value": 0.7134920634920635,
+   "fmt": "pct1",
+   "text": "71.3",
+   "desc": "eeg: descriptive query/raw-sample sharing proportion, nominal participant interval"
+  },
+  "eegNnRandomAcc": {
+   "value": 0.5218253968253967,
+   "fmt": "pct1",
+   "text": "52.2",
+   "desc": "eeg/Nn/Random: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "eegNnRandomLo": {
+   "value": 0.5003968253968254,
+   "fmt": "pct1",
+   "text": "50.0",
+   "desc": "eeg/Nn/Random: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "eegNnRandomHi": {
+   "value": 0.5432539682539683,
+   "fmt": "pct1",
+   "text": "54.3",
+   "desc": "eeg/Nn/Random: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "eegNnRecordingAcc": {
+   "value": 0.5257936507936508,
+   "fmt": "pct1",
+   "text": "52.6",
+   "desc": "eeg/Nn/Recording: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "eegNnRecordingLo": {
+   "value": 0.501984126984127,
+   "fmt": "pct1",
+   "text": "50.2",
+   "desc": "eeg/Nn/Recording: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "eegNnRecordingHi": {
+   "value": 0.5496031746031746,
+   "fmt": "pct1",
+   "text": "55.0",
+   "desc": "eeg/Nn/Recording: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "eegNnPersonAcc": {
+   "value": 0.5095238095238095,
+   "fmt": "pct1",
+   "text": "51.0",
+   "desc": "eeg/Nn/Person: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "eegNnPersonLo": {
+   "value": 0.4904761904761904,
+   "fmt": "pct1",
+   "text": "49.0",
+   "desc": "eeg/Nn/Person: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "eegNnPersonHi": {
+   "value": 0.528968253968254,
+   "fmt": "pct1",
+   "text": "52.9",
+   "desc": "eeg/Nn/Person: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "eegNnRecordingGap": {
+   "value": -0.003968253968253968,
+   "fmt": "pp1",
+   "text": "-0.4",
+   "desc": "eeg/Nn/Recording: random minus held-out accuracy, percentage points; Bonferroni-adjusted participant interval"
+  },
+  "eegNnRecordingGapLo": {
+   "value": -0.036904761904761905,
+   "fmt": "pp1",
+   "text": "-3.7",
+   "desc": "eeg/Nn/Recording: random minus held-out accuracy, percentage points; Bonferroni-adjusted participant interval"
+  },
+  "eegNnRecordingGapHi": {
+   "value": 0.02936507936507937,
+   "fmt": "pp1",
+   "text": "2.9",
+   "desc": "eeg/Nn/Recording: random minus held-out accuracy, percentage points; Bonferroni-adjusted participant interval"
+  },
+  "eegNnPersonGap": {
+   "value": 0.0123015873015873,
+   "fmt": "pp1",
+   "text": "1.2",
+   "desc": "eeg/Nn/Person: random minus held-out accuracy, percentage points; Bonferroni-adjusted participant interval"
+  },
+  "eegNnPersonGapLo": {
+   "value": -0.02738095238095238,
+   "fmt": "pp1",
+   "text": "-2.7",
+   "desc": "eeg/Nn/Person: random minus held-out accuracy, percentage points; Bonferroni-adjusted participant interval"
+  },
+  "eegNnPersonGapHi": {
+   "value": 0.0503968253968254,
+   "fmt": "pp1",
+   "text": "5.0",
+   "desc": "eeg/Nn/Person: random minus held-out accuracy, percentage points; Bonferroni-adjusted participant interval"
+  },
+  "eegLdaRandomAcc": {
+   "value": 0.6059523809523809,
+   "fmt": "pct1",
+   "text": "60.6",
+   "desc": "eeg/Lda/Random: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "eegLdaRandomLo": {
+   "value": 0.5817460317460318,
+   "fmt": "pct1",
+   "text": "58.2",
+   "desc": "eeg/Lda/Random: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "eegLdaRandomHi": {
+   "value": 0.6297619047619046,
+   "fmt": "pct1",
+   "text": "63.0",
+   "desc": "eeg/Lda/Random: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "eegLdaRecordingAcc": {
+   "value": 0.5821428571428572,
+   "fmt": "pct1",
+   "text": "58.2",
+   "desc": "eeg/Lda/Recording: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "eegLdaRecordingLo": {
+   "value": 0.5571428571428572,
+   "fmt": "pct1",
+   "text": "55.7",
+   "desc": "eeg/Lda/Recording: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "eegLdaRecordingHi": {
+   "value": 0.6071428571428572,
+   "fmt": "pct1",
+   "text": "60.7",
+   "desc": "eeg/Lda/Recording: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "eegLdaPersonAcc": {
+   "value": 0.5031746031746032,
+   "fmt": "pct1",
+   "text": "50.3",
+   "desc": "eeg/Lda/Person: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "eegLdaPersonLo": {
+   "value": 0.4873015873015873,
+   "fmt": "pct1",
+   "text": "48.7",
+   "desc": "eeg/Lda/Person: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "eegLdaPersonHi": {
+   "value": 0.5186507936507937,
+   "fmt": "pct1",
+   "text": "51.9",
+   "desc": "eeg/Lda/Person: participant-mean accuracy; nominal participant percentile interval"
+  },
+  "eegLdaRecordingGap": {
+   "value": 0.023809523809523808,
+   "fmt": "pp1",
+   "text": "2.4",
+   "desc": "eeg/Lda/Recording: random minus held-out accuracy, percentage points; nominal unadjusted sensitivity participant interval"
+  },
+  "eegLdaRecordingGapLo": {
+   "value": 0.0011904761904761947,
+   "fmt": "pp1",
+   "text": "0.1",
+   "desc": "eeg/Lda/Recording: random minus held-out accuracy, percentage points; nominal unadjusted sensitivity participant interval"
+  },
+  "eegLdaRecordingGapHi": {
+   "value": 0.045634920634920646,
+   "fmt": "pp1",
+   "text": "4.6",
+   "desc": "eeg/Lda/Recording: random minus held-out accuracy, percentage points; nominal unadjusted sensitivity participant interval"
+  },
+  "eegLdaPersonGap": {
+   "value": 0.10277777777777779,
+   "fmt": "pp1",
+   "text": "10.3",
+   "desc": "eeg/Lda/Person: random minus held-out accuracy, percentage points; nominal unadjusted sensitivity participant interval"
+  },
+  "eegLdaPersonGapLo": {
+   "value": 0.0742063492063492,
+   "fmt": "pp1",
+   "text": "7.4",
+   "desc": "eeg/Lda/Person: random minus held-out accuracy, percentage points; nominal unadjusted sensitivity participant interval"
+  },
+  "eegLdaPersonGapHi": {
+   "value": 0.13134920634920638,
+   "fmt": "pp1",
+   "text": "13.1",
+   "desc": "eeg/Lda/Person: random minus held-out accuracy, percentage points; nominal unadjusted sensitivity participant interval"
+  },
+  "adjustedCoverage": {
+   "value": 0.9916666666666667,
+   "fmt": "pct2",
+   "text": "99.17",
+   "desc": "Per-comparison nominal coverage after Bonferroni correction"
+  },
+  "nominalCoverage": {
+   "value": 0.95,
+   "fmt": "pct0",
+   "text": "95",
+   "desc": "Nominal descriptive/sensitivity interval coverage"
+  },
+  "familyCoverage": {
+   "value": 0.95,
+   "fmt": "pct0",
+   "text": "95",
+   "desc": "Target family coverage for six primary gaps"
+  },
+  "marginPp": {
+   "value": 0.02,
+   "fmt": "pp1",
+   "text": "2.0",
+   "desc": "Prespecified practical equivalence margin in percentage points"
+  },
+  "overlapPercent": {
+   "value": 0.5,
+   "fmt": "pct0",
+   "text": "50",
+   "desc": "Configured raw-window overlap percentage"
+  },
+  "testPercent": {
+   "value": 0.2,
+   "fmt": "pct0",
+   "text": "20",
+   "desc": "Configured query fraction per class, before flooring"
+  },
+  "supportedCount": {
+   "value": 4.0,
+   "fmt": "int",
+   "text": "4",
+   "desc": "Primary hypotheses supported"
+  },
+  "eegExcludedCount": {
+   "value": 4.0,
+   "fmt": "int",
+   "text": "4",
+   "desc": "EEG participants excluded by locked header/protocol rules"
+  },
+  "stressExcludedCount": {
+   "value": 8.0,
+   "fmt": "int",
+   "text": "8",
+   "desc": "Stress participants excluded by locked completeness/sensor rules"
+  },
+  "ppgExcludedCount": {
+   "value": 1.0,
+   "fmt": "int",
+   "text": "1",
+   "desc": "PPG participants excluded for absent activity classes"
+  }
+ },
+ "generated": "2026-11-07T13:32:07-0800"
+}

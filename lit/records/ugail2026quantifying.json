@@ -1,0 +1,25 @@
+{
+ "key": "ugail2026quantifying",
+ "record": {
+  "source": "crossref",
+  "id": "10.3390/s26196180",
+  "doi": "10.3390/s26196180",
+  "title": "Quantifying Subject-Identity Variance in Spectral EEG Features and Its Role in Machine Learning Evaluation Leakage",
+  "authors": [
+   "Hassan Ugail",
+   "Richard Wirt",
+   "Newton Howard"
+  ],
+  "year": 2026,
+  "abstract": "Electroencephalography (EEG) is widely used to study cognitive states and clinical biomarkers, yet the contribution of stable between-subject differences to common EEG feature representations is rarely quantified directly or incorporated into evaluation design. Here, we examine subject-linked structure in spectral EEG features using a longitudinal four-session dataset spanning 199 days and replicate key findings across four public datasets covering 39 to 395 participants, multiple paradigms, and recording systems ranging from low-channel consumer devices to research-grade EEG. In spectral band-power representations, subject identity accounted for substantially more variance than session-related drift and supported extremely strong individual discriminability under subject-wise held-out protocols, with high verification performance and robust cross-session recognition over months. However, this identity structure was not fully invariant across paradigms, showing stronger transfer in richer, higher-channel recordings than in low-channel consumer EEG under larger task shifts. We further show that the same subject-linked structure can inflate downstream clinical classification when evaluation is performed with naive segment-level splits, demonstrating that apparent diagnostic performance can partly reflect identity leakage rather than biomarker learning. These findings highlight subject identity as a measurable and persistent source of structured variance in spectral EEG features and support routine use of subject-wise evaluation and explicit confound diagnostics in EEG machine-learning studies.",
+  "venue": "Sensors",
+  "type": "journal-article",
+  "volume": "26",
+  "issue": "19",
+  "pages": "6180",
+  "publisher": "MDPI AG",
+  "url": "https://doi.org/10.3390/s26196180"
+ },
+ "fetched": "2026-11-07T01:04:48-0800",
+ "sha256": "89c13f4a9f4283323446d1167eea3d1d6b404704db3e943e07b6c0a2d3d74016"
+}

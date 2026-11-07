@@ -1,0 +1,23 @@
+{
+ "key": "aggul2026window",
+ "record": {
+  "source": "crossref",
+  "id": "10.3389/fninf.2026.1930795",
+  "doi": "10.3389/fninf.2026.1930795",
+  "title": "Window leakage in clinical EEG machine learning: matched subject-independent evaluation across ADHD and Parkinson cohorts",
+  "authors": [
+   "Burak Aggul"
+  ],
+  "year": 2026,
+  "abstract": "Windowed electroencephalography (EEG) pipelines can produce misleadingly high performance when segments from the same participant occur in both training and testing. We define this contamination as window leakage and test it in two clinically and technically distinct public cohorts: 121 children (61 attention-deficit/hyperactivity disorder [ADHD], 60 controls) and 149 adults (100 Parkinson's disease, 49 controls). Signals were harmonized to 18 common channels and 128 Hz. All primary models used stratified 8-fold participant-disjoint evaluation, 50%-overlapping windows, participant-level probability aggregation, and validation participants drawn exclusively from each outer-training fold. A deliberately contaminated Random Forest audit contrasted random-window and participant-disjoint splitting. Random-window balanced accuracy reached 95.59% in ADHD and 92.02% in Parkinson's, but fell to 60.98% and 56.17%, respectively, when participants were held out. Thus, the inflation replicated across disorders, ages, recording tasks, and acquisition systems. Under correct evaluation, CNN-LSTM achieved the highest ADHD subject-level balanced accuracy (73.21%), whereas EEGNet achieved the highest Parkinson's balanced accuracy (63.75%). No architecture comparison remained significant after Bonferroni correction. One-, 2-, 4-, and 8-s windows produced no consistent cross-cohort ranking. Removing ATCNN-SA components also yielded dataset-dependent changes, and no ablation difference was significant after correction. Participant-bootstrap intervals remained wide despite tens of thousands of windows, indicating that inferential precision was governed by participant count rather than segment count. Window-level random splits contaminate clinical EEG performance estimates and must not be used to claim generalization to unseen individuals. Participants should be separated before model fitting, results should be reported at subject level, and split, windowing, aggregation, and uncertainty procedures should be disclosed explicitly.",
+  "venue": "Frontiers in Neuroinformatics",
+  "type": "journal-article",
+  "volume": "20",
+  "issue": null,
+  "pages": null,
+  "publisher": "Frontiers Media SA",
+  "url": "https://doi.org/10.3389/fninf.2026.1930795"
+ },
+ "fetched": "2026-11-07T01:37:03-0800",
+ "sha256": "70ac1f3a7e614c158f9ea34866c546dc72c9baff841f39a95e39f301eeac6ddc"
+}

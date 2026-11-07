@@ -1,0 +1,32 @@
+{
+ "key": "brookshire2024data",
+ "record": {
+  "source": "crossref",
+  "id": "10.1101/2024.01.16.24301366",
+  "doi": "10.1101/2024.01.16.24301366",
+  "title": "Data leakage in deep learning studies of translational EEG",
+  "authors": [
+   "Geoffrey Brookshire",
+   "Jake Kasper",
+   "Nicholas Blauch",
+   "Yunan \u201cCharles\u201d Wu",
+   "Ryan Glatt",
+   "David A. Merrill",
+   "Spencer Gerrol",
+   "Keith J. Yoder",
+   "Colin Quirk",
+   "Ch\u00e9 Lucero"
+  ],
+  "year": 2024,
+  "abstract": "Abstract A growing number of studies use deep neural networks (DNNs) to identify diseases from recordings of brain activity. DNN studies of electroencephalography (EEG) typically use cross-validation to test how accurately a model can predict the disease state of held-out test data. In these studies, segments of EEG data are often randomly assigned to the training or test sets. As a consequence, data from individual subjects appears in both training and test data. Could high test-set accuracy reflect leakage from subject-specific representations, rather than patterns that identify a disease? We address this question by testing the performance of DNN classifiers using segment-based holdout (where EEG segments from one subject can appear in both the training and test sets), and comparing this to their performance using subject-based holdout (where individual subjects\u2019 data appears exclusively in either the training set or the test set). We compare segment-based and subject-based holdout in two EEG datasets: one classifying Alzheimer\u2019s disease, and the other classifying epileptic seizures. In both datasets, we find that performance on previously-unseen subjects is strongly overestimated when models are trained using segment-based holdout. Next, we survey the literature and find that the majority of translational DNN-EEG studies use segment-based holdout, and therefore overestimate model performance on new subjects. In a hospital or doctor\u2019s office, clinicians need to diagnose new patients whose data was not used in training the model; segment-based holdout, therefore, does not reflect the real-world performance of a translational DNN model. When evaluating how DNNs could be used for medical diagnosis, models must be tested on subjects whose data was not included in the training set.",
+  "venue": "",
+  "type": "posted-content",
+  "volume": null,
+  "issue": null,
+  "pages": null,
+  "publisher": "openRxiv",
+  "url": "https://doi.org/10.1101/2024.01.16.24301366"
+ },
+ "fetched": "2026-11-07T01:05:48-0800",
+ "sha256": "9399a1d2e08db77ceba0ef31c5a9f0a5c3fb8103f83126f16e1f21deb84395fc"
+}
